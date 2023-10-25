@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="835" it="0" lt="0" ct="679" ts="1695545203877" s="false" lb="/-3" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Purpose: prefetch
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="608" it="0" lt="0" ct="432" ts="1695545204811" s="false" lb="/-4" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="640" it="0" lt="0" ct="476" ts="1695545206476" s="false" lb="/-5" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="635" it="0" lt="0" ct="440" ts="1695545207123" s="false" lb="/-6" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="615" it="0" lt="0" ct="457" ts="1695545207777" s="false" lb="/-7" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="631" it="0" lt="0" ct="466" ts="1695545218929" s="false" lb="/-10" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="712" it="0" lt="0" ct="553" ts="1695545213448" s="false" lb="/-8" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="634" it="0" lt="0" ct="443" ts="1695545219568" s="false" lb="/-11" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="584" it="0" lt="0" ct="430" ts="1695545220218" s="false" lb="/-12" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OpenIdConnect.nonce.NKefWzwcABrQ3V%2Fy5B5sz6LlzGO0CGnfRRF4AmLwZYo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUEtclpxcjJYd21tLVRIUG5jNWFvUktoQ3cxNlhiWVVKTmNHOXV4X2FzS3VBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFEWVRoTkhHcU5oN1UwcVJBc0dUeG9USXRCaWdYR01tQTVsSkUwazRUNXlhb0FBQUFEVE5IMmZnT0MzTW1zS2kyU3RxQkl0anRYZEtkTWlsT3FyQU96bEl2MERkZUVuMXdaS0tJUWM3MFF1RV8yN0x5NGVOVVkwNkVmejFYWHpQSXlMM3BybGk3THRDbVgwZWl1Vkl6eGFhck1hNC1mY3JWeDI1aUZjbHNBamdSNUx6NXdIT2xEYm0zay1OMEMyYnF3WXZLbGZyUmx1aTdDZktlbzUxTjJNV2ZjNVdVQUFBQUFkSjBLeEhLbkhlV0pQRjB2Rk9sS0dPRFN0TUJzZGZQU05PRUxyckJmTXRPbC1PcWozd3dXRmRpQ2cwT1JGV1J0ck1OTmR6Y2xNemQ1a1Mya2Jickds; ms-dyn-affinity=AOS1; OpenIdConnect.nonce.ZM1%2BKzxN4SElz08y3nQrjyzFqD4PEFV79Def588x9ag%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE5eFBJeUZtNFJFdUxhd3pyWGhWbjFnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNwUlB2Qlc2OU5rVVN3anZZZTNKX0IwNFlMcXVWamM1NzItLXN6WG9ONTdnQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCLUhaVC1zNjlXd1FNVU9hd1NhWUlXN1g3eHVDemZXOUpUN0trRXE5MmdqSUFBQUFEaDQ5UzdtVEkxZWxDbnZlNHEyVmZHbUJMRXNBYTZFbGdKLWxWaHExSEVsMURGOHZVXzZDcFJnYzh3c1owdVZnazVSOEQ5NzMteW4zcHl2Uy11VmRYQVhBODhTcjR1LXBIbUJxb3FVMWhwUS1CSE5VZEtWMUZCT2U3dUZSMlRDZHBBSzd1ZE5RTmFmaGJvS0YyUTh0Smg0OUFHMDV1OHQ1RjNvdEpubV9ZYWdFQUFBQURBcGptamYwdXhROU1XcmJBWG5wWVd1MlFXM2U3eUNWbXhMQlI3VThaYTlSX3lzQmZHekdWNzc0NlN2MHJnUndzM3RVQW5mSV90ajlNRkQtMUZVOVdt</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+
+</testResults>

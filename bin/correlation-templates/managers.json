@@ -1,0 +1,4 @@
+{
+  "central" : "com.blazemeter.jmeter.correlation.core.templates.repository.pluggable.CentralRepository",
+  "local" : "com.blazemeter.jmeter.correlation.core.templates.repository.pluggable.LocalRepository"
+}

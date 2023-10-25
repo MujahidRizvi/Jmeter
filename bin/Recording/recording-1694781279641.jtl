@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.177.180:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.177.180:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1-file.ksn.kaspersky-labs.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2396" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1-file.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.181.72:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1504" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.181.72:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1-file.ksn.kaspersky-labs.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2396" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1-file.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.146:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.146:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.146:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.146:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.187:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.187:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.187:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.187:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="206" it="0" lt="206" ct="144" ts="1694781294325" s="true" lb="/connecttest.txt-1" rc="200" rm="OK" tn="" dt="text" de="" by="187" sby="417" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 22
+Date: Fri, 15 Sep 2023 12:34:46 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-GB
+Host: www.msftconnecttest.com
+Content-Type: text/plain
+Cache-Control: no-cache, no-store, must-revalidate
+Accept-Encoding: gzip, deflate
+Accept: text/plain
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Skype/8.103.0.208 Chrome/102.0.5005.167 Electron/19.1.8 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft Connect Test</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftconnecttest.com/connecttest.txt?n=1694781294280</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.181.28:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.181.28:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="62.128.101.10:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 62.128.101.10:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.177.174:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.177.174:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.181.30:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.181.30:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.177.176:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.177.176:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="62.128.101.11:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 62.128.101.11:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.181.71:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.181.71:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1-st.ksn.kaspersky-labs.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2396" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1-st.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="77.74.181.72:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 77.74.181.72:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2396" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2430" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.22:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.22:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.31:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.31:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.33:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.33:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.163:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.163:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2430" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="urlp.asm.skype.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1386" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT urlp.asm.skype.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="urlp.asm.skype.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1386" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT urlp.asm.skype.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.22:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.22:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.31:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.31:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.33:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.33:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.163:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.163:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Software caused connection abort: socket write error&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2396" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.22:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.22:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.31:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.31:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.33:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.33:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.163:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.163:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2430" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.22:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.22:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.31:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.31:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.33:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.33:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.163:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.163:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2430" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.49:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.49:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.22:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.22:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.31:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.31:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="202.163.7.33:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 202.163.7.33:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="113.29.117.44:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 113.29.117.44:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.189:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.189:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="180.87.4.163:443" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1181" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 180.87.4.163:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="dc1.ksn.kaspersky-labs.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2430" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT dc1.ksn.kaspersky-labs.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+
+</testResults>

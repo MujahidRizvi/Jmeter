@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2100" it="0" lt="2100" ct="1823" ts="1695243549952" s="true" lb="/domainreliability/upload-3" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1216" sby="920" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;endpoints&quot;:[{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons2.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons3.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons4.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://clients2.google.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt3.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1}],&quot;group&quot;:&quot;nel&quot;,&quot;max_age&quot;:300}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Location: https://e2c41.gcp.gvt2.com/nel/
+Content-Type: application/javascript; charset=utf-8
+Date: Wed, 20 Sep 2023 20:58:59 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: google.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Length: 578
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:499,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;HTTP&quot;,&quot;request_age_ms&quot;:128967,&quot;request_elapsed_ms&quot;:7817,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://play.google.com/&quot;,&quot;was_proxied&quot;:true},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:499,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;HTTP&quot;,&quot;request_age_ms&quot;:99972,&quot;request_elapsed_ms&quot;:39,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://play.google.com/&quot;,&quot;was_proxied&quot;:true}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://google.com/domainreliability/upload</java.net.URL>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,19 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696500907953.jmx",
+    "recordingTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\recording-1696500908033.jtl",
+    "replayTraceFilepath" : null
+  }, {
+    "stepMessage" : "Failed Replay",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696500909782.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Replay\\replay-1696500909948.jtl"
+  }, {
+    "stepMessage" : "(Save) Before apply suggestions",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696501240385.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : null
+  } ],
+  "filepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\History\\history-1696500908148.json"
+}

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1695250688648,582,Login/complete/search-69,200,OK,Thread Group 1-1,true,,1781,1,1,563,1,0,Confiz-7437
+1695250689231,3109,Login/-70,200,OK,Thread Group 1-1,true,,14471,1,1,1110,1,0,Confiz-7437
+1695250692341,1137,Login/-71,200,OK,Thread Group 1-1,true,,14179,1,1,258,1,0,Confiz-7437
+1695250693479,291,Login/-81,Non HTTP response code: java.io.EOFException,Non HTTP response message: null,Thread Group 1-1,false,,1260,1,1,0,1,1,Confiz-7437
+1695250693772,701,Login/51c430bd-76e4-4a20-b049-b56e1012c74f/oauth2/authorize-72,200,OK,Thread Group 1-1,true,,11910,1,1,332,1,0,Confiz-7437

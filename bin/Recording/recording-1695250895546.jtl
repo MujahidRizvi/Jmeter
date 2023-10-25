@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2298" it="0" lt="2298" ct="2022" ts="1695250872227" s="true" lb="Login/complete/search-1" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1816" sby="985" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 20 Sep 2023 23:01:02 GMT
+Pragma: no-cache
+Expires: -1
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/javascript; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: object-src &apos;none&apos;;base-uri &apos;self&apos;;script-src &apos;nonce-eSPLA9UJKvx4WOa_ta8v3g&apos; &apos;strict-dynamic&apos; &apos;report-sample&apos; &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; https: http:;report-uri https://csp.withgoogle.com/csp/gws/cdt1
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to=&quot;gws&quot;
+Report-To: {&quot;group&quot;:&quot;gws&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/gws/cdt1&quot;}]}
+Accept-CH: Sec-CH-UA-Platform
+Accept-CH: Sec-CH-UA-Platform-Version
+Accept-CH: Sec-CH-UA-Full-Version
+Accept-CH: Sec-CH-UA-Arch
+Accept-CH: Sec-CH-UA-Model
+Accept-CH: Sec-CH-UA-Bitness
+Accept-CH: Sec-CH-UA-Full-Version-List
+Accept-CH: Sec-CH-UA-WoW64
+Permissions-Policy: unload=()
+Origin-Trial: Ap+qNlnLzJDKSmEHjzM5ilaa908GuehlLqGb6ezME5lkhelj20qVzfv06zPmQ3LodoeujZuphAolrnhnPA8w4AIAAABfeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJQZXJtaXNzaW9uc1BvbGljeVVubG9hZCIsImV4cGlyeSI6MTY4NTY2Mzk5OX0=
+Origin-Trial: AvudrjMZqL7335p1KLV2lHo1kxdMeIN0dUI15d0CPz9dovVLCcXk8OAqjho1DX4s6NbHbA/AGobuGvcZv0drGgQAAAB9eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJCYWNrRm9yd2FyZENhY2hlTm90UmVzdG9yZWRSZWFzb25zIiwiZXhwaXJ5IjoxNjkxNTM5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=
+Content-Disposition: attachment; filename=&quot;f.txt&quot;
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+Content-Encoding: br
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+X-Client-Data: CIe2yQEIpbbJAQipncoBCMzpygEIlKHLAQiLq8wBCJv+zAEIgJnNAQiFoM0BCPqxzQEI3L3NAQjgxM0BCLfFzQEIucrNAQi4zc0BCJLPzQEI3M/NAQi80M0BCNXQzQEIrdHNAQiR0s0BCLXSzQEI+cDUFQ==
+Host: www.google.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">)]}&apos;
+[&quot;https://confizstg.sandbox.operations.dynamics.com&quot;,[],[],[],{&quot;google:clientdata&quot;:{&quot;bpc&quot;:false,&quot;tlw&quot;:true},&quot;google:suggesttype&quot;:[],&quot;google:verbatimrelevance&quot;:851}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NID=511=Q67xANx1m1QFyv8hj1EVKYD0N1V5KEnZz6scEFGZSMBxzYi7HjaD3dGDSzt3Q7HCKrL9vIpRZnhFWKlyrbGaYUqHHL-FdnrKIv5C6HrSgTd_iknoKplHBz3L8o4bYsjfDWA_bLqa0zGeuamhp6ZTLHdYYnX5cPc6mGVoIivL1ipX7LHrGb_Slv5vwTFPmuS71k-_t2fLhS9wKdCmZWg1QEHeieJbRacd6emykHaK; 1P_JAR=2023-09-20-22</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://www.google.com/complete/search?client=chrome-omni&amp;gs_ri=chrome-ext-ansg&amp;xssi=t&amp;q=https%3A%2F%2Fconfizstg.sandbox.operations.dynamics.com&amp;oit=3&amp;cp=49&amp;pgcl=4&amp;gs_rn=42&amp;psi=4SRFpbcDIuRhzHUt&amp;sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw</java.net.URL>
+</httpSample>
+<httpSample t="3562" it="0" lt="0" ct="3223" ts="1695250872317" s="false" lb="Login/-2" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Purpose: prefetch
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ms-dyn-affinity=AOS1; MSCC=NR; OpenIdConnect.nonce.8hlwtSPlM8NfMIvnxCs5yas%2B0DdmW3SniMJvBq8E7o8%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQURwSFNlbjRidExuc3RlQk0xcHFuTzFPY1JsMTJ1MGhjZURnLUVCUzZ4SC1BQUFBQUFPZ0FBQUFBSUFBQ0FBQUFDVFRVLXlwU0F0dnkxVV9CdnZQVk05eWJZSzBjVVpzWmU3aFdHSHZsUWVkNEFBQUFDaG9YV3BaSjVEZTM3WXBuUFZQeXRSd0dCMlR6TTVJbkhfRkRuUm1HMG9Rb0J2N2NvenkzSWdFVmh5c2UwVnhmd0hFbzd6ei1ObEwxTHQ1NGR1dTNueWYtSVZkSnZWbXhmUFk5LUFOYklBTTZnR1ByR2tWX2dzNTFhSnFxcS1Scmx5NUVWd3BkRVdUbE8zek55ZElsd3pzWnZlNmxqaTNtd3luVHpNb1FKR0gwQUFBQUJhdTk3YS1PblJ0dDNKa0tJN1BoQzgwdDNqeTkzVEV4NFVPbmcyeURUOEhVY0p5LVRVQmZiNDIxWVdoZ3FlM0c1YTRCYUZDSnNpVzFwZVhkbDVHS2k1; OpenIdConnect.nonce.811LC%2Bd04G8M6nm5haqyfkwlFA73errAD27%2FojT1Hlo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUROcmFrQjhXa3phV1U1MmZIYTV3M0ZGVnlMRThWNWVxcXFQZHpWdk9ZOEt3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBbGwxb09kWkU4T0lWc2swaXNJZ25kRkRiVW80TEJxcDRhcmk1WjNNN0FZWUFBQUFCTG42cDhFUmlNbVFNSlJzaldGbHhSQkR4am05WTAzcDFhTndPWXdXYnU5S1prWk9zM0pHaEJVY242MEgtRERobEsyQ1RTQ0VKOHRFSnU2RFJDLXM0X2ZncF9hZVpYS0ZBb3RuWnozdEZfRmNOX3pVM3VPNTdSYUpzaEJMajFlVEhFeUk4TmJ0UXJ0OHdhMG9mdDVpNVBvWjB5eG9HejBPcUJiMHlPU0swTkZVQUFBQUROUlUyUk5HLUpvQWFEVEpJWXFRMEI3bHF5QnprLXVLWldiTVZ4MDFaVTN2VkxHSEptUUFIOUpPY0MwZ2JFaDVERnR4UVNZeGc4TmRBeTZsZFprOHJS; OpenIdConnect.nonce.EC5sKLbgSDYB9EMSPSpPNc%2FEIiJZGU6chEEnKmH0Msg%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNfQTdoU2dpRXB2SGdNc29XckpFOWxGMzlmb0JIa1JEd0xEcWJPLVppalJ3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBWGY5YVl5OEp4dk53SktzOHhsbjU2cGJ4dlZxTk52UFlOdnNsOW9IR2xJb0FBQUFCa1lVdjFBNkVBLW1uVzh3ZzNxT2luZTBVUHlhQmoyNi04Nm1FT2U2RXhnUnFGbjc4VWJON2lkOUJzNmwtVUV5WmJFU3hBdk84Y0tiODJZRmgzWHprTkpCYVUtRTUwZHBUcVVRUUttY3N2ZVJ6a0JiYzdxaHI0Y25WNEMtbElubjhDSV95cUZhV0RyeXk2TEVMT191WG5ySkpWbnJzVnFiOWxVU3Z2NHFPMXlFQUFBQURlRnJEWWE0NEs5ZnZ2cFNLd2NFOEdUalVPT0FMNFVOaU5PckFwNlBzZFVJMEFkOWRZWEMwSVlFd3FOc0FUZjY0VHUxMHpJOGlBaklvVTN1MGZOQlhL; OpenIdConnect.nonce.8KFLnZ38nFRkMkJgptfDon8oHejl%2FRusNiVY60oouII%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUFnRFQtSGVwbERjbFBENlNXQkhfNmxyYUFZam9OcHhyaGhQZHVzX3c2cW53QUFBQUFPZ0FBQUFBSUFBQ0FBQUFENVB3ZGJ3LV9HYldpLTkxbTl5SGgtb2NFdWdKUXpDYnpqMnhpalhDVXhiWUFBQUFDcGg4VFB1UTJtVjJZVmxYSHFXZ3dORnNpcmk4WW1JVGpLQmtBWkh3TDZhNDF2MnVSSEFmR3pXV3FSRzJvdm8zemFhb2NuYlllZ0VKNGxELVo4cWVZWVpVYmQzOWJpX3pZT19GUGFleWlTb0JadHBWODVhMFY2LVFtQkc0eEhSclZ0TUZlcnpkN0RYbTkyOHg5OHlRazV6aS1YMTVzNWpmd2ozRG10cVNLR1JrQUFBQURKUHktb3ZGXzd5U3kxNmtDSEIzWEdtSkhJZW80bmFsU09rc251SFgzdXlobGEyWU90LTFKTVBvNktkU2ZkM2tTTG13WUE0QUtWcUZkS2NsZnEwTVR0; OpenIdConnect.nonce.J%2BSFNWqdckonugc15BKRFFH46bDqWmtl7gmL%2FgGe9vo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNFd0R0SVJocVE2MUwtNDlocTRxWEFzVEZ5U3lERllUUm94Vk5Icm9MbHRBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCMEJYUWZpZGRvVk9JNVBHd1FIWThJakxwUkthYlNncUZSNFRMQ0hlWGFjb0FBQUFDaEp6RFgtOU9qNkFYcE1oSWV1OUdtZm5pYUVTYUtOdGQ3Z0lZMkN5VThfMlVxTFFlNEpwSWFmaUxjTGRtRXZxZ1dXUENBQV9SRXVMTFE4U2NYMV93Z0ZEM05MVnp6Y0JpOUtzTGNoZmdKNmNpX09IVHBOaFJ5Zzhub0tQemhCaTlCR2lvaEh4c0NjaUxrZlJtN0Y5UElYbDd3SVFYRUc2T05xUXUtMEV5S19rQUFBQUFCcmI4M0Z4ajREWWU0TF9DV2xGQi1zckhBaUlKUDVkLVd3RU9ZS1Q2cmpIdUtrOTdMdlotbDBSalZ4alVMVmEyRjBJV2hzcTlkQTV5SGlSdjNaT0FB; OpenIdConnect.nonce.RjXW0vUIxDg9bdEVPvbkQgCoabSZiYW9XP8K89RCN4s%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUF2bjgtU3FQaFNKdFgxM2pZeEJTcldvTVJ5NnZmbTlCOVlhckdRcWRSRmx3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDM3pseFAydHRTYnU3NEVNTkdscHduSVlBN3ZTTndSaFdDYzZUUG92QTdfb0FBQUFESV9jby12cFR0RGJWd3hiMGFZZjZqcDRKVVdBcUNUVDdrTC1KRERMNTZPWHVqaG14YWZWNzhibjIzQkxnaVR1TWhERWFtTDNVZVhHLWx4YkwwMVllUTJ2VWNYajhFcFk3a3pUMWw2MmVzdnRkRXZFR0o1QUZReUZjclZTYWlJSzZReTNJV0JaYlNJaUNNUjZhdUZNNUxnS3V0WmI5ZUdGZkQxQVp6S2NTS2xFQUFBQUQ1TFZTMk5TTndCeWxZRmRVT2p1NHBxbjVSN3AyR0hJaFRnUkZqUnE0XzVTQ1RlSVNLeXRuOER1THFhVDM4TlZmYnd1Z3Q0aXlIWXZmRTZyZDByY3Ez; OpenIdConnect.nonce.LWEg3POhOv1GqHw0uQmF1TthvifwRKIJrrmMyzbfiKQ%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1R3N6R0U3bW5WYjVBZE1xcy05OUZIcGQ2WWlwdXNCaU9ZM1EwQllIUjdRQUFBQUFPZ0FBQUFBSUFBQ0FBQUFERDNieW5mYmRJemgyX2xWNFpoT0h3eEs5bEk2TWR1RlhiaXBha2xDUEhSSUFBQUFEcEk2aVhXQUlpcHBRUmR1TmdnUlVMcDR5elJ3WkdrRXdoQUo3cXV4N3FEcWxfb01ZblJmMjBVYnFON3Roa1pveUhwczBBRGVUWFQtX0NoOEEzUmhVSjd0QVU2QmJmLUU2akJfNXctTjFBektDUkJacWdMMVZjZHZsYVFTY2lIQXdQY1ZOdzhHNndsYndrazk3MDZOdGg5X2tzdG5OamxWbDB0amd1SXpLRUZVQUFBQUQxRXFoMGlRNTFLQURsUC1jVmlZSHV4TlJNcEJyNDh5YXdwLVpUMFNlWl9TYUtJcUloOU5MNkZCdUN1RmwyMDl3MUJtVlN6cXJzYmh5ekdncVlMYXBE; ms-dyn-csrftoken=TejIY5%2BY75ZuP7Cap2e6FQ%3D%3D.BN%2Br3OG3KhOPkuQ%2Bv42giwDXirkz%2FIT%2FgcJqrYmBmgZxDqYKhLQmvK4MiZMNNNr1pmrb72j8omDMXnCJz4duVXXBw2BCmq5vB6r0ereZZJihZCS6JArlOIUKmvevLctNzXiF0%2BlsliJq8ytEa96gGKv%2BKCcx6IpZuTIovE%2F9Yfgw44ToEDEYjTi988HAtUyg2YCMrde0dV7aOjcTTRn4HdtkabK88sjd1eHEFaY0e9VuLURw%2BtAQ%2BlKZbL85%2BTjJFzerbiI6xPuwfH8NRTuMs1WcZFe%2BAiV2TFomA9r0WlgQiMbAU9xmnNDp0Q0yDMZVepTkdFAyo7u7NvoCUREV3Q%3D%3D; OpenIdConnect.nonce.PloYMW0TeIHvBdMLwqKzuooCuQXuOS%2Fy3Psc%2BhACmeY%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1LWEwck5MZi0zNXRLSnpCcnFCUnUwYllBclpGM09hdDJub0g2M1hjSzR3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDQmI2UV9QUWUxNVQ2c2s5SlRuYy1rSERSeV9yekg4bXB0WWpnR0FfaXBmNEFBQUFEMnhlcXc2X0dDOHVwSlZZM2VWMktCT3RvdjhoTEhicjhFaEl1ZjFSRlMzT3RMeHFaaGpFWE1aYXBNdkZJbFlHY200YVhoaGNvSlk5SDlab2hWbm1hVHZDeElDMVhVY3JKWUs2S2w3UGlhVnU2a1lQOW1YeUJzeEZDYWZDOVlEb1hwZUF6a2I1eVFZX05DN2YtYi1SVVRjT3p3OHpKWTRmekpFNHUtaG5pSlVFQUFBQURTb1RCb2RPQ3Z3LVlJTVhaWWpHY21GOFduaVNwc3dQYVlzUFZCUWpUazkwTm9WQzhVSUdqNVRDZXhGSG9OYzNpcnZnamN3V0NLLWRvd3h0aURxY2Nf</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="507" it="0" lt="507" ct="314" ts="1695250876162" s="true" lb="Login/domainreliability/upload-4" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1173" sby="907" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;endpoints&quot;:[{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons2.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons3.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons4.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://clients2.google.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt3.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1}],&quot;group&quot;:&quot;nel&quot;,&quot;max_age&quot;:300}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Content-Type: application/javascript; charset=utf-8
+Date: Wed, 20 Sep 2023 23:01:04 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: google.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Length: 565
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;SPDY&quot;,&quot;request_age_ms&quot;:2870705,&quot;request_elapsed_ms&quot;:587,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://google.com/domainreliability/upload&quot;,&quot;was_proxied&quot;:false},{&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;SPDY&quot;,&quot;request_age_ms&quot;:180658,&quot;request_elapsed_ms&quot;:606,&quot;sample_rate&quot;:0.05,&quot;server_ip&quot;:&quot;142.250.181.174:443&quot;,&quot;status&quot;:&quot;ok&quot;,&quot;url&quot;:&quot;https://play.google.com/&quot;,&quot;was_proxied&quot;:false}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://google.com/domainreliability/upload</java.net.URL>
+</httpSample>
+<httpSample t="1103" it="0" lt="0" ct="827" ts="1695250876144" s="false" lb="Login/-3" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ms-dyn-affinity=AOS1; MSCC=NR; OpenIdConnect.nonce.8hlwtSPlM8NfMIvnxCs5yas%2B0DdmW3SniMJvBq8E7o8%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQURwSFNlbjRidExuc3RlQk0xcHFuTzFPY1JsMTJ1MGhjZURnLUVCUzZ4SC1BQUFBQUFPZ0FBQUFBSUFBQ0FBQUFDVFRVLXlwU0F0dnkxVV9CdnZQVk05eWJZSzBjVVpzWmU3aFdHSHZsUWVkNEFBQUFDaG9YV3BaSjVEZTM3WXBuUFZQeXRSd0dCMlR6TTVJbkhfRkRuUm1HMG9Rb0J2N2NvenkzSWdFVmh5c2UwVnhmd0hFbzd6ei1ObEwxTHQ1NGR1dTNueWYtSVZkSnZWbXhmUFk5LUFOYklBTTZnR1ByR2tWX2dzNTFhSnFxcS1Scmx5NUVWd3BkRVdUbE8zek55ZElsd3pzWnZlNmxqaTNtd3luVHpNb1FKR0gwQUFBQUJhdTk3YS1PblJ0dDNKa0tJN1BoQzgwdDNqeTkzVEV4NFVPbmcyeURUOEhVY0p5LVRVQmZiNDIxWVdoZ3FlM0c1YTRCYUZDSnNpVzFwZVhkbDVHS2k1; OpenIdConnect.nonce.811LC%2Bd04G8M6nm5haqyfkwlFA73errAD27%2FojT1Hlo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUROcmFrQjhXa3phV1U1MmZIYTV3M0ZGVnlMRThWNWVxcXFQZHpWdk9ZOEt3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBbGwxb09kWkU4T0lWc2swaXNJZ25kRkRiVW80TEJxcDRhcmk1WjNNN0FZWUFBQUFCTG42cDhFUmlNbVFNSlJzaldGbHhSQkR4am05WTAzcDFhTndPWXdXYnU5S1prWk9zM0pHaEJVY242MEgtRERobEsyQ1RTQ0VKOHRFSnU2RFJDLXM0X2ZncF9hZVpYS0ZBb3RuWnozdEZfRmNOX3pVM3VPNTdSYUpzaEJMajFlVEhFeUk4TmJ0UXJ0OHdhMG9mdDVpNVBvWjB5eG9HejBPcUJiMHlPU0swTkZVQUFBQUROUlUyUk5HLUpvQWFEVEpJWXFRMEI3bHF5QnprLXVLWldiTVZ4MDFaVTN2VkxHSEptUUFIOUpPY0MwZ2JFaDVERnR4UVNZeGc4TmRBeTZsZFprOHJS; OpenIdConnect.nonce.EC5sKLbgSDYB9EMSPSpPNc%2FEIiJZGU6chEEnKmH0Msg%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNfQTdoU2dpRXB2SGdNc29XckpFOWxGMzlmb0JIa1JEd0xEcWJPLVppalJ3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBWGY5YVl5OEp4dk53SktzOHhsbjU2cGJ4dlZxTk52UFlOdnNsOW9IR2xJb0FBQUFCa1lVdjFBNkVBLW1uVzh3ZzNxT2luZTBVUHlhQmoyNi04Nm1FT2U2RXhnUnFGbjc4VWJON2lkOUJzNmwtVUV5WmJFU3hBdk84Y0tiODJZRmgzWHprTkpCYVUtRTUwZHBUcVVRUUttY3N2ZVJ6a0JiYzdxaHI0Y25WNEMtbElubjhDSV95cUZhV0RyeXk2TEVMT191WG5ySkpWbnJzVnFiOWxVU3Z2NHFPMXlFQUFBQURlRnJEWWE0NEs5ZnZ2cFNLd2NFOEdUalVPT0FMNFVOaU5PckFwNlBzZFVJMEFkOWRZWEMwSVlFd3FOc0FUZjY0VHUxMHpJOGlBaklvVTN1MGZOQlhL; OpenIdConnect.nonce.8KFLnZ38nFRkMkJgptfDon8oHejl%2FRusNiVY60oouII%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUFnRFQtSGVwbERjbFBENlNXQkhfNmxyYUFZam9OcHhyaGhQZHVzX3c2cW53QUFBQUFPZ0FBQUFBSUFBQ0FBQUFENVB3ZGJ3LV9HYldpLTkxbTl5SGgtb2NFdWdKUXpDYnpqMnhpalhDVXhiWUFBQUFDcGg4VFB1UTJtVjJZVmxYSHFXZ3dORnNpcmk4WW1JVGpLQmtBWkh3TDZhNDF2MnVSSEFmR3pXV3FSRzJvdm8zemFhb2NuYlllZ0VKNGxELVo4cWVZWVpVYmQzOWJpX3pZT19GUGFleWlTb0JadHBWODVhMFY2LVFtQkc0eEhSclZ0TUZlcnpkN0RYbTkyOHg5OHlRazV6aS1YMTVzNWpmd2ozRG10cVNLR1JrQUFBQURKUHktb3ZGXzd5U3kxNmtDSEIzWEdtSkhJZW80bmFsU09rc251SFgzdXlobGEyWU90LTFKTVBvNktkU2ZkM2tTTG13WUE0QUtWcUZkS2NsZnEwTVR0; OpenIdConnect.nonce.J%2BSFNWqdckonugc15BKRFFH46bDqWmtl7gmL%2FgGe9vo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNFd0R0SVJocVE2MUwtNDlocTRxWEFzVEZ5U3lERllUUm94Vk5Icm9MbHRBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCMEJYUWZpZGRvVk9JNVBHd1FIWThJakxwUkthYlNncUZSNFRMQ0hlWGFjb0FBQUFDaEp6RFgtOU9qNkFYcE1oSWV1OUdtZm5pYUVTYUtOdGQ3Z0lZMkN5VThfMlVxTFFlNEpwSWFmaUxjTGRtRXZxZ1dXUENBQV9SRXVMTFE4U2NYMV93Z0ZEM05MVnp6Y0JpOUtzTGNoZmdKNmNpX09IVHBOaFJ5Zzhub0tQemhCaTlCR2lvaEh4c0NjaUxrZlJtN0Y5UElYbDd3SVFYRUc2T05xUXUtMEV5S19rQUFBQUFCcmI4M0Z4ajREWWU0TF9DV2xGQi1zckhBaUlKUDVkLVd3RU9ZS1Q2cmpIdUtrOTdMdlotbDBSalZ4alVMVmEyRjBJV2hzcTlkQTV5SGlSdjNaT0FB; OpenIdConnect.nonce.RjXW0vUIxDg9bdEVPvbkQgCoabSZiYW9XP8K89RCN4s%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUF2bjgtU3FQaFNKdFgxM2pZeEJTcldvTVJ5NnZmbTlCOVlhckdRcWRSRmx3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDM3pseFAydHRTYnU3NEVNTkdscHduSVlBN3ZTTndSaFdDYzZUUG92QTdfb0FBQUFESV9jby12cFR0RGJWd3hiMGFZZjZqcDRKVVdBcUNUVDdrTC1KRERMNTZPWHVqaG14YWZWNzhibjIzQkxnaVR1TWhERWFtTDNVZVhHLWx4YkwwMVllUTJ2VWNYajhFcFk3a3pUMWw2MmVzdnRkRXZFR0o1QUZReUZjclZTYWlJSzZReTNJV0JaYlNJaUNNUjZhdUZNNUxnS3V0WmI5ZUdGZkQxQVp6S2NTS2xFQUFBQUQ1TFZTMk5TTndCeWxZRmRVT2p1NHBxbjVSN3AyR0hJaFRnUkZqUnE0XzVTQ1RlSVNLeXRuOER1THFhVDM4TlZmYnd1Z3Q0aXlIWXZmRTZyZDByY3Ez; OpenIdConnect.nonce.LWEg3POhOv1GqHw0uQmF1TthvifwRKIJrrmMyzbfiKQ%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1R3N6R0U3bW5WYjVBZE1xcy05OUZIcGQ2WWlwdXNCaU9ZM1EwQllIUjdRQUFBQUFPZ0FBQUFBSUFBQ0FBQUFERDNieW5mYmRJemgyX2xWNFpoT0h3eEs5bEk2TWR1RlhiaXBha2xDUEhSSUFBQUFEcEk2aVhXQUlpcHBRUmR1TmdnUlVMcDR5elJ3WkdrRXdoQUo3cXV4N3FEcWxfb01ZblJmMjBVYnFON3Roa1pveUhwczBBRGVUWFQtX0NoOEEzUmhVSjd0QVU2QmJmLUU2akJfNXctTjFBektDUkJacWdMMVZjZHZsYVFTY2lIQXdQY1ZOdzhHNndsYndrazk3MDZOdGg5X2tzdG5OamxWbDB0amd1SXpLRUZVQUFBQUQxRXFoMGlRNTFLQURsUC1jVmlZSHV4TlJNcEJyNDh5YXdwLVpUMFNlWl9TYUtJcUloOU5MNkZCdUN1RmwyMDl3MUJtVlN6cXJzYmh5ekdncVlMYXBE; ms-dyn-csrftoken=TejIY5%2BY75ZuP7Cap2e6FQ%3D%3D.BN%2Br3OG3KhOPkuQ%2Bv42giwDXirkz%2FIT%2FgcJqrYmBmgZxDqYKhLQmvK4MiZMNNNr1pmrb72j8omDMXnCJz4duVXXBw2BCmq5vB6r0ereZZJihZCS6JArlOIUKmvevLctNzXiF0%2BlsliJq8ytEa96gGKv%2BKCcx6IpZuTIovE%2F9Yfgw44ToEDEYjTi988HAtUyg2YCMrde0dV7aOjcTTRn4HdtkabK88sjd1eHEFaY0e9VuLURw%2BtAQ%2BlKZbL85%2BTjJFzerbiI6xPuwfH8NRTuMs1WcZFe%2BAiV2TFomA9r0WlgQiMbAU9xmnNDp0Q0yDMZVepTkdFAyo7u7NvoCUREV3Q%3D%3D; OpenIdConnect.nonce.PloYMW0TeIHvBdMLwqKzuooCuQXuOS%2Fy3Psc%2BhACmeY%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1LWEwck5MZi0zNXRLSnpCcnFCUnUwYllBclpGM09hdDJub0g2M1hjSzR3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDQmI2UV9QUWUxNVQ2c2s5SlRuYy1rSERSeV9yekg4bXB0WWpnR0FfaXBmNEFBQUFEMnhlcXc2X0dDOHVwSlZZM2VWMktCT3RvdjhoTEhicjhFaEl1ZjFSRlMzT3RMeHFaaGpFWE1aYXBNdkZJbFlHY200YVhoaGNvSlk5SDlab2hWbm1hVHZDeElDMVhVY3JKWUs2S2w3UGlhVnU2a1lQOW1YeUJzeEZDYWZDOVlEb1hwZUF6a2I1eVFZX05DN2YtYi1SVVRjT3p3OHpKWTRmekpFNHUtaG5pSlVFQUFBQURTb1RCb2RPQ3Z3LVlJTVhaWWpHY21GOFduaVNwc3dQYVlzUFZCUWpUazkwTm9WQzhVSUdqNVRDZXhGSG9OYzNpcnZnamN3V0NLLWRvd3h0aURxY2Nf</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1139" it="0" lt="0" ct="840" ts="1695250878306" s="false" lb="Login/-5" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ms-dyn-affinity=AOS1; MSCC=NR; OpenIdConnect.nonce.8hlwtSPlM8NfMIvnxCs5yas%2B0DdmW3SniMJvBq8E7o8%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQURwSFNlbjRidExuc3RlQk0xcHFuTzFPY1JsMTJ1MGhjZURnLUVCUzZ4SC1BQUFBQUFPZ0FBQUFBSUFBQ0FBQUFDVFRVLXlwU0F0dnkxVV9CdnZQVk05eWJZSzBjVVpzWmU3aFdHSHZsUWVkNEFBQUFDaG9YV3BaSjVEZTM3WXBuUFZQeXRSd0dCMlR6TTVJbkhfRkRuUm1HMG9Rb0J2N2NvenkzSWdFVmh5c2UwVnhmd0hFbzd6ei1ObEwxTHQ1NGR1dTNueWYtSVZkSnZWbXhmUFk5LUFOYklBTTZnR1ByR2tWX2dzNTFhSnFxcS1Scmx5NUVWd3BkRVdUbE8zek55ZElsd3pzWnZlNmxqaTNtd3luVHpNb1FKR0gwQUFBQUJhdTk3YS1PblJ0dDNKa0tJN1BoQzgwdDNqeTkzVEV4NFVPbmcyeURUOEhVY0p5LVRVQmZiNDIxWVdoZ3FlM0c1YTRCYUZDSnNpVzFwZVhkbDVHS2k1; OpenIdConnect.nonce.811LC%2Bd04G8M6nm5haqyfkwlFA73errAD27%2FojT1Hlo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUROcmFrQjhXa3phV1U1MmZIYTV3M0ZGVnlMRThWNWVxcXFQZHpWdk9ZOEt3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBbGwxb09kWkU4T0lWc2swaXNJZ25kRkRiVW80TEJxcDRhcmk1WjNNN0FZWUFBQUFCTG42cDhFUmlNbVFNSlJzaldGbHhSQkR4am05WTAzcDFhTndPWXdXYnU5S1prWk9zM0pHaEJVY242MEgtRERobEsyQ1RTQ0VKOHRFSnU2RFJDLXM0X2ZncF9hZVpYS0ZBb3RuWnozdEZfRmNOX3pVM3VPNTdSYUpzaEJMajFlVEhFeUk4TmJ0UXJ0OHdhMG9mdDVpNVBvWjB5eG9HejBPcUJiMHlPU0swTkZVQUFBQUROUlUyUk5HLUpvQWFEVEpJWXFRMEI3bHF5QnprLXVLWldiTVZ4MDFaVTN2VkxHSEptUUFIOUpPY0MwZ2JFaDVERnR4UVNZeGc4TmRBeTZsZFprOHJS; OpenIdConnect.nonce.EC5sKLbgSDYB9EMSPSpPNc%2FEIiJZGU6chEEnKmH0Msg%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNfQTdoU2dpRXB2SGdNc29XckpFOWxGMzlmb0JIa1JEd0xEcWJPLVppalJ3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBWGY5YVl5OEp4dk53SktzOHhsbjU2cGJ4dlZxTk52UFlOdnNsOW9IR2xJb0FBQUFCa1lVdjFBNkVBLW1uVzh3ZzNxT2luZTBVUHlhQmoyNi04Nm1FT2U2RXhnUnFGbjc4VWJON2lkOUJzNmwtVUV5WmJFU3hBdk84Y0tiODJZRmgzWHprTkpCYVUtRTUwZHBUcVVRUUttY3N2ZVJ6a0JiYzdxaHI0Y25WNEMtbElubjhDSV95cUZhV0RyeXk2TEVMT191WG5ySkpWbnJzVnFiOWxVU3Z2NHFPMXlFQUFBQURlRnJEWWE0NEs5ZnZ2cFNLd2NFOEdUalVPT0FMNFVOaU5PckFwNlBzZFVJMEFkOWRZWEMwSVlFd3FOc0FUZjY0VHUxMHpJOGlBaklvVTN1MGZOQlhL; OpenIdConnect.nonce.8KFLnZ38nFRkMkJgptfDon8oHejl%2FRusNiVY60oouII%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUFnRFQtSGVwbERjbFBENlNXQkhfNmxyYUFZam9OcHhyaGhQZHVzX3c2cW53QUFBQUFPZ0FBQUFBSUFBQ0FBQUFENVB3ZGJ3LV9HYldpLTkxbTl5SGgtb2NFdWdKUXpDYnpqMnhpalhDVXhiWUFBQUFDcGg4VFB1UTJtVjJZVmxYSHFXZ3dORnNpcmk4WW1JVGpLQmtBWkh3TDZhNDF2MnVSSEFmR3pXV3FSRzJvdm8zemFhb2NuYlllZ0VKNGxELVo4cWVZWVpVYmQzOWJpX3pZT19GUGFleWlTb0JadHBWODVhMFY2LVFtQkc0eEhSclZ0TUZlcnpkN0RYbTkyOHg5OHlRazV6aS1YMTVzNWpmd2ozRG10cVNLR1JrQUFBQURKUHktb3ZGXzd5U3kxNmtDSEIzWEdtSkhJZW80bmFsU09rc251SFgzdXlobGEyWU90LTFKTVBvNktkU2ZkM2tTTG13WUE0QUtWcUZkS2NsZnEwTVR0; OpenIdConnect.nonce.J%2BSFNWqdckonugc15BKRFFH46bDqWmtl7gmL%2FgGe9vo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNFd0R0SVJocVE2MUwtNDlocTRxWEFzVEZ5U3lERllUUm94Vk5Icm9MbHRBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCMEJYUWZpZGRvVk9JNVBHd1FIWThJakxwUkthYlNncUZSNFRMQ0hlWGFjb0FBQUFDaEp6RFgtOU9qNkFYcE1oSWV1OUdtZm5pYUVTYUtOdGQ3Z0lZMkN5VThfMlVxTFFlNEpwSWFmaUxjTGRtRXZxZ1dXUENBQV9SRXVMTFE4U2NYMV93Z0ZEM05MVnp6Y0JpOUtzTGNoZmdKNmNpX09IVHBOaFJ5Zzhub0tQemhCaTlCR2lvaEh4c0NjaUxrZlJtN0Y5UElYbDd3SVFYRUc2T05xUXUtMEV5S19rQUFBQUFCcmI4M0Z4ajREWWU0TF9DV2xGQi1zckhBaUlKUDVkLVd3RU9ZS1Q2cmpIdUtrOTdMdlotbDBSalZ4alVMVmEyRjBJV2hzcTlkQTV5SGlSdjNaT0FB; OpenIdConnect.nonce.RjXW0vUIxDg9bdEVPvbkQgCoabSZiYW9XP8K89RCN4s%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUF2bjgtU3FQaFNKdFgxM2pZeEJTcldvTVJ5NnZmbTlCOVlhckdRcWRSRmx3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDM3pseFAydHRTYnU3NEVNTkdscHduSVlBN3ZTTndSaFdDYzZUUG92QTdfb0FBQUFESV9jby12cFR0RGJWd3hiMGFZZjZqcDRKVVdBcUNUVDdrTC1KRERMNTZPWHVqaG14YWZWNzhibjIzQkxnaVR1TWhERWFtTDNVZVhHLWx4YkwwMVllUTJ2VWNYajhFcFk3a3pUMWw2MmVzdnRkRXZFR0o1QUZReUZjclZTYWlJSzZReTNJV0JaYlNJaUNNUjZhdUZNNUxnS3V0WmI5ZUdGZkQxQVp6S2NTS2xFQUFBQUQ1TFZTMk5TTndCeWxZRmRVT2p1NHBxbjVSN3AyR0hJaFRnUkZqUnE0XzVTQ1RlSVNLeXRuOER1THFhVDM4TlZmYnd1Z3Q0aXlIWXZmRTZyZDByY3Ez; OpenIdConnect.nonce.LWEg3POhOv1GqHw0uQmF1TthvifwRKIJrrmMyzbfiKQ%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1R3N6R0U3bW5WYjVBZE1xcy05OUZIcGQ2WWlwdXNCaU9ZM1EwQllIUjdRQUFBQUFPZ0FBQUFBSUFBQ0FBQUFERDNieW5mYmRJemgyX2xWNFpoT0h3eEs5bEk2TWR1RlhiaXBha2xDUEhSSUFBQUFEcEk2aVhXQUlpcHBRUmR1TmdnUlVMcDR5elJ3WkdrRXdoQUo3cXV4N3FEcWxfb01ZblJmMjBVYnFON3Roa1pveUhwczBBRGVUWFQtX0NoOEEzUmhVSjd0QVU2QmJmLUU2akJfNXctTjFBektDUkJacWdMMVZjZHZsYVFTY2lIQXdQY1ZOdzhHNndsYndrazk3MDZOdGg5X2tzdG5OamxWbDB0amd1SXpLRUZVQUFBQUQxRXFoMGlRNTFLQURsUC1jVmlZSHV4TlJNcEJyNDh5YXdwLVpUMFNlWl9TYUtJcUloOU5MNkZCdUN1RmwyMDl3MUJtVlN6cXJzYmh5ekdncVlMYXBE; ms-dyn-csrftoken=TejIY5%2BY75ZuP7Cap2e6FQ%3D%3D.BN%2Br3OG3KhOPkuQ%2Bv42giwDXirkz%2FIT%2FgcJqrYmBmgZxDqYKhLQmvK4MiZMNNNr1pmrb72j8omDMXnCJz4duVXXBw2BCmq5vB6r0ereZZJihZCS6JArlOIUKmvevLctNzXiF0%2BlsliJq8ytEa96gGKv%2BKCcx6IpZuTIovE%2F9Yfgw44ToEDEYjTi988HAtUyg2YCMrde0dV7aOjcTTRn4HdtkabK88sjd1eHEFaY0e9VuLURw%2BtAQ%2BlKZbL85%2BTjJFzerbiI6xPuwfH8NRTuMs1WcZFe%2BAiV2TFomA9r0WlgQiMbAU9xmnNDp0Q0yDMZVepTkdFAyo7u7NvoCUREV3Q%3D%3D; OpenIdConnect.nonce.PloYMW0TeIHvBdMLwqKzuooCuQXuOS%2Fy3Psc%2BhACmeY%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1LWEwck5MZi0zNXRLSnpCcnFCUnUwYllBclpGM09hdDJub0g2M1hjSzR3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDQmI2UV9QUWUxNVQ2c2s5SlRuYy1rSERSeV9yekg4bXB0WWpnR0FfaXBmNEFBQUFEMnhlcXc2X0dDOHVwSlZZM2VWMktCT3RvdjhoTEhicjhFaEl1ZjFSRlMzT3RMeHFaaGpFWE1aYXBNdkZJbFlHY200YVhoaGNvSlk5SDlab2hWbm1hVHZDeElDMVhVY3JKWUs2S2w3UGlhVnU2a1lQOW1YeUJzeEZDYWZDOVlEb1hwZUF6a2I1eVFZX05DN2YtYi1SVVRjT3p3OHpKWTRmekpFNHUtaG5pSlVFQUFBQURTb1RCb2RPQ3Z3LVlJTVhaWWpHY21GOFduaVNwc3dQYVlzUFZCUWpUazkwTm9WQzhVSUdqNVRDZXhGSG9OYzNpcnZnamN3V0NLLWRvd3h0aURxY2Nf</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1921" it="0" lt="0" ct="1611" ts="1695250879454" s="false" lb="Login/-6" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ms-dyn-affinity=AOS1; MSCC=NR; OpenIdConnect.nonce.8hlwtSPlM8NfMIvnxCs5yas%2B0DdmW3SniMJvBq8E7o8%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQURwSFNlbjRidExuc3RlQk0xcHFuTzFPY1JsMTJ1MGhjZURnLUVCUzZ4SC1BQUFBQUFPZ0FBQUFBSUFBQ0FBQUFDVFRVLXlwU0F0dnkxVV9CdnZQVk05eWJZSzBjVVpzWmU3aFdHSHZsUWVkNEFBQUFDaG9YV3BaSjVEZTM3WXBuUFZQeXRSd0dCMlR6TTVJbkhfRkRuUm1HMG9Rb0J2N2NvenkzSWdFVmh5c2UwVnhmd0hFbzd6ei1ObEwxTHQ1NGR1dTNueWYtSVZkSnZWbXhmUFk5LUFOYklBTTZnR1ByR2tWX2dzNTFhSnFxcS1Scmx5NUVWd3BkRVdUbE8zek55ZElsd3pzWnZlNmxqaTNtd3luVHpNb1FKR0gwQUFBQUJhdTk3YS1PblJ0dDNKa0tJN1BoQzgwdDNqeTkzVEV4NFVPbmcyeURUOEhVY0p5LVRVQmZiNDIxWVdoZ3FlM0c1YTRCYUZDSnNpVzFwZVhkbDVHS2k1; OpenIdConnect.nonce.811LC%2Bd04G8M6nm5haqyfkwlFA73errAD27%2FojT1Hlo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUROcmFrQjhXa3phV1U1MmZIYTV3M0ZGVnlMRThWNWVxcXFQZHpWdk9ZOEt3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBbGwxb09kWkU4T0lWc2swaXNJZ25kRkRiVW80TEJxcDRhcmk1WjNNN0FZWUFBQUFCTG42cDhFUmlNbVFNSlJzaldGbHhSQkR4am05WTAzcDFhTndPWXdXYnU5S1prWk9zM0pHaEJVY242MEgtRERobEsyQ1RTQ0VKOHRFSnU2RFJDLXM0X2ZncF9hZVpYS0ZBb3RuWnozdEZfRmNOX3pVM3VPNTdSYUpzaEJMajFlVEhFeUk4TmJ0UXJ0OHdhMG9mdDVpNVBvWjB5eG9HejBPcUJiMHlPU0swTkZVQUFBQUROUlUyUk5HLUpvQWFEVEpJWXFRMEI3bHF5QnprLXVLWldiTVZ4MDFaVTN2VkxHSEptUUFIOUpPY0MwZ2JFaDVERnR4UVNZeGc4TmRBeTZsZFprOHJS; OpenIdConnect.nonce.EC5sKLbgSDYB9EMSPSpPNc%2FEIiJZGU6chEEnKmH0Msg%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNfQTdoU2dpRXB2SGdNc29XckpFOWxGMzlmb0JIa1JEd0xEcWJPLVppalJ3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBWGY5YVl5OEp4dk53SktzOHhsbjU2cGJ4dlZxTk52UFlOdnNsOW9IR2xJb0FBQUFCa1lVdjFBNkVBLW1uVzh3ZzNxT2luZTBVUHlhQmoyNi04Nm1FT2U2RXhnUnFGbjc4VWJON2lkOUJzNmwtVUV5WmJFU3hBdk84Y0tiODJZRmgzWHprTkpCYVUtRTUwZHBUcVVRUUttY3N2ZVJ6a0JiYzdxaHI0Y25WNEMtbElubjhDSV95cUZhV0RyeXk2TEVMT191WG5ySkpWbnJzVnFiOWxVU3Z2NHFPMXlFQUFBQURlRnJEWWE0NEs5ZnZ2cFNLd2NFOEdUalVPT0FMNFVOaU5PckFwNlBzZFVJMEFkOWRZWEMwSVlFd3FOc0FUZjY0VHUxMHpJOGlBaklvVTN1MGZOQlhL; OpenIdConnect.nonce.8KFLnZ38nFRkMkJgptfDon8oHejl%2FRusNiVY60oouII%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUFnRFQtSGVwbERjbFBENlNXQkhfNmxyYUFZam9OcHhyaGhQZHVzX3c2cW53QUFBQUFPZ0FBQUFBSUFBQ0FBQUFENVB3ZGJ3LV9HYldpLTkxbTl5SGgtb2NFdWdKUXpDYnpqMnhpalhDVXhiWUFBQUFDcGg4VFB1UTJtVjJZVmxYSHFXZ3dORnNpcmk4WW1JVGpLQmtBWkh3TDZhNDF2MnVSSEFmR3pXV3FSRzJvdm8zemFhb2NuYlllZ0VKNGxELVo4cWVZWVpVYmQzOWJpX3pZT19GUGFleWlTb0JadHBWODVhMFY2LVFtQkc0eEhSclZ0TUZlcnpkN0RYbTkyOHg5OHlRazV6aS1YMTVzNWpmd2ozRG10cVNLR1JrQUFBQURKUHktb3ZGXzd5U3kxNmtDSEIzWEdtSkhJZW80bmFsU09rc251SFgzdXlobGEyWU90LTFKTVBvNktkU2ZkM2tTTG13WUE0QUtWcUZkS2NsZnEwTVR0; OpenIdConnect.nonce.J%2BSFNWqdckonugc15BKRFFH46bDqWmtl7gmL%2FgGe9vo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNFd0R0SVJocVE2MUwtNDlocTRxWEFzVEZ5U3lERllUUm94Vk5Icm9MbHRBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCMEJYUWZpZGRvVk9JNVBHd1FIWThJakxwUkthYlNncUZSNFRMQ0hlWGFjb0FBQUFDaEp6RFgtOU9qNkFYcE1oSWV1OUdtZm5pYUVTYUtOdGQ3Z0lZMkN5VThfMlVxTFFlNEpwSWFmaUxjTGRtRXZxZ1dXUENBQV9SRXVMTFE4U2NYMV93Z0ZEM05MVnp6Y0JpOUtzTGNoZmdKNmNpX09IVHBOaFJ5Zzhub0tQemhCaTlCR2lvaEh4c0NjaUxrZlJtN0Y5UElYbDd3SVFYRUc2T05xUXUtMEV5S19rQUFBQUFCcmI4M0Z4ajREWWU0TF9DV2xGQi1zckhBaUlKUDVkLVd3RU9ZS1Q2cmpIdUtrOTdMdlotbDBSalZ4alVMVmEyRjBJV2hzcTlkQTV5SGlSdjNaT0FB; OpenIdConnect.nonce.RjXW0vUIxDg9bdEVPvbkQgCoabSZiYW9XP8K89RCN4s%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUF2bjgtU3FQaFNKdFgxM2pZeEJTcldvTVJ5NnZmbTlCOVlhckdRcWRSRmx3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDM3pseFAydHRTYnU3NEVNTkdscHduSVlBN3ZTTndSaFdDYzZUUG92QTdfb0FBQUFESV9jby12cFR0RGJWd3hiMGFZZjZqcDRKVVdBcUNUVDdrTC1KRERMNTZPWHVqaG14YWZWNzhibjIzQkxnaVR1TWhERWFtTDNVZVhHLWx4YkwwMVllUTJ2VWNYajhFcFk3a3pUMWw2MmVzdnRkRXZFR0o1QUZReUZjclZTYWlJSzZReTNJV0JaYlNJaUNNUjZhdUZNNUxnS3V0WmI5ZUdGZkQxQVp6S2NTS2xFQUFBQUQ1TFZTMk5TTndCeWxZRmRVT2p1NHBxbjVSN3AyR0hJaFRnUkZqUnE0XzVTQ1RlSVNLeXRuOER1THFhVDM4TlZmYnd1Z3Q0aXlIWXZmRTZyZDByY3Ez; OpenIdConnect.nonce.LWEg3POhOv1GqHw0uQmF1TthvifwRKIJrrmMyzbfiKQ%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1R3N6R0U3bW5WYjVBZE1xcy05OUZIcGQ2WWlwdXNCaU9ZM1EwQllIUjdRQUFBQUFPZ0FBQUFBSUFBQ0FBQUFERDNieW5mYmRJemgyX2xWNFpoT0h3eEs5bEk2TWR1RlhiaXBha2xDUEhSSUFBQUFEcEk2aVhXQUlpcHBRUmR1TmdnUlVMcDR5elJ3WkdrRXdoQUo3cXV4N3FEcWxfb01ZblJmMjBVYnFON3Roa1pveUhwczBBRGVUWFQtX0NoOEEzUmhVSjd0QVU2QmJmLUU2akJfNXctTjFBektDUkJacWdMMVZjZHZsYVFTY2lIQXdQY1ZOdzhHNndsYndrazk3MDZOdGg5X2tzdG5OamxWbDB0amd1SXpLRUZVQUFBQUQxRXFoMGlRNTFLQURsUC1jVmlZSHV4TlJNcEJyNDh5YXdwLVpUMFNlWl9TYUtJcUloOU5MNkZCdUN1RmwyMDl3MUJtVlN6cXJzYmh5ekdncVlMYXBE; ms-dyn-csrftoken=TejIY5%2BY75ZuP7Cap2e6FQ%3D%3D.BN%2Br3OG3KhOPkuQ%2Bv42giwDXirkz%2FIT%2FgcJqrYmBmgZxDqYKhLQmvK4MiZMNNNr1pmrb72j8omDMXnCJz4duVXXBw2BCmq5vB6r0ereZZJihZCS6JArlOIUKmvevLctNzXiF0%2BlsliJq8ytEa96gGKv%2BKCcx6IpZuTIovE%2F9Yfgw44ToEDEYjTi988HAtUyg2YCMrde0dV7aOjcTTRn4HdtkabK88sjd1eHEFaY0e9VuLURw%2BtAQ%2BlKZbL85%2BTjJFzerbiI6xPuwfH8NRTuMs1WcZFe%2BAiV2TFomA9r0WlgQiMbAU9xmnNDp0Q0yDMZVepTkdFAyo7u7NvoCUREV3Q%3D%3D; OpenIdConnect.nonce.PloYMW0TeIHvBdMLwqKzuooCuQXuOS%2Fy3Psc%2BhACmeY%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1LWEwck5MZi0zNXRLSnpCcnFCUnUwYllBclpGM09hdDJub0g2M1hjSzR3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDQmI2UV9QUWUxNVQ2c2s5SlRuYy1rSERSeV9yekg4bXB0WWpnR0FfaXBmNEFBQUFEMnhlcXc2X0dDOHVwSlZZM2VWMktCT3RvdjhoTEhicjhFaEl1ZjFSRlMzT3RMeHFaaGpFWE1aYXBNdkZJbFlHY200YVhoaGNvSlk5SDlab2hWbm1hVHZDeElDMVhVY3JKWUs2S2w3UGlhVnU2a1lQOW1YeUJzeEZDYWZDOVlEb1hwZUF6a2I1eVFZX05DN2YtYi1SVVRjT3p3OHpKWTRmekpFNHUtaG5pSlVFQUFBQURTb1RCb2RPQ3Z3LVlJTVhaWWpHY21GOFduaVNwc3dQYVlzUFZCUWpUazkwTm9WQzhVSUdqNVRDZXhGSG9OYzNpcnZnamN3V0NLLWRvd3h0aURxY2Nf</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="2058" it="0" lt="0" ct="1735" ts="1695250881400" s="false" lb="Login/-7" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: confizstg.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ms-dyn-affinity=AOS1; MSCC=NR; OpenIdConnect.nonce.8hlwtSPlM8NfMIvnxCs5yas%2B0DdmW3SniMJvBq8E7o8%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQURwSFNlbjRidExuc3RlQk0xcHFuTzFPY1JsMTJ1MGhjZURnLUVCUzZ4SC1BQUFBQUFPZ0FBQUFBSUFBQ0FBQUFDVFRVLXlwU0F0dnkxVV9CdnZQVk05eWJZSzBjVVpzWmU3aFdHSHZsUWVkNEFBQUFDaG9YV3BaSjVEZTM3WXBuUFZQeXRSd0dCMlR6TTVJbkhfRkRuUm1HMG9Rb0J2N2NvenkzSWdFVmh5c2UwVnhmd0hFbzd6ei1ObEwxTHQ1NGR1dTNueWYtSVZkSnZWbXhmUFk5LUFOYklBTTZnR1ByR2tWX2dzNTFhSnFxcS1Scmx5NUVWd3BkRVdUbE8zek55ZElsd3pzWnZlNmxqaTNtd3luVHpNb1FKR0gwQUFBQUJhdTk3YS1PblJ0dDNKa0tJN1BoQzgwdDNqeTkzVEV4NFVPbmcyeURUOEhVY0p5LVRVQmZiNDIxWVdoZ3FlM0c1YTRCYUZDSnNpVzFwZVhkbDVHS2k1; OpenIdConnect.nonce.811LC%2Bd04G8M6nm5haqyfkwlFA73errAD27%2FojT1Hlo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUROcmFrQjhXa3phV1U1MmZIYTV3M0ZGVnlMRThWNWVxcXFQZHpWdk9ZOEt3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBbGwxb09kWkU4T0lWc2swaXNJZ25kRkRiVW80TEJxcDRhcmk1WjNNN0FZWUFBQUFCTG42cDhFUmlNbVFNSlJzaldGbHhSQkR4am05WTAzcDFhTndPWXdXYnU5S1prWk9zM0pHaEJVY242MEgtRERobEsyQ1RTQ0VKOHRFSnU2RFJDLXM0X2ZncF9hZVpYS0ZBb3RuWnozdEZfRmNOX3pVM3VPNTdSYUpzaEJMajFlVEhFeUk4TmJ0UXJ0OHdhMG9mdDVpNVBvWjB5eG9HejBPcUJiMHlPU0swTkZVQUFBQUROUlUyUk5HLUpvQWFEVEpJWXFRMEI3bHF5QnprLXVLWldiTVZ4MDFaVTN2VkxHSEptUUFIOUpPY0MwZ2JFaDVERnR4UVNZeGc4TmRBeTZsZFprOHJS; OpenIdConnect.nonce.EC5sKLbgSDYB9EMSPSpPNc%2FEIiJZGU6chEEnKmH0Msg%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNfQTdoU2dpRXB2SGdNc29XckpFOWxGMzlmb0JIa1JEd0xEcWJPLVppalJ3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFBWGY5YVl5OEp4dk53SktzOHhsbjU2cGJ4dlZxTk52UFlOdnNsOW9IR2xJb0FBQUFCa1lVdjFBNkVBLW1uVzh3ZzNxT2luZTBVUHlhQmoyNi04Nm1FT2U2RXhnUnFGbjc4VWJON2lkOUJzNmwtVUV5WmJFU3hBdk84Y0tiODJZRmgzWHprTkpCYVUtRTUwZHBUcVVRUUttY3N2ZVJ6a0JiYzdxaHI0Y25WNEMtbElubjhDSV95cUZhV0RyeXk2TEVMT191WG5ySkpWbnJzVnFiOWxVU3Z2NHFPMXlFQUFBQURlRnJEWWE0NEs5ZnZ2cFNLd2NFOEdUalVPT0FMNFVOaU5PckFwNlBzZFVJMEFkOWRZWEMwSVlFd3FOc0FUZjY0VHUxMHpJOGlBaklvVTN1MGZOQlhL; OpenIdConnect.nonce.8KFLnZ38nFRkMkJgptfDon8oHejl%2FRusNiVY60oouII%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUFnRFQtSGVwbERjbFBENlNXQkhfNmxyYUFZam9OcHhyaGhQZHVzX3c2cW53QUFBQUFPZ0FBQUFBSUFBQ0FBQUFENVB3ZGJ3LV9HYldpLTkxbTl5SGgtb2NFdWdKUXpDYnpqMnhpalhDVXhiWUFBQUFDcGg4VFB1UTJtVjJZVmxYSHFXZ3dORnNpcmk4WW1JVGpLQmtBWkh3TDZhNDF2MnVSSEFmR3pXV3FSRzJvdm8zemFhb2NuYlllZ0VKNGxELVo4cWVZWVpVYmQzOWJpX3pZT19GUGFleWlTb0JadHBWODVhMFY2LVFtQkc0eEhSclZ0TUZlcnpkN0RYbTkyOHg5OHlRazV6aS1YMTVzNWpmd2ozRG10cVNLR1JrQUFBQURKUHktb3ZGXzd5U3kxNmtDSEIzWEdtSkhJZW80bmFsU09rc251SFgzdXlobGEyWU90LTFKTVBvNktkU2ZkM2tTTG13WUE0QUtWcUZkS2NsZnEwTVR0; OpenIdConnect.nonce.J%2BSFNWqdckonugc15BKRFFH46bDqWmtl7gmL%2FgGe9vo%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNFd0R0SVJocVE2MUwtNDlocTRxWEFzVEZ5U3lERllUUm94Vk5Icm9MbHRBQUFBQUFPZ0FBQUFBSUFBQ0FBQUFCMEJYUWZpZGRvVk9JNVBHd1FIWThJakxwUkthYlNncUZSNFRMQ0hlWGFjb0FBQUFDaEp6RFgtOU9qNkFYcE1oSWV1OUdtZm5pYUVTYUtOdGQ3Z0lZMkN5VThfMlVxTFFlNEpwSWFmaUxjTGRtRXZxZ1dXUENBQV9SRXVMTFE4U2NYMV93Z0ZEM05MVnp6Y0JpOUtzTGNoZmdKNmNpX09IVHBOaFJ5Zzhub0tQemhCaTlCR2lvaEh4c0NjaUxrZlJtN0Y5UElYbDd3SVFYRUc2T05xUXUtMEV5S19rQUFBQUFCcmI4M0Z4ajREWWU0TF9DV2xGQi1zckhBaUlKUDVkLVd3RU9ZS1Q2cmpIdUtrOTdMdlotbDBSalZ4alVMVmEyRjBJV2hzcTlkQTV5SGlSdjNaT0FB; OpenIdConnect.nonce.RjXW0vUIxDg9bdEVPvbkQgCoabSZiYW9XP8K89RCN4s%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUF2bjgtU3FQaFNKdFgxM2pZeEJTcldvTVJ5NnZmbTlCOVlhckdRcWRSRmx3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDM3pseFAydHRTYnU3NEVNTkdscHduSVlBN3ZTTndSaFdDYzZUUG92QTdfb0FBQUFESV9jby12cFR0RGJWd3hiMGFZZjZqcDRKVVdBcUNUVDdrTC1KRERMNTZPWHVqaG14YWZWNzhibjIzQkxnaVR1TWhERWFtTDNVZVhHLWx4YkwwMVllUTJ2VWNYajhFcFk3a3pUMWw2MmVzdnRkRXZFR0o1QUZReUZjclZTYWlJSzZReTNJV0JaYlNJaUNNUjZhdUZNNUxnS3V0WmI5ZUdGZkQxQVp6S2NTS2xFQUFBQUQ1TFZTMk5TTndCeWxZRmRVT2p1NHBxbjVSN3AyR0hJaFRnUkZqUnE0XzVTQ1RlSVNLeXRuOER1THFhVDM4TlZmYnd1Z3Q0aXlIWXZmRTZyZDByY3Ez; OpenIdConnect.nonce.LWEg3POhOv1GqHw0uQmF1TthvifwRKIJrrmMyzbfiKQ%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1R3N6R0U3bW5WYjVBZE1xcy05OUZIcGQ2WWlwdXNCaU9ZM1EwQllIUjdRQUFBQUFPZ0FBQUFBSUFBQ0FBQUFERDNieW5mYmRJemgyX2xWNFpoT0h3eEs5bEk2TWR1RlhiaXBha2xDUEhSSUFBQUFEcEk2aVhXQUlpcHBRUmR1TmdnUlVMcDR5elJ3WkdrRXdoQUo3cXV4N3FEcWxfb01ZblJmMjBVYnFON3Roa1pveUhwczBBRGVUWFQtX0NoOEEzUmhVSjd0QVU2QmJmLUU2akJfNXctTjFBektDUkJacWdMMVZjZHZsYVFTY2lIQXdQY1ZOdzhHNndsYndrazk3MDZOdGg5X2tzdG5OamxWbDB0amd1SXpLRUZVQUFBQUQxRXFoMGlRNTFLQURsUC1jVmlZSHV4TlJNcEJyNDh5YXdwLVpUMFNlWl9TYUtJcUloOU5MNkZCdUN1RmwyMDl3MUJtVlN6cXJzYmh5ekdncVlMYXBE; ms-dyn-csrftoken=TejIY5%2BY75ZuP7Cap2e6FQ%3D%3D.BN%2Br3OG3KhOPkuQ%2Bv42giwDXirkz%2FIT%2FgcJqrYmBmgZxDqYKhLQmvK4MiZMNNNr1pmrb72j8omDMXnCJz4duVXXBw2BCmq5vB6r0ereZZJihZCS6JArlOIUKmvevLctNzXiF0%2BlsliJq8ytEa96gGKv%2BKCcx6IpZuTIovE%2F9Yfgw44ToEDEYjTi988HAtUyg2YCMrde0dV7aOjcTTRn4HdtkabK88sjd1eHEFaY0e9VuLURw%2BtAQ%2BlKZbL85%2BTjJFzerbiI6xPuwfH8NRTuMs1WcZFe%2BAiV2TFomA9r0WlgQiMbAU9xmnNDp0Q0yDMZVepTkdFAyo7u7NvoCUREV3Q%3D%3D; OpenIdConnect.nonce.PloYMW0TeIHvBdMLwqKzuooCuQXuOS%2Fy3Psc%2BhACmeY%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUF4SDVjVG81Sl9VZU1SbkRRSzdXajJ3QUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUN1LWEwck5MZi0zNXRLSnpCcnFCUnUwYllBclpGM09hdDJub0g2M1hjSzR3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDQmI2UV9QUWUxNVQ2c2s5SlRuYy1rSERSeV9yekg4bXB0WWpnR0FfaXBmNEFBQUFEMnhlcXc2X0dDOHVwSlZZM2VWMktCT3RvdjhoTEhicjhFaEl1ZjFSRlMzT3RMeHFaaGpFWE1aYXBNdkZJbFlHY200YVhoaGNvSlk5SDlab2hWbm1hVHZDeElDMVhVY3JKWUs2S2w3UGlhVnU2a1lQOW1YeUJzeEZDYWZDOVlEb1hwZUF6a2I1eVFZX05DN2YtYi1SVVRjT3p3OHpKWTRmekpFNHUtaG5pSlVFQUFBQURTb1RCb2RPQ3Z3LVlJTVhaWWpHY21GOFduaVNwc3dQYVlzUFZCUWpUazkwTm9WQzhVSUdqNVRDZXhGSG9OYzNpcnZnamN3V0NLLWRvd3h0aURxY2Nf</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://confizstg.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+
+</testResults>

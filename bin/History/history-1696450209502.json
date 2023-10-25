@@ -1,0 +1,24 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696450209171.jmx",
+    "recordingTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\recording-1696450209253.jtl",
+    "replayTraceFilepath" : null
+  }, {
+    "stepMessage" : "Failed Replay",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696450212620.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Replay\\replay-1696450212963.jtl"
+  }, {
+    "stepMessage" : "Failed Replay",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696450530507.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Replay\\replay-1696450530745.jtl"
+  }, {
+    "stepMessage" : "(Save) Before apply suggestions",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1696450904576.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : null
+  } ],
+  "filepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\History\\history-1696450209502.json"
+}

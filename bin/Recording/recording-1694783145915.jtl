@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1390" it="0" lt="0" ct="1063" ts="1694782948321" s="false" lb="/-183" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="841" it="0" lt="841" ct="263" ts="1694782949634" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-184" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1119" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: 059332e7-5ed5-36fb-e49f-29f3d6775847
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {6D830DE8-C7B9-4404-A569-D9A434C76353}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX0P273CA0076
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: 5zKTBdVe+zbknynz1ndYRw.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njrsgz0A7LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:02:21 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {6D830DE8-C7B9-4404-A569-D9A434C76353}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {92EB3FA0-54D2-4980-B65C-2E80895DA7A5}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 407
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;jMH6��vD�A&#xf;5&#x6;�!*&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x12;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1299" it="0" lt="0" ct="973" ts="1694782949750" s="false" lb="/-185" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="513" it="0" lt="513" ct="270" ts="1694782950531" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-186" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4423" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: 4c9df0c9-4171-41ea-cdf7-77d3d4d14622
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {6D830DE8-C7B9-4404-A569-D9A434C76353}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX0P273CA0090
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: yfCdTHFB6kHN93fT1NFGIg.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjoNV5MA7LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzMIq4AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-STmaHw==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:02:22 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {6D830DE8-C7B9-4404-A569-D9A434C76353}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {578356DA-EB48-4CB2-9D0B-71BE7D9D3B72}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 407
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;jMH6��vD�A&#xf;5&#x6;�!*&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x12;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1316" it="0" lt="0" ct="996" ts="1694782952825" s="false" lb="/-188" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1348" it="0" lt="0" ct="978" ts="1694782956445" s="false" lb="/-189" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1326" it="0" lt="0" ct="996" ts="1694782957797" s="false" lb="/-190" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1329" it="0" lt="0" ct="1000" ts="1694782959182" s="false" lb="/-191" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1379" it="0" lt="0" ct="1029" ts="1694782967367" s="false" lb="/-193" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Pragma: no-cache
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1293" it="0" lt="0" ct="971" ts="1694782971731" s="false" lb="/-194" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1311" it="0" lt="0" ct="952" ts="1694782973030" s="false" lb="/-195" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1317" it="0" lt="0" ct="996" ts="1694782974426" s="false" lb="/-196" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-stg01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-stg01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="585" it="0" lt="585" ct="353" ts="1694782976448" s="true" lb="/domainreliability/upload-redirected-198" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1173" sby="667" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;endpoints&quot;:[{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons2.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons3.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://beacons4.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:1,&quot;url&quot;:&quot;https://clients2.google.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt2.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1},{&quot;priority&quot;:2,&quot;url&quot;:&quot;https://beacons5.gvt3.com/domainreliability/upload-nel&quot;,&quot;weight&quot;:1}],&quot;group&quot;:&quot;nel&quot;,&quot;max_age&quot;:300}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Content-Type: application/javascript; charset=utf-8
+Date: Fri, 15 Sep 2023 13:02:48 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: beacons5.gvt3.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Length: 307
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;HTTP&quot;,&quot;request_age_ms&quot;:65672,&quot;request_elapsed_ms&quot;:697,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://beacons3.gvt2.com/&quot;,&quot;was_proxied&quot;:true}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://beacons5.gvt3.com/domainreliability/upload-redirected</java.net.URL>
+</httpSample>
+<httpSample t="1585" it="0" lt="0" ct="1240" ts="1694782978920" s="false" lb="/-199" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1323" it="0" lt="0" ct="963" ts="1694782981539" s="false" lb="/-202" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="870" it="0" lt="870" ct="284" ts="1694782979640" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-200" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1119" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: 99a1c0a6-0577-5283-2de8-60619c7a2ecf
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {934EEB11-392D-4B78-BED4-F9A6847CCE39}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX1P273CA0026
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: psChmXcFg1It6GBhnHouzw.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njp6+yUS7LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:02:51 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {934EEB11-392D-4B78-BED4-F9A6847CCE39}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {7B1F2DE7-BFA9-4C59-A284-A3FC6599D191}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 407
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;&#x1e;&lt;y�%8�N�%�&#x17;)[Δ&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x13;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="891" it="0" lt="890" ct="243" ts="1694782980613" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-201" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4423" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: 2670880c-af47-1df8-c0fe-8ffed4af474c
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {934EEB11-392D-4B78-BED4-F9A6847CCE39}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX1P273CA0035
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: DIhwJkev+B3A/o/+1K9HTA.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjqXyrkS7LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzMJ64AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-7OSGHw==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:02:53 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {934EEB11-392D-4B78-BED4-F9A6847CCE39}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {394CE4DE-9DB6-4F9A-8D46-96496EF5CA08}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 407
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;&#x1e;&lt;y�%8�N�%�&#x17;)[Δ&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x13;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1337" it="0" lt="0" ct="1005" ts="1694782982869" s="false" lb="/-203" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1323" it="0" lt="0" ct="976" ts="1694782984290" s="false" lb="/-204" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1390" it="0" lt="0" ct="1053" ts="1694782986593" s="false" lb="/-205" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1497" it="0" lt="0" ct="1144" ts="1694782988797" s="false" lb="/-206" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1374" it="0" lt="0" ct="1013" ts="1694782990299" s="false" lb="/-207" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1350" it="0" lt="0" ct="1020" ts="1694782991763" s="false" lb="/-208" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1432" it="0" lt="0" ct="1067" ts="1694782994237" s="false" lb="/-209" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1403" it="0" lt="0" ct="1054" ts="1694783000689" s="false" lb="/-212" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="876" it="0" lt="876" ct="267" ts="1694782997474" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-210" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1129" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: d9651869-d273-b7f8-3a40-ea441bdb316c
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {9F43CAA8-44E1-40A2-902B-7F250E5FDC81}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX1P273CA0031
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: aRhl2XPS+Lc6QOpEG9sxbA.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjpJw8Mc7LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:03:10 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {9F43CAA8-44E1-40A2-902B-7F250E5FDC81}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {54ECC9B7-D3DD-4F0E-B4B4-7A21E6E72B44}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 417
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�	���R�K�}�&amp;�I�1&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x14;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="522" it="0" lt="522" ct="262" ts="1694782998449" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-211" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4433" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: 9b80d942-06a5-8c23-1e34-f83fc24de3c3
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {9F43CAA8-44E1-40A2-902B-7F250E5FDC81}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX1P273CA0031
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: QtmAm6UGI4weNPg/wk3jww.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njr3gSUd7LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzMK64AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-41KvXg==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:03:10 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {9F43CAA8-44E1-40A2-902B-7F250E5FDC81}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {997F9205-0DC8-4AA5-BF7D-D555862C5BF7}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 417
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�	���R�K�}�&amp;�I�1&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x14;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1338" it="0" lt="0" ct="967" ts="1694783002098" s="false" lb="/-213" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1391" it="0" lt="0" ct="1069" ts="1694783003516" s="false" lb="/-214" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="963" it="0" lt="963" ct="351" ts="1694783018861" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-215" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1125" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: 42ea19c8-257b-1b74-f3f6-3b527f8d8661
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {86CDEC01-49ED-4A04-8424-2E604C5CF611}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX1P273CA0007
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: yBnqQnsldBvz9jtSf42GYQ.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjpiZ48p7LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:03:31 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {86CDEC01-49ED-4A04-8424-2E604C5CF611}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {DF26AF9E-6E47-42BE-A0F0-754EF3487F64}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 413
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�*r&#x6;�&#x7f;&#x1f;E�&apos;�$�&#x6;��&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x15;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1658" it="0" lt="1657" ct="594" ts="1694783021848" s="true" lb="/autodiscover/autodiscover.xml-217" rc="301" rm="Moved Permanently" tn="" dt="text" de="" by="366" sby="935" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 301 Moved Permanently
+Date: Fri, 15 Sep 2023 13:03:35 GMT
+Content-Type: text/html
+Content-Length: 166
+Connection: close
+Location: https://www.confiz.com/autodiscover/autodiscover.xml
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-MapiHttpCapability: 1
+Pragma: no-cache
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+Depth: 0
+Client-Request-Id: {1B9C93D6-D38B-4CCC-9D4A-A7F029149F57}
+Host: confiz.com
+Content-Type: text/xml
+X-AnchorMailbox: mujahid.rizvi@confiz.com
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 357
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&#xd;
+&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#xd;
+&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OutlookSession=&quot;{8AB97E89-B795-4781-B49D-8B7364241687}&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006&quot;&gt;&lt;Request&gt;&lt;EMailAddress&gt;mujahid.rizvi@confiz.com&lt;/EMailAddress&gt;&lt;AcceptableResponseSchema&gt;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&lt;/AcceptableResponseSchema&gt;&lt;/Request&gt;&lt;/Autodiscover&gt;</queryString>
+  <redirectLocation class="java.lang.String">https://www.confiz.com/autodiscover/autodiscover.xml</redirectLocation>
+  <java.net.URL>https://confiz.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="502" it="0" lt="501" ct="260" ts="1694783019922" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-216" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4429" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: 40a435ac-29a9-72ba-b97e-e625c4e7130e
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {86CDEC01-49ED-4A04-8424-2E604C5CF611}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX1P273CA0007
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: rDWkQKkpunK5fuYlxOcTDg.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njr/JfEp7LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzML64AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-yXrvNA==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:03:32 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {86CDEC01-49ED-4A04-8424-2E604C5CF611}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {3CD6B7D6-A8D8-4A51-B488-246F560A6E41}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 413
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�*r&#x6;�&#x7f;&#x1f;E�&apos;�$�&#x6;��&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x15;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="990" it="0" lt="989" ct="553" ts="1694783026235" s="false" lb="/autodiscover/autodiscover.xml-218" rc="405" rm="Method Not Allowed" tn="" dt="text" de="" by="525" sby="939" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 405 Method Not Allowed
+Date: Fri, 15 Sep 2023 13:03:39 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: close
+Accept-Ranges: bytes
+X-Served-By: cache-iad-kcgs7200087-IAD, cache-bom4733-BOM
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1694783019.912907,VS0,VE285
+Vary: x-wf-forwarded-proto
+X-Cluster-Name: ap-south-1-prod-hosting-red
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-MapiHttpCapability: 1
+Pragma: no-cache
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+Depth: 0
+Client-Request-Id: {64449A0E-963F-49A6-A462-99E68090E59A}
+Host: www.confiz.com
+Content-Type: text/xml
+X-AnchorMailbox: mujahid.rizvi@confiz.com
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 357
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&#xd;
+&lt;head&gt;&lt;title&gt;405 Not Allowed&lt;/title&gt;&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;center&gt;&lt;h1&gt;405 Not Allowed&lt;/h1&gt;&lt;/center&gt;&#xd;
+&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OutlookSession=&quot;{8AB97E89-B795-4781-B49D-8B7364241687}&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006&quot;&gt;&lt;Request&gt;&lt;EMailAddress&gt;mujahid.rizvi@confiz.com&lt;/EMailAddress&gt;&lt;AcceptableResponseSchema&gt;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&lt;/AcceptableResponseSchema&gt;&lt;/Request&gt;&lt;/Autodiscover&gt;</queryString>
+  <java.net.URL>https://www.confiz.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="10105" it="0" lt="0" ct="10104" ts="1694783030024" s="false" lb="/autodiscover/autodiscover.xml-219" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to autodiscover.confiz.com:443 [autodiscover.confiz.com/52.98.61.56, autodiscover.confiz.com/40.99.70.232, autodiscover.confiz.com/40.99.68.40, autodiscover.confiz.com/52.98.32.8] failed: Connection refused: connect" tn="" dt="text" de="" by="2772" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-MapiHttpCapability: 1
+Pragma: no-cache
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+Depth: 0
+Client-Request-Id: {46BF151A-B4C9-433B-90EF-98DF96A56E7E}
+Host: autodiscover.confiz.com
+Content-Type: text/xml
+X-AnchorMailbox: mujahid.rizvi@confiz.com
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 357
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.conn.HttpHostConnectException: Connect to autodiscover.confiz.com:443 [autodiscover.confiz.com/52.98.61.56, autodiscover.confiz.com/40.99.70.232, autodiscover.confiz.com/40.99.68.40, autodiscover.confiz.com/52.98.32.8] failed: Connection refused: connect&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)&#xd;
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+Caused by: java.net.ConnectException: Connection refused: connect&#xd;
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)&#xd;
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)&#xd;
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)&#xd;
+	at java.base/java.net.Socket.connect(Socket.java:608)&#xd;
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LazyLayeredConnectionSocketFactory.connectSocket(LazyLayeredConnectionSocketFactory.java:87)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#xd;
+	... 15 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OutlookSession=&quot;{8AB97E89-B795-4781-B49D-8B7364241687}&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006&quot;&gt;&lt;Request&gt;&lt;EMailAddress&gt;mujahid.rizvi@confiz.com&lt;/EMailAddress&gt;&lt;AcceptableResponseSchema&gt;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&lt;/AcceptableResponseSchema&gt;&lt;/Request&gt;&lt;/Autodiscover&gt;</queryString>
+  <java.net.URL>https://autodiscover.confiz.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="1409" it="0" lt="0" ct="1079" ts="1694783035027" s="false" lb="/-220" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="214" it="0" lt="214" ct="102" ts="1694783040206" s="true" lb="/autodiscover/autodiscover.xml-222" rc="302" rm="Moved Temporarily" tn="" dt="" de="" by="484" sby="383" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
+Cache-Control: no-cache
+Pragma: no-cache
+Location: https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml
+Server: Microsoft-IIS/10.0
+request-id: 1a6f2b69-d1be-33cb-d3a6-ae215d88b4c0
+X-FEServer: DX1P273CA0018
+X-RequestId: e9536afe-f022-4fe6-bd07-8452a4928816
+X-FEProxyInfo: DX1P273CA0018.AREP273.PROD.OUTLOOK.COM
+X-FEEFZInfo: DXB
+X-FEServer: DX1P273CA0018
+Date: Fri, 15 Sep 2023 13:03:51 GMT
+Connection: close
+Content-Length: 0
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer
+Client-Request-Id: {320F4D81-90B2-440F-A7B8-995BD5B9EEC6}
+X-MS-CookieUri-Requested: t
+Host: autodiscover.confiz.com
+Content-Type: text/xml
+Cache-Control: no-cache
+Pragma: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml</redirectLocation>
+  <java.net.URL>http://autodiscover.confiz.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="731" it="0" lt="731" ct="432" ts="1694783043128" s="true" lb="/autodiscover/autodiscover.xml-223" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="4943" sby="4262" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 4039
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/10.0
+request-id: 79ea6704-dc66-eac7-c70e-d102d5bc10a6
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+X-CalculatedFETarget: VI1PR06CU004.internal.outlook.com
+X-BackEndHttpStatus: 200
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 200
+X-RUM-Validated: 1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+Restrict-Access-Confirm: 1
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: VE1PR08MB5037
+X-BEServer: VE1PR08MB5037
+X-Proxy-RoutingCorrectness: 1
+X-Proxy-BackendServerStatus: 200
+X-FEProxyInfo: DX0P273CA0026.AREP273.PROD.OUTLOOK.COM
+X-FEEFZInfo: DXB
+X-FEServer: VI1PR06CA0135
+X-FirstHopCafeEFZ: DXB
+X-FEServer: DX0P273CA0026
+Date: Fri, 15 Sep 2023 13:03:55 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-MapiHttpCapability: 1
+Pragma: no-cache
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImFlWHRoSk4wUThBMlNOc2NNMk5YOHhOUkZaM0ExUW9fSl9qUk04S3dyQTQiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2F1dG9kaXNjb3Zlci1zLm91dGxvb2suY29tLyIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzkwOGM5YWExLTYxNzUtNGY1ZS1iYTMyLTJjMDRmMTA2MmFmMC8iLCJpYXQiOjE2OTQ3NzgxNzcsIm5iZiI6MTY5NDc3ODE3NywiZXhwIjoxNjk0NzgzNjk3LCJhY2N0IjowLCJhY3IiOiIxIiwiYWlvIjoiQVZRQXEvOFVBQUFBcWlYa09NcklDOEtucElNMzFIWTJmeFo2QTZiZkVuV0FvOFY5alZLejc4TzZONHN2V0dTL2JIdzhRQWVRR0tSUVpXaVRpVkp3Q2kwd3pIN2FOWUdpZmN5U0U2bnpreU4rMjN6Zk9qSUh4L1k9IiwiYW1yIjpbInB3ZCIsInJzYSIsIm1mYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJNaWNyb3NvZnQgT2ZmaWNlIiwiYXBwaWQiOiJkMzU5MGVkNi01MmIzLTQxMDItYWVmZi1hYWQyMjkyYWIwMWMiLCJhcHBpZGFjciI6IjAiLCJkZXZpY2VpZCI6IjlkMTI5NThlLTA4NDgtNDA4Mi05M2NiLTlmNjVhNzBjMTQxYyIsImVfZXhwIjoyNjQ0MTksImVuZnBvbGlkcyI6W10sImZhbWlseV9uYW1lIjoiQWxpIFJpenZpIiwiZ2l2ZW5fbmFtZSI6IlN5ZWQgTXVqYWhpZCIsImlwYWRkciI6IjExNi43MS4xNjkuNTEiLCJsb2dpbl9oaW50IjoiTy5DaVEzT0RjNU5ETXdNUzFsWlRCakxUUTVNR010WVRnNVpTMWpZV0kzWmpka01EazVNeklTSkRrd09HTTVZV0V4TFRZeE56VXROR1kxWlMxaVlUTXlMVEpqTURSbU1UQTJNbUZtTUJvWWJYVnFZV2hwWkM1eWFYcDJhVUJqYjI1bWFYb3VZMjl0SUI4PSIsIm5hbWUiOiJTeWVkIE11amFoaWQgQWxpIFJpenZpIiwib2lkIjoiNzg3OTQzMDEtZWUwYy00OTBjLWE4OWUtY2FiN2Y3ZDA5OTMyIiwicHVpZCI6IjEwMDMyMDAyRDkwREIxODMiLCJyaCI6IjAuQVhNQW9acU1rSFZoWGstNk1pd0U4UVlxOEFJQUFBQUFBUEVQemdBQUFBQUFBQUJ6QUtjLiIsInNjcCI6IkJyYW5mb3JkLUludGVybmFsLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlIENhbGVuZGFycy5SZWFkV3JpdGUuU2hhcmVkIENvbnRhY3RzLlJlYWRXcml0ZSBDb250YWN0cy5SZWFkV3JpdGUuU2hhcmVkIEVBUy5BY2Nlc3NBc1VzZXIuQWxsIEVvcFBvbGljeVN5bmMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQc29yV3MuQWNjZXNzQXNVc2VyLkFsbCBFV1MuQWNjZXNzQXNVc2VyLkFsbCBGaWxlcy5SZWFkV3JpdGUuQWxsIEZpbGVzLlJlYWRXcml0ZS5TaGFyZWQgR3JvdXAuUmVhZFdyaXRlLkFsbCBNYWlsLlJlYWRXcml0ZSBNYWlsLlJlYWRXcml0ZS5TaGFyZWQgTWFpbC5TZW5kIE1haWwuU2VuZC5TaGFyZWQgTWFpbGJveFNldHRpbmdzLlJlYWRXcml0ZSBNYXBpSHR0cC5BY2Nlc3NBc1VzZXIuQWxsIE1lc3NhZ2VSZWFjdGlvbi1JbnRlcm5hbC5VcGRhdGUgTm90ZXMuUmVhZCBOb3Rlcy5SZWFkV3JpdGUgT2FiLkFjY2Vzc0FzVXNlci5BbGwgT3V0bG9va1NlcnZpY2UuQWNjZXNzQXNVc2VyLkFsbCBPV0EuQWNjZXNzQXNVc2VyLkFsbCBQZW9wbGUuUmVhZCBQZW9wbGUuUmVhZFdyaXRlIFBsYWNlLlJlYWQuQWxsIFByaXZpbGVnZS5FTFQgU2lnbmFscy5SZWFkIFNpZ25hbHMuUmVhZFdyaXRlIFN1YnN0cmF0ZVNlYXJjaC1JbnRlcm5hbC5SZWFkV3JpdGUgVGFncy5SZWFkV3JpdGUgVGFza3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZS5TaGFyZWQgVG9kby1JbnRlcm5hbC5SZWFkV3JpdGUgVXNlci5SZWFkQmFzaWMgVXNlci5SZWFkQmFzaWMuQWxsIHVzZXJfaW1wZXJzb25hdGlvbiBVc2VyLUludGVybmFsLlJlYWRXcml0ZSIsInNpZCI6ImIzZGYwNDFmLTcyNGMtNGQ0Yi05YjE1LTA4Yzk5MDZiMjEzYyIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6Ik5MR3pPVjFqeWsxd1hDdG8xb1dBNVF0M0R1ajBOSURlRG55bEtxajU2czgiLCJ0aWQiOiI5MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAiLCJ1bmlxdWVfbmFtZSI6Im11amFoaWQucml6dmlAY29uZml6LmNvbSIsInVwbiI6Im11amFoaWQucml6dmlAY29uZml6LmNvbSIsInV0aSI6IjlLeW9xOXZVa1UyZmg5amRucnBIQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdfQ.Vow3GlaMXvfkXwVg0K_YumZbMcQZfHkwYd5qHyrYKmo-B4-ov6-0vTwgysmD57BmvM2JJJYMyLi2eFlyXuqrcAuPjaoz4NZM4cRGDxkz7VIzofJEEdceQdL9Njf9qg8FyzWFITXUBJPeB2sFbPXvPqq9KzH25isX4eD0h5QH9Fk16IwPvrxjvYUUxWlShKCcSdwyLzy864qxG3HlkxxzGw-A8fgN_gD0NuefeKnLlKAb04eM5lGyD33zyoD0faNPo3dSeStj5xU_VGog1fNhwnk62MqqfQ7rvIMKlfheSOeZFcl5Z-1O0qBZyyg4pNQY2cq6Ig8JetX2BT1YgoLgIg
+Depth: 0
+Client-Request-Id: {8FD763FE-AB78-4AC1-9EB0-97C399060F65}
+Host: autodiscover-s.outlook.com
+Content-Type: text/xml
+X-AnchorMailbox: mujahid.rizvi@confiz.com
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 357
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#xd;
+&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006&quot;&gt;&#xd;
+  &lt;Response xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&quot;&gt;&#xd;
+    &lt;User&gt;&#xd;
+      &lt;DisplayName&gt;Syed Mujahid Ali Rizvi&lt;/DisplayName&gt;&#xd;
+      &lt;LegacyDN&gt;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&lt;/LegacyDN&gt;&#xd;
+      &lt;AutoDiscoverSMTPAddress&gt;mujahid.rizvi@confiz.com&lt;/AutoDiscoverSMTPAddress&gt;&#xd;
+      &lt;DeploymentId&gt;00000000-0000-0000-0000-000000000000&lt;/DeploymentId&gt;&#xd;
+    &lt;/User&gt;&#xd;
+    &lt;Account&gt;&#xd;
+      &lt;AccountType&gt;email&lt;/AccountType&gt;&#xd;
+      &lt;Action&gt;settings&lt;/Action&gt;&#xd;
+      &lt;MicrosoftOnline&gt;True&lt;/MicrosoftOnline&gt;&#xd;
+      &lt;ConsumerMailbox&gt;False&lt;/ConsumerMailbox&gt;&#xd;
+      &lt;OutlookClientVersion&gt;&#xd;
+        &lt;MinRequiredVersion&gt;16.0.4600.1000&lt;/MinRequiredVersion&gt;&#xd;
+        &lt;ExpiryDate&gt;0001-01-01T00:00:00Z&lt;/ExpiryDate&gt;&#xd;
+      &lt;/OutlookClientVersion&gt;&#xd;
+      &lt;Protocol Type=&quot;mapiHttp&quot; Version=&quot;1&quot;&gt;&#xd;
+        &lt;MailStore&gt;&#xd;
+          &lt;ExternalUrl&gt;https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com&lt;/ExternalUrl&gt;&#xd;
+        &lt;/MailStore&gt;&#xd;
+        &lt;AddressBook&gt;&#xd;
+          &lt;ExternalUrl&gt;https://outlook.office365.com/mapi/nspi/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com&lt;/ExternalUrl&gt;&#xd;
+        &lt;/AddressBook&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+      &lt;Protocol&gt;&#xd;
+        &lt;Type&gt;WEB&lt;/Type&gt;&#xd;
+        &lt;Internal&gt;&#xd;
+          &lt;OWAUrl AuthenticationMethod=&quot;LiveIdFba, OAuth&quot;&gt;https://outlook.office365.com/owa/&lt;/OWAUrl&gt;&#xd;
+          &lt;Protocol&gt;&#xd;
+            &lt;Type&gt;EXCH&lt;/Type&gt;&#xd;
+            &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+          &lt;/Protocol&gt;&#xd;
+        &lt;/Internal&gt;&#xd;
+        &lt;External&gt;&#xd;
+          &lt;OWAUrl AuthenticationMethod=&quot;Fba&quot;&gt;https://outlook.office365.com/owa/confiz.com/&lt;/OWAUrl&gt;&#xd;
+          &lt;Protocol&gt;&#xd;
+            &lt;Type&gt;EXPR&lt;/Type&gt;&#xd;
+            &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+          &lt;/Protocol&gt;&#xd;
+        &lt;/External&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+      &lt;Protocol&gt;&#xd;
+        &lt;Type&gt;EXHTTP&lt;/Type&gt;&#xd;
+        &lt;Server&gt;outlook.office365.com&lt;/Server&gt;&#xd;
+        &lt;SSL&gt;On&lt;/SSL&gt;&#xd;
+        &lt;AuthPackage&gt;Basic&lt;/AuthPackage&gt;&#xd;
+        &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+        &lt;EwsUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/EwsUrl&gt;&#xd;
+        &lt;EmwsUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/EmwsUrl&gt;&#xd;
+        &lt;SharingUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/SharingUrl&gt;&#xd;
+        &lt;EcpUrl&gt;https://outlook.office365.com/owa/&lt;/EcpUrl&gt;&#xd;
+        &lt;EcpUrl-um&gt;?path=/options/callanswering&lt;/EcpUrl-um&gt;&#xd;
+        &lt;EcpUrl-aggr&gt;?path=/options/connectedaccounts&lt;/EcpUrl-aggr&gt;&#xd;
+        &lt;EcpUrl-mt&gt;options/ecp/PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;amp;exsvurl=1&amp;amp;IsOWA=&amp;lt;IsOWA&amp;gt;&amp;amp;MsgID=&amp;lt;MsgID&amp;gt;&amp;amp;Mbx=&amp;lt;Mbx&amp;gt;&amp;amp;realm=confiz.com&lt;/EcpUrl-mt&gt;&#xd;
+        &lt;EcpUrl-ret&gt;?path=/options/retentionpolicies&lt;/EcpUrl-ret&gt;&#xd;
+        &lt;EcpUrl-photo&gt;?path=/options/myaccount/action/photo&lt;/EcpUrl-photo&gt;&#xd;
+        &lt;EcpUrl-connect&gt;?path=/options/socialnetworks&amp;amp;ignore1=&amp;lt;Action&amp;gt;&amp;amp;ignore2=&amp;lt;Provider&amp;gt;&lt;/EcpUrl-connect&gt;&#xd;
+        &lt;EcpUrl-tm&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailbox&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tm&gt;&#xd;
+        &lt;EcpUrl-tmCreating&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailboxCreating&amp;amp;SPUrl=&amp;lt;SPUrl&amp;gt;&amp;amp;Title=&amp;lt;Title&amp;gt;&amp;amp;SPTMAppUrl=&amp;lt;SPTMAppUrl&amp;gt;&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tmCreating&gt;&#xd;
+        &lt;EcpUrl-tmEditing&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailboxEditing&amp;amp;Id=&amp;lt;Id&amp;gt;&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tmEditing&gt;&#xd;
+        &lt;EcpUrl-extinstall&gt;?path=/options/manageapps&lt;/EcpUrl-extinstall&gt;&#xd;
+        &lt;OOFUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/OOFUrl&gt;&#xd;
+        &lt;OABUrl&gt;https://outlook.office365.com/OAB/ffde2242-5ad0-4f04-8698-721c1cf64c6d/&lt;/OABUrl&gt;&#xd;
+        &lt;ServerExclusiveConnect&gt;On&lt;/ServerExclusiveConnect&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+    &lt;/Account&gt;&#xd;
+  &lt;/Response&gt;&#xd;
+&lt;/Autodiscover&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OutlookSession=&quot;{8AB97E89-B795-4781-B49D-8B7364241687}&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006&quot;&gt;&lt;Request&gt;&lt;EMailAddress&gt;mujahid.rizvi@confiz.com&lt;/EMailAddress&gt;&lt;AcceptableResponseSchema&gt;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&lt;/AcceptableResponseSchema&gt;&lt;/Request&gt;&lt;/Autodiscover&gt;</queryString>
+  <java.net.URL>https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="847" it="0" lt="847" ct="267" ts="1694783046674" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-224" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1117" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: 2ab4edd6-d19c-d76c-9df4-68225e303cf7
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {A01A360D-5B13-49DE-85DA-F348A0B77D9E}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX1P273CA0013
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: 1u20KpzRbNed9GgiXjA89w.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjodCRc67LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:03:59 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {A01A360D-5B13-49DE-85DA-F348A0B77D9E}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {5F43382F-2077-465F-8EE6-661F14972367}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 405
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;Ə&apos;�}V&amp;A�m+�$chc&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x16;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="2113" it="0" lt="2113" ct="260" ts="1694783047616" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-225" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4421" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: eab33e4a-6bce-9ed4-4933-d313f685157e
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {A01A360D-5B13-49DE-85DA-F348A0B77D9E}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX1P273CA0016
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: Sj6z6s5r1J5JM9MT9oUVfg.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njr5aWI77LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzMNK4AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-FqXhVQ==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:04:01 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {A01A360D-5B13-49DE-85DA-F348A0B77D9E}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {F14D3D84-46E9-4356-8E90-5714F7DD1B8B}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 405
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;Ə&apos;�}V&amp;A�m+�$chc&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x16;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="1022" it="0" lt="1022" ct="310" ts="1694783079522" s="false" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-231" rc="401" rm="Unauthorized" tn="" dt="" de="" by="1389" sby="1133" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+Request-Id: d4491336-02c7-2695-b85e-acc46fd9d1bf
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 401
+BasicChallengeAdded: True
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-BackendServerStatus: 401
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {F93A5F39-5041-44CD-9BD1-9192E9E88E26}:1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-UserType: Business
+X-FEServer: DX0P273CA0065
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: NhNJ1McClSa4XqzEb9nRvw.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4Njpp2cZN7LXbCA==; path=/mapi/; secure; HttpOnly
+WWW-Authenticate: Bearer client_id=&quot;00000002-0000-0ff1-ce00-000000000000&quot;, trusted_issuers=&quot;00000001-0000-0000-c000-000000000000@*&quot;, token_types=&quot;app_asserted_user_v1 service_asserted_app_v1&quot;, authorization_uri=&quot;https://login.microsoftonline.com/common/oauth2/authorize&quot;
+WWW-Authenticate: Basic Realm=&quot;&quot;
+Date: Fri, 15 Sep 2023 13:04:31 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {F93A5F39-5041-44CD-9BD1-9192E9E88E26}:1
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer
+X-RequestType: Connect
+Client-Request-Id: {23572953-A3F8-468F-8EB9-45504AC28804}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 421
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�VI�5��I���&#x1d;����&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x17;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="962" it="0" lt="961" ct="298" ts="1694783080637" s="true" lb="/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com-232" rc="200" rm="OK" tn="" dt="text" de="" by="2665" sby="4437" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1017
+Content-Type: text/html
+Server: Microsoft-HTTPAPI/2.0
+X-BEServer: VE1PR08MB5037
+X-NanoProxy: 1
+X-AspNet-Version: 4.0.30319
+X-PendingPeriod: 30000
+Request-Id: 447430c2-3749-5481-ab91-99b63492e0ee
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+Restrict-Access-Confirm: 1
+X-BackEndHttpStatus: 200
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+X-DiagInfo: VE1PR08MB5037
+X-ExpirationInfo: 300000
+X-Proxy-BackendServerStatus: 200
+X-FailureDescription: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload]
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+X-FailureLID: 52316
+X-RequestType: Connect
+X-MailboxGuid: 8b668af0-a2a7-4961-b936-b06e6a388c8a
+X-Proxy-RoutingCorrectness: 1
+X-RequestId: {F93A5F39-5041-44CD-9BD1-9192E9E88E26}:2
+X-ResponseCode: 12
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-RUM-Validated: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-ServerApplication: Exchange/15.20.6768.024
+X-TunnelExpirationTime: 1800000
+X-UserType: Business
+X-FEServer: DX0P273CA0075
+X-FirstHopCafeEFZ: DXB
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+MS-CV: wjB0REk3gVSrkZm2NJLg7g.1
+Set-Cookie: MapiRouting=UlVNOjY4YTQxZGIzLTY2ZjktNGY3My1iYTE4LTk0Y2Q3NTcyYjU4NjotbV9O7LXbCA==; path=/mapi/; secure; HttpOnly
+Set-Cookie: MapiContext=MAPIAAAAAPO2h9eFtY3AgreHtIOgkqKQo46+h6qbqoq7jbeDtoy8hd/8xfzM+sj8yPzMQK4AAAAAAAA=; path=/mapi/emsmdb; secure; HttpOnly
+Set-Cookie: MapiSequence=0-xIUfNw==; path=/mapi/emsmdb; secure; HttpOnly
+Date: Fri, 15 Sep 2023 13:04:32 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-RequestId: {F93A5F39-5041-44CD-9BD1-9192E9E88E26}:2
+Pragma: no-cache
+Accept: application/mapi-http
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImZaUHFiM0oxWU03YmE2TFNRQlRxVHpfLTB0Z1A3RU9BNTBTQkNwR1VoWUUiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC85MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAvIiwiaWF0IjoxNjk0Nzc4ODY0LCJuYmYiOjE2OTQ3Nzg4NjQsImV4cCI6MTY5NDc4NDA4MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhVQUFBQWtIZzVhUGd6UXRiUGo1ZUhPckpRdER2cjEwVkNUYkxUaWhmSGhaWXFsT2xaRVh1ZHRTOTZyRUh6cGhUUG1hL2VabUk0ZWpnRG5tUUd1S2R1ZnhCOEcyRzduM0t2SlpnMkxlS1JyZFhtOElvPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE9mZmljZSIsImFwcGlkIjoiZDM1OTBlZDYtNTJiMy00MTAyLWFlZmYtYWFkMjI5MmFiMDFjIiwiYXBwaWRhY3IiOiIwIiwiZGV2aWNlaWQiOiI5ZDEyOTU4ZS0wODQ4LTQwODItOTNjYi05ZjY1YTcwYzE0MWMiLCJlX2V4cCI6MjY0MTE4LCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6IkFsaSBSaXp2aSIsImdpdmVuX25hbWUiOiJTeWVkIE11amFoaWQiLCJpcGFkZHIiOiIxMTYuNzEuMTY5LjUxIiwibG9naW5faGludCI6Ik8uQ2lRM09EYzVORE13TVMxbFpUQmpMVFE1TUdNdFlUZzVaUzFqWVdJM1pqZGtNRGs1TXpJU0pEa3dPR001WVdFeExUWXhOelV0TkdZMVpTMWlZVE15TFRKak1EUm1NVEEyTW1GbU1Cb1liWFZxWVdocFpDNXlhWHAyYVVCamIyNW1hWG91WTI5dElCOD0iLCJuYW1lIjoiU3llZCBNdWphaGlkIEFsaSBSaXp2aSIsIm9pZCI6Ijc4Nzk0MzAxLWVlMGMtNDkwYy1hODllLWNhYjdmN2QwOTkzMiIsInB1aWQiOiIxMDAzMjAwMkQ5MERCMTgzIiwicmgiOiIwLkFYTUFvWnFNa0hWaFhrLTZNaXdFOFFZcThBSUFBQUFBQVBFUHpnQUFBQUFBQUFCekFLYy4iLCJzY3AiOiJCcmFuZm9yZC1JbnRlcm5hbC5SZWFkV3JpdGUgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkV3JpdGUgQ29udGFjdHMuUmVhZFdyaXRlLlNoYXJlZCBFQVMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQb2xpY3lTeW5jLkFjY2Vzc0FzVXNlci5BbGwgRW9wUHNvcldzLkFjY2Vzc0FzVXNlci5BbGwgRVdTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTWFpbC5SZWFkV3JpdGUuU2hhcmVkIE1haWwuU2VuZCBNYWlsLlNlbmQuU2hhcmVkIE1haWxib3hTZXR0aW5ncy5SZWFkV3JpdGUgTWFwaUh0dHAuQWNjZXNzQXNVc2VyLkFsbCBNZXNzYWdlUmVhY3Rpb24tSW50ZXJuYWwuVXBkYXRlIE5vdGVzLlJlYWQgTm90ZXMuUmVhZFdyaXRlIE9hYi5BY2Nlc3NBc1VzZXIuQWxsIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT1dBLkFjY2Vzc0FzVXNlci5BbGwgUGVvcGxlLlJlYWQgUGVvcGxlLlJlYWRXcml0ZSBQbGFjZS5SZWFkLkFsbCBQcml2aWxlZ2UuRUxUIFNpZ25hbHMuUmVhZCBTaWduYWxzLlJlYWRXcml0ZSBTdWJzdHJhdGVTZWFyY2gtSW50ZXJuYWwuUmVhZFdyaXRlIFRhZ3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUuU2hhcmVkIFRvZG8tSW50ZXJuYWwuUmVhZFdyaXRlIFVzZXIuUmVhZEJhc2ljIFVzZXIuUmVhZEJhc2ljLkFsbCB1c2VyX2ltcGVyc29uYXRpb24gVXNlci1JbnRlcm5hbC5SZWFkV3JpdGUiLCJzaWQiOiJiM2RmMDQxZi03MjRjLTRkNGItOWIxNS0wOGM5OTA2YjIxM2MiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJOTEd6T1YxanlrMXdYQ3RvMW9XQTVRdDNEdWowTklEZURueWxLcWo1NnM4IiwidGlkIjoiOTA4YzlhYTEtNjE3NS00ZjVlLWJhMzItMmMwNGYxMDYyYWYwIiwidW5pcXVlX25hbWUiOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1cG4iOiJtdWphaGlkLnJpenZpQGNvbmZpei5jb20iLCJ1dGkiOiJNLUd2ajFLV3VVNktlUm9WTl9vYUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.jGPXzopeLYsIy0Jwm5EqGgOnalF0H2MkHjoXa3x1TtULIHvzgUd2EYOx0SsdcmUM1aQsPWp3NBK3618YR0_BlG210cby99N5UJuUfb8ryvj-B6KjV03vzaRAFzm8_4U--wYWDQSTzCm1mC-PtiLeRPa0uMSKfHSjZYcQnUJ-jnlWCyH50lsF3z9f8e_TIzrZ-3l7SSfXduTrdBL3MekWP_pufoRqWigZj53CmtWYQLePKC8ye7Y6s7fNzkGIK9KcfvkFiNaQC3CNsxuaDesp50r3t-ab4SEC5RtJmts-0fbdZKv9bOMbbsv2Zl7bH2sq33SpOwmsIYANo_Pan_6j5A
+X-RequestType: Connect
+Client-Request-Id: {CC6D982F-8705-430A-94FE-9973FE87A207}
+X-ClientInfo: {FFE675E6-2FF8-4F3A-8F36-E0DC6C16E506}:24
+Host: outlook.office365.com
+Content-Type: application/mapi-http
+X-ClientApplication: Outlook/16.0.5197.1000
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 421
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft.Exchange.MapiHttp.InvalidPayloadException: Connect request body is not formatted correctly. [ResponseCode=InvalidPayload] [LID=52316]  ---&amp;gt; Microsoft.Exchange.RpcClientAccess.BufferParseException: ErrorCode: RpcFormat, LID: 55730 - End of buffer reached prematurely.&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.CheckCanReadFail()&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Reader.ReadArraySegment(UInt32 count)&amp;#13;&amp;#10;   at Microsoft.Exchange.RpcClientAccess.Parser.EmsmdbConnectRequest..ctor(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.EmsmdbConnectAsyncOperation.InternalParseRequest(Reader reader)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.AsyncOperation.ParseRequest(WorkBuffer requestBuffer)&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()&amp;#13;&amp;#10;   --- End of inner exception stack trace ---&amp;#13;&amp;#10;   at Microsoft.Exchange.MapiHttp.MapiHttpRequestState.&amp;lt;ExecuteRequestAsync&amp;gt;d__41.MoveNext()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&#x0;&#x0;&#x0;&#x0;&#x0;�&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;	&#x4;&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x4;&#x0;�&#x0;�&#x0;*&#x0;&#x1;&#x2;&#x8;&#x1a;&#x1;&#x0;&#x1;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0; &#x0;&#x0;&#x0;&#x0;&#x0;&#x2;&#x0;&#x0;&#x0;W&#x0;i&#x0;F&#x0;i&#x0;&#x0;&#x0;&#x18;&#x0;&#x1;&#x18;&#x1;&#x0;&#x0;&#x0;�u���/:O�6��l&#x16;�&#x6;&#x1c;&#x0;&#x2;&#x4;&#x1;&#x0;&#x0;&#x0;�VI�5��I���&#x1d;����&#x18;&#x0;&#x0;&#x0;4&#x0;&#x2;&#xb;&#x1;&#x0;&#x0;&#x0;�+&#x1f;&#x4;.aCL������HN&#x1c;&#x0;&#x0;&#x0;O&#x0;U&#x0;T&#x0;L&#x0;O&#x0;O&#x0;K&#x0;.&#x0;E&#x0;X&#x0;E&#x0;&#x0;&#x0; &#x0;&#x1;Jx\�q&#x1d;��E����&#x1f;��&gt;&#x0;&#x0;&#x0;&#x0;&#x17;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x8;&#x0;&#x1;R&#x1;&#x0;&#x0;&#x0;</queryString>
+  <java.net.URL>https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com</java.net.URL>
+</httpSample>
+<httpSample t="656" it="0" lt="655" ct="363" ts="1694783081697" s="true" lb="/autodiscover/autodiscover.xml-233" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="4943" sby="4262" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 4039
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/10.0
+request-id: d950ac9e-1f80-ca13-a9d3-80fcef494ed8
+Alt-Svc: h3=&quot;:443&quot;,h3-29=&quot;:443&quot;
+X-CalculatedFETarget: VE1PR03CU001.internal.outlook.com
+X-BackEndHttpStatus: 200
+X-CalculatedBETarget: VE1PR08MB5037.eurprd08.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 200
+X-RUM-Validated: 1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c
+Restrict-Access-Confirm: 1
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: VE1PR08MB5037
+X-BEServer: VE1PR08MB5037
+X-Proxy-RoutingCorrectness: 1
+X-Proxy-BackendServerStatus: 200
+X-FEProxyInfo: DXXP273CA0023.AREP273.PROD.OUTLOOK.COM
+X-FEEFZInfo: DXB
+X-FEServer: VE1PR03CA0003
+X-FirstHopCafeEFZ: DXB
+X-FEServer: DXXP273CA0023
+Date: Fri, 15 Sep 2023 13:04:34 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+X-MS-CookieUri-Requested: t
+X-MapiHttpCapability: 1
+Pragma: no-cache
+X-User-Identity: mujahid.rizvi@confiz.com
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6ImFlWHRoSk4wUThBMlNOc2NNMk5YOHhOUkZaM0ExUW9fSl9qUk04S3dyQTQiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2F1dG9kaXNjb3Zlci1zLm91dGxvb2suY29tLyIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzkwOGM5YWExLTYxNzUtNGY1ZS1iYTMyLTJjMDRmMTA2MmFmMC8iLCJpYXQiOjE2OTQ3NzgxNzcsIm5iZiI6MTY5NDc3ODE3NywiZXhwIjoxNjk0NzgzNjk3LCJhY2N0IjowLCJhY3IiOiIxIiwiYWlvIjoiQVZRQXEvOFVBQUFBcWlYa09NcklDOEtucElNMzFIWTJmeFo2QTZiZkVuV0FvOFY5alZLejc4TzZONHN2V0dTL2JIdzhRQWVRR0tSUVpXaVRpVkp3Q2kwd3pIN2FOWUdpZmN5U0U2bnpreU4rMjN6Zk9qSUh4L1k9IiwiYW1yIjpbInB3ZCIsInJzYSIsIm1mYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJNaWNyb3NvZnQgT2ZmaWNlIiwiYXBwaWQiOiJkMzU5MGVkNi01MmIzLTQxMDItYWVmZi1hYWQyMjkyYWIwMWMiLCJhcHBpZGFjciI6IjAiLCJkZXZpY2VpZCI6IjlkMTI5NThlLTA4NDgtNDA4Mi05M2NiLTlmNjVhNzBjMTQxYyIsImVfZXhwIjoyNjQ0MTksImVuZnBvbGlkcyI6W10sImZhbWlseV9uYW1lIjoiQWxpIFJpenZpIiwiZ2l2ZW5fbmFtZSI6IlN5ZWQgTXVqYWhpZCIsImlwYWRkciI6IjExNi43MS4xNjkuNTEiLCJsb2dpbl9oaW50IjoiTy5DaVEzT0RjNU5ETXdNUzFsWlRCakxUUTVNR010WVRnNVpTMWpZV0kzWmpka01EazVNeklTSkRrd09HTTVZV0V4TFRZeE56VXROR1kxWlMxaVlUTXlMVEpqTURSbU1UQTJNbUZtTUJvWWJYVnFZV2hwWkM1eWFYcDJhVUJqYjI1bWFYb3VZMjl0SUI4PSIsIm5hbWUiOiJTeWVkIE11amFoaWQgQWxpIFJpenZpIiwib2lkIjoiNzg3OTQzMDEtZWUwYy00OTBjLWE4OWUtY2FiN2Y3ZDA5OTMyIiwicHVpZCI6IjEwMDMyMDAyRDkwREIxODMiLCJyaCI6IjAuQVhNQW9acU1rSFZoWGstNk1pd0U4UVlxOEFJQUFBQUFBUEVQemdBQUFBQUFBQUJ6QUtjLiIsInNjcCI6IkJyYW5mb3JkLUludGVybmFsLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlIENhbGVuZGFycy5SZWFkV3JpdGUuU2hhcmVkIENvbnRhY3RzLlJlYWRXcml0ZSBDb250YWN0cy5SZWFkV3JpdGUuU2hhcmVkIEVBUy5BY2Nlc3NBc1VzZXIuQWxsIEVvcFBvbGljeVN5bmMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQc29yV3MuQWNjZXNzQXNVc2VyLkFsbCBFV1MuQWNjZXNzQXNVc2VyLkFsbCBGaWxlcy5SZWFkV3JpdGUuQWxsIEZpbGVzLlJlYWRXcml0ZS5TaGFyZWQgR3JvdXAuUmVhZFdyaXRlLkFsbCBNYWlsLlJlYWRXcml0ZSBNYWlsLlJlYWRXcml0ZS5TaGFyZWQgTWFpbC5TZW5kIE1haWwuU2VuZC5TaGFyZWQgTWFpbGJveFNldHRpbmdzLlJlYWRXcml0ZSBNYXBpSHR0cC5BY2Nlc3NBc1VzZXIuQWxsIE1lc3NhZ2VSZWFjdGlvbi1JbnRlcm5hbC5VcGRhdGUgTm90ZXMuUmVhZCBOb3Rlcy5SZWFkV3JpdGUgT2FiLkFjY2Vzc0FzVXNlci5BbGwgT3V0bG9va1NlcnZpY2UuQWNjZXNzQXNVc2VyLkFsbCBPV0EuQWNjZXNzQXNVc2VyLkFsbCBQZW9wbGUuUmVhZCBQZW9wbGUuUmVhZFdyaXRlIFBsYWNlLlJlYWQuQWxsIFByaXZpbGVnZS5FTFQgU2lnbmFscy5SZWFkIFNpZ25hbHMuUmVhZFdyaXRlIFN1YnN0cmF0ZVNlYXJjaC1JbnRlcm5hbC5SZWFkV3JpdGUgVGFncy5SZWFkV3JpdGUgVGFza3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZS5TaGFyZWQgVG9kby1JbnRlcm5hbC5SZWFkV3JpdGUgVXNlci5SZWFkQmFzaWMgVXNlci5SZWFkQmFzaWMuQWxsIHVzZXJfaW1wZXJzb25hdGlvbiBVc2VyLUludGVybmFsLlJlYWRXcml0ZSIsInNpZCI6ImIzZGYwNDFmLTcyNGMtNGQ0Yi05YjE1LTA4Yzk5MDZiMjEzYyIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6Ik5MR3pPVjFqeWsxd1hDdG8xb1dBNVF0M0R1ajBOSURlRG55bEtxajU2czgiLCJ0aWQiOiI5MDhjOWFhMS02MTc1LTRmNWUtYmEzMi0yYzA0ZjEwNjJhZjAiLCJ1bmlxdWVfbmFtZSI6Im11amFoaWQucml6dmlAY29uZml6LmNvbSIsInVwbiI6Im11amFoaWQucml6dmlAY29uZml6LmNvbSIsInV0aSI6IjlLeW9xOXZVa1UyZmg5amRucnBIQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdfQ.Vow3GlaMXvfkXwVg0K_YumZbMcQZfHkwYd5qHyrYKmo-B4-ov6-0vTwgysmD57BmvM2JJJYMyLi2eFlyXuqrcAuPjaoz4NZM4cRGDxkz7VIzofJEEdceQdL9Njf9qg8FyzWFITXUBJPeB2sFbPXvPqq9KzH25isX4eD0h5QH9Fk16IwPvrxjvYUUxWlShKCcSdwyLzy864qxG3HlkxxzGw-A8fgN_gD0NuefeKnLlKAb04eM5lGyD33zyoD0faNPo3dSeStj5xU_VGog1fNhwnk62MqqfQ7rvIMKlfheSOeZFcl5Z-1O0qBZyyg4pNQY2cq6Ig8JetX2BT1YgoLgIg
+Depth: 0
+Client-Request-Id: {63B61BB2-928D-4B90-AC6C-A0799782D15F}
+Host: autodiscover-s.outlook.com
+Content-Type: text/xml
+X-AnchorMailbox: mujahid.rizvi@confiz.com
+Cache-Control: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.4266; Pro)
+X-FeatureVersion: 1
+Content-Length: 357
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#xd;
+&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006&quot;&gt;&#xd;
+  &lt;Response xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&quot;&gt;&#xd;
+    &lt;User&gt;&#xd;
+      &lt;DisplayName&gt;Syed Mujahid Ali Rizvi&lt;/DisplayName&gt;&#xd;
+      &lt;LegacyDN&gt;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9390fb9662c4563a99d14a50286fb38-78794301-ee&lt;/LegacyDN&gt;&#xd;
+      &lt;AutoDiscoverSMTPAddress&gt;mujahid.rizvi@confiz.com&lt;/AutoDiscoverSMTPAddress&gt;&#xd;
+      &lt;DeploymentId&gt;00000000-0000-0000-0000-000000000000&lt;/DeploymentId&gt;&#xd;
+    &lt;/User&gt;&#xd;
+    &lt;Account&gt;&#xd;
+      &lt;AccountType&gt;email&lt;/AccountType&gt;&#xd;
+      &lt;Action&gt;settings&lt;/Action&gt;&#xd;
+      &lt;MicrosoftOnline&gt;True&lt;/MicrosoftOnline&gt;&#xd;
+      &lt;ConsumerMailbox&gt;False&lt;/ConsumerMailbox&gt;&#xd;
+      &lt;OutlookClientVersion&gt;&#xd;
+        &lt;MinRequiredVersion&gt;16.0.4600.1000&lt;/MinRequiredVersion&gt;&#xd;
+        &lt;ExpiryDate&gt;0001-01-01T00:00:00Z&lt;/ExpiryDate&gt;&#xd;
+      &lt;/OutlookClientVersion&gt;&#xd;
+      &lt;Protocol Type=&quot;mapiHttp&quot; Version=&quot;1&quot;&gt;&#xd;
+        &lt;MailStore&gt;&#xd;
+          &lt;ExternalUrl&gt;https://outlook.office365.com/mapi/emsmdb/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com&lt;/ExternalUrl&gt;&#xd;
+        &lt;/MailStore&gt;&#xd;
+        &lt;AddressBook&gt;&#xd;
+          &lt;ExternalUrl&gt;https://outlook.office365.com/mapi/nspi/?MailboxId=8b668af0-a2a7-4961-b936-b06e6a388c8a@confiz.com&lt;/ExternalUrl&gt;&#xd;
+        &lt;/AddressBook&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+      &lt;Protocol&gt;&#xd;
+        &lt;Type&gt;WEB&lt;/Type&gt;&#xd;
+        &lt;Internal&gt;&#xd;
+          &lt;OWAUrl AuthenticationMethod=&quot;LiveIdFba, OAuth&quot;&gt;https://outlook.office365.com/owa/&lt;/OWAUrl&gt;&#xd;
+          &lt;Protocol&gt;&#xd;
+            &lt;Type&gt;EXCH&lt;/Type&gt;&#xd;
+            &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+          &lt;/Protocol&gt;&#xd;
+        &lt;/Internal&gt;&#xd;
+        &lt;External&gt;&#xd;
+          &lt;OWAUrl AuthenticationMethod=&quot;Fba&quot;&gt;https://outlook.office365.com/owa/confiz.com/&lt;/OWAUrl&gt;&#xd;
+          &lt;Protocol&gt;&#xd;
+            &lt;Type&gt;EXPR&lt;/Type&gt;&#xd;
+            &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+          &lt;/Protocol&gt;&#xd;
+        &lt;/External&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+      &lt;Protocol&gt;&#xd;
+        &lt;Type&gt;EXHTTP&lt;/Type&gt;&#xd;
+        &lt;Server&gt;outlook.office365.com&lt;/Server&gt;&#xd;
+        &lt;SSL&gt;On&lt;/SSL&gt;&#xd;
+        &lt;AuthPackage&gt;Basic&lt;/AuthPackage&gt;&#xd;
+        &lt;ASUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/ASUrl&gt;&#xd;
+        &lt;EwsUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/EwsUrl&gt;&#xd;
+        &lt;EmwsUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/EmwsUrl&gt;&#xd;
+        &lt;SharingUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/SharingUrl&gt;&#xd;
+        &lt;EcpUrl&gt;https://outlook.office365.com/owa/&lt;/EcpUrl&gt;&#xd;
+        &lt;EcpUrl-um&gt;?path=/options/callanswering&lt;/EcpUrl-um&gt;&#xd;
+        &lt;EcpUrl-aggr&gt;?path=/options/connectedaccounts&lt;/EcpUrl-aggr&gt;&#xd;
+        &lt;EcpUrl-mt&gt;options/ecp/PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;amp;exsvurl=1&amp;amp;IsOWA=&amp;lt;IsOWA&amp;gt;&amp;amp;MsgID=&amp;lt;MsgID&amp;gt;&amp;amp;Mbx=&amp;lt;Mbx&amp;gt;&amp;amp;realm=confiz.com&lt;/EcpUrl-mt&gt;&#xd;
+        &lt;EcpUrl-ret&gt;?path=/options/retentionpolicies&lt;/EcpUrl-ret&gt;&#xd;
+        &lt;EcpUrl-photo&gt;?path=/options/myaccount/action/photo&lt;/EcpUrl-photo&gt;&#xd;
+        &lt;EcpUrl-connect&gt;?path=/options/socialnetworks&amp;amp;ignore1=&amp;lt;Action&amp;gt;&amp;amp;ignore2=&amp;lt;Provider&amp;gt;&lt;/EcpUrl-connect&gt;&#xd;
+        &lt;EcpUrl-tm&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailbox&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tm&gt;&#xd;
+        &lt;EcpUrl-tmCreating&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailboxCreating&amp;amp;SPUrl=&amp;lt;SPUrl&amp;gt;&amp;amp;Title=&amp;lt;Title&amp;gt;&amp;amp;SPTMAppUrl=&amp;lt;SPTMAppUrl&amp;gt;&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tmCreating&gt;&#xd;
+        &lt;EcpUrl-tmEditing&gt;options/ecp/?rfr=olk&amp;amp;ftr=TeamMailboxEditing&amp;amp;Id=&amp;lt;Id&amp;gt;&amp;amp;exsvurl=1&amp;amp;realm=confiz.com&lt;/EcpUrl-tmEditing&gt;&#xd;
+        &lt;EcpUrl-extinstall&gt;?path=/options/manageapps&lt;/EcpUrl-extinstall&gt;&#xd;
+        &lt;OOFUrl&gt;https://outlook.office365.com/EWS/Exchange.asmx&lt;/OOFUrl&gt;&#xd;
+        &lt;OABUrl&gt;https://outlook.office365.com/OAB/ffde2242-5ad0-4f04-8698-721c1cf64c6d/&lt;/OABUrl&gt;&#xd;
+        &lt;ServerExclusiveConnect&gt;On&lt;/ServerExclusiveConnect&gt;&#xd;
+      &lt;/Protocol&gt;&#xd;
+    &lt;/Account&gt;&#xd;
+  &lt;/Response&gt;&#xd;
+&lt;/Autodiscover&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">OutlookSession=&quot;{8AB97E89-B795-4781-B49D-8B7364241687}&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Autodiscover xmlns=&quot;http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006&quot;&gt;&lt;Request&gt;&lt;EMailAddress&gt;mujahid.rizvi@confiz.com&lt;/EMailAddress&gt;&lt;AcceptableResponseSchema&gt;http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a&lt;/AcceptableResponseSchema&gt;&lt;/Request&gt;&lt;/Autodiscover&gt;</queryString>
+  <java.net.URL>https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<httpSample t="21273" it="0" lt="0" ct="21273" ts="1694783096560" s="false" lb="/-234" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to acm-fo-uat01.sandbox.operations.dynamics.com:443 [acm-fo-uat01.sandbox.operations.dynamics.com/40.69.129.220] failed: Connection timed out: connect" tn="" dt="text" de="" by="2709" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.conn.HttpHostConnectException: Connect to acm-fo-uat01.sandbox.operations.dynamics.com:443 [acm-fo-uat01.sandbox.operations.dynamics.com/40.69.129.220] failed: Connection timed out: connect&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)&#xd;
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+Caused by: java.net.ConnectException: Connection timed out: connect&#xd;
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)&#xd;
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)&#xd;
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)&#xd;
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)&#xd;
+	at java.base/java.net.Socket.connect(Socket.java:608)&#xd;
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LazyLayeredConnectionSocketFactory.connectSocket(LazyLayeredConnectionSocketFactory.java:87)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#xd;
+	... 15 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1522" it="0" lt="0" ct="1162" ts="1694783133900" s="false" lb="/-235" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+
+</testResults>

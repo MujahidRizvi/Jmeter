@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="918" it="0" lt="917" ct="454" ts="1694782658092" s="true" lb="/ba83715b-5f25-47fa-ba0a-37f196149d99/oauth2/logoutsession-111" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="16159" sby="6738" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Link: &lt;https://aadcdn.msauth.net&gt;; rel=preconnect; crossorigin
+Link: &lt;https://aadcdn.msauth.net&gt;; rel=dns-prefetch
+Link: &lt;https://aadcdn.msftauth.net&gt;; rel=dns-prefetch
+X-DNS-Prefetch-Control: on
+P3P: CP=&quot;DSP CUR OTPi IND OTRi ONL FIN&quot;
+x-ms-request-id: cab9d7bb-7918-40bb-bece-8dadcdbb2700
+x-ms-ests-server: 2.1.16314.5 - EUS ProdSlices
+report-to: {&quot;group&quot;:&quot;network-errors&quot;,&quot;max_age&quot;:86400,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+pnq&quot;}]}
+nel: {&quot;report_to&quot;:&quot;network-errors&quot;,&quot;max_age&quot;:86400,&quot;success_fraction&quot;:0.001,&quot;failure_fraction&quot;:1.0}
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 0
+Set-Cookie: SignInStateCookie=CAgABAAIAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P8W51HEbBmbl44GJMCh_6kGdDl9k4VQnZDQBrr3-sUlbNPhOrvUFRimzktKrAsK5lwSDx9N94iuCg; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ESTSSSOTILES=1; expires=Thu, 15-Sep-2033 12:57:30 GMT; path=/; secure; SameSite=None
+Set-Cookie: AADSSOTILES=1; expires=Thu, 15-Sep-2033 12:57:30 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ESTSAUTHPERSISTENT=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P_sGvKwRtrVjjHwFyIFW3hg-TB8ILG8zO5yAs0zDVpk-OqU3wBdLjGmcuz3IZBp-QdiNMnoqogQzsSldX_cvOKO3J5-T4dazadtV4-WR0zVGtSBEfaVQeOmrcR76P96KkrDDl9TvqCeapxcnW7K3y_DVEfH02ww81og0NIVClwFvlIpVHINe9kwbPsAC3bR-YtwC0D7Lup50APNh1C5V5oDQI1bGx4qqRBNEQ7ksdZgfIol5hqmnfrcypchndi2XG6IhHhYkVYF4wx5nJO046LIvQZ6Kch4n3bIFFAHNdjBXtczMco5m_gDba0o1_RfvgxWkug1uct_Tj1KWZjvwuEc_7eJKsh_l8wkLBQmm19EKcG01tOvY0LWqri7opKRpmJq8Aal8_KUjK3Syr-AD6m0eFzWbDOBXEBK1v7YymWt0ZPk4QD9ZRpH40zqlUT1U23SHbXbaau0OVmOu4rOK1k_IVJTsNk2-rDle1sUQTRqqFNtpEqWraIF_sq8rTSrfCZRS652DnntEw37J4Ei7TS6HwosA4JI4DxsHe3pzkBrjpBKMJNKpsxuMKykuBMO4H5UreQx2M25tOyjjdqMPrDaa8lzPTiOWN7n20QTqluCNVR6DY1U3lFByNrc7EZSIOJ_TXHECmT6Qi5Sq1mFyJp2sTJskvMyYV3yQzbi_Rq31o2Zv7ilmPfU1nwy_eLIuCDgYu-3DXg1Xy8tBPf_QMREaDMyrV506KDH5bxffwEzZ8CIhIpwL8g2WmI1GzCCb8bdhAbnSSDMw76Az8emh9mticeeDL3PLa_LHTj5Z_2qGJShBetcJXjB0aDjk_WDdR4Ehjuz97BuxnwCPNXp8ZCK5KaBTWrK748YX6eL1RM6yntVPalQs1jJV-xd8iKgN782lOE9mM35ZdC7XM3nzaLXeEAFjzp-Oz701kxjDhrmr-_Ts2oG_oJK3lo_HoIxZx0OEPGvxnKlUWtoUl8odx6aR65aUzFYIyv8t_aOow5VtbfOH6LE-EwJ7lTKtXuDbGiQ0iCY4MGaBI39WEv2O8clVCcbZWeWZbTZka6kArzB5DafW6vUWI_gidJwWJCQhiyNAb0kPUFsi60N1ztKLaQTHRikSJ6vXwbAe7OiHODC12mWO0LzJJ03MGvySLD-YHOga8r1kdFSXw6akMdqMaYpSO_SygWnGuoy-g-rJ2pRdpez2vA39KoqqrGjc-z_Mqq2oVYEFEN2Q9c8jI1WbNxDzAB4bMrPol98bowCYec9e7zKhSoVGZoGYAVqnJ3BeGvblMBtVCnPFYYjS-rEgjIRyvQ3QGyKcijaUV2t-kBuASvzKS_kazn69y3MoFezGxQ_gwAF9UO7RvalQBHiJU1xs3uBAhwoI54tI93TgVXc_BOTQgkp_0o56U040Ere4sVKkoZWXEQ9t1Vo57gHVDoau1P2hBFlfLeeW3j7SxkgP9jcakJgeaxT05z4oJe0WmVmVcNsGhBEHhlZfK3_8z0TR_Rgn5_GuxSbWLLxOSO_YIOoJPI-u67aHM1yDenl3eXuTUUgG3kH2hTXZy69fZ639eVUJnVO7lB4kNoNixyx6TGXXDsq34yZRUX6yaRm1y2XNfyee10-UiDz2gYwhoPOl8789tgNEpRwfkCxoQBdaWuTfkLff4ANjJmum8X-nz78LIu0q5QCcGXXQc3uRXJXzvy6yvWcpTdX7dHGL2GeW_ogjRRr7GYbvVTTJAvMw0MFufATTN4z_1zHN6b4XdiaJJH-nd__pbrL93S1yW_XP4hrg4gGUbMsv4R60Ofa6WoDS0nRnWEd_RuZcgBauPxH3sqQKPTQdnebdesaCLlw6fBIUJap2iQNVQ; domain=.login.microsoftonline.com; expires=Thu, 14-Dec-2023 12:57:30 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ESTSAUTH=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P8gopXi2z0toaLBGQQ0boep9rLlnIPkxUK10S7kf36tX3Re-TC46CNWsNKCZ-ncDr-1N6dCJuqK9A; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ESTSAUTHLIGHT=+ad29fde2-e4b2-47a6-a283-1f3b2f85f242+3d3d690d-5a0e-43e1-bf26-b5271fe2ed06; path=/; secure; SameSite=None
+Set-Cookie: buid=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AQABAAEAAAAtyolDObpQQ5VtlI4uGjEPCrdu08bazh8SAjKdxuXv-mEz4hy1jjm_UKZmrrrwIVd2ErA51zTRJEhuIaCyoxJKXKwjprKunIa0-Ys72nmO5VYIP-rbKhQrwYSSJzJkX8S_JrXSLWZozP7fRM5dcGBPW7smWMfZbNLy8UjlONz-ehppB7KUxvRDNfi8edO0HmcgAA; expires=Sun, 15-Oct-2023 12:57:30 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ESTSLOGOUTREDIRECT=MDtodHRwczovL2FjbS1mby1zdGcwMS5zYW5kYm94Lm9wZXJhdGlvbnMuZHluYW1pY3MuY29tLz9jbXA9REFUJm1pPURlZmF1bHREYXNoYm9hcmQ7RmFsc2U=; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: fpc=Aqa9vNWaOg9Mn5KEco9gkFevG5vRBAAAAHtKltwOAAAAxXFFtQEAAACKSZbcDgAAAJp6f3sBAAAAKEuW3A4AAAA; expires=Sun, 15-Oct-2023 12:57:30 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+Date: Fri, 15 Sep 2023 12:57:30 GMT
+Connection: close
+Content-Length: 11399
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://login.microsoftonline.com/ba83715b-5f25-47fa-ba0a-37f196149d99/oauth2/logout?post_logout_redirect_uri=https%3a%2f%2facm-fo-stg01.sandbox.operations.dynamics.com%2f%3fcmp%3dDAT%26mi%3dDefaultDashboard
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://login.microsoftonline.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: login.microsoftonline.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Content-Length: 397
+</requestHeader>
+  <responseData class="java.lang.String">&#xd;
+&#xd;
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&#xd;
+&lt;html dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&#xd;
+&lt;head&gt;&#xd;
+        &#xd;
+            &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#xd;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#xd;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes&quot;&gt;&#xd;
+            &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&#xd;
+            &lt;meta http-equiv=&quot;Expires&quot; content=&quot;-1&quot;&gt;&#xd;
+            &lt;link rel=&quot;preconnect&quot; href=&quot;https://aadcdn.msauth.net&quot; crossorigin&gt;&#xd;
+&lt;meta http-equiv=&quot;x-dns-prefetch-control&quot; content=&quot;on&quot;&gt;&#xd;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;//aadcdn.msauth.net&quot;&gt;&#xd;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;//aadcdn.msftauth.net&quot;&gt;&#xd;
+&#xd;
+            &lt;meta name=&quot;PageID&quot; content=&quot;signout&quot; /&gt;&#xd;
+            &lt;meta name=&quot;SiteID&quot; content=&quot;&quot; /&gt;&#xd;
+            &lt;meta name=&quot;ReqLC&quot; content=&quot;1033&quot; /&gt;&#xd;
+            &lt;meta name=&quot;LocLC&quot; content=&quot;en-US&quot; /&gt;&#xd;
+&#xd;
+            &#xd;
+                &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico&quot; /&gt;&#xd;
+            &#xd;
+&lt;meta name=&quot;robots&quot; content=&quot;none&quot; /&gt;&#xd;
+&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+$Config={&quot;cobranding&quot;:{&quot;base&quot;:&quot;app&quot;,&quot;label&quot;:&quot;Work or school, or personal Microsoft account&quot;,&quot;labelTenant&quot;:&quot;Work or school, or personal Microsoft account&quot;,&quot;active&quot;:&quot;app&quot;,&quot;initial&quot;:&quot;car-mart.com&quot;,&quot;app&quot;:{&quot;Illustration&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/default_signin_illustration_5o-z8bq4fpd7ix8knl-t9q2.png&quot;,&quot;BannerLogo&quot;:&quot;&quot;,&quot;LogoText&quot;:&quot;Hang on a moment while we sign you out.&quot;,&quot;BackroundColor&quot;:&quot;#0072c6&quot;,&quot;BoilerPlateText&quot;:&quot;&quot;},&quot;tenant&quot;:{&quot;car-mart.com&quot;:[{&quot;Locale&quot;:0,&quot;BannerLogo&quot;:&quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/bannerlogo?ts=637430406039370973&quot;,&quot;TileLogo&quot;:&quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/tilelogo?ts=637430406049915136&quot;,&quot;TileDarkLogo&quot;:&quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/squarelogodark?ts=637430433724740585&quot;,&quot;Illustration&quot;:&quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/illustration?ts=637430406025977707&quot;,&quot;BackgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;BoilerPlateText&quot;:&quot;&lt;p&gt;Welcome to the Car-Mart!&lt;/p&gt;\n&quot;,&quot;UserIdLabel&quot;:&quot;someone@example.com&quot;,&quot;KeepMeSignedInDisabled&quot;:false,&quot;UseTransparentLightBox&quot;:false}]}},&quot;tiles&quot;:{&quot;aadUsers&quot;:[{&quot;name&quot;:&quot;Syed Mujahid Ali Rizvi&quot;,&quot;login&quot;:&quot;mujahid.rizvi@confiz.com&quot;,&quot;imageAAD&quot;:&quot;work_account.png&quot;,&quot;imageMSA&quot;:&quot;personal_account.png&quot;,&quot;isLive&quot;:false,&quot;isGuest&quot;:false,&quot;link&quot;:&quot;mujahid.rizvi@confiz.com&quot;,&quot;authUrl&quot;:&quot;&quot;,&quot;isSigned&quot;:true,&quot;sessionID&quot;:&quot;ad29fde2-e4b2-47a6-a283-1f3b2f85f242&quot;,&quot;domainHint&quot;:&quot;&quot;,&quot;isWindows&quot;:false},{&quot;name&quot;:&quot;&quot;,&quot;login&quot;:&quot;superizvi@gmail.com&quot;,&quot;imageAAD&quot;:&quot;work_account.png&quot;,&quot;imageMSA&quot;:&quot;personal_account.png&quot;,&quot;isLive&quot;:true,&quot;isGuest&quot;:true,&quot;link&quot;:&quot;superizvi@gmail.com&quot;,&quot;isSigned&quot;:true,&quot;sessionID&quot;:&quot;3d3d690d-5a0e-43e1-bf26-b5271fe2ed06&quot;,&quot;domainHint&quot;:&quot;msa&quot;,&quot;isWindows&quot;:false}],&quot;msaUsers&quot;:[],&quot;users&quot;:[{&quot;name&quot;:&quot;Syed Mujahid Ali Rizvi&quot;,&quot;login&quot;:&quot;mujahid.rizvi@confiz.com&quot;,&quot;imageAAD&quot;:&quot;work_account.png&quot;,&quot;imageMSA&quot;:&quot;personal_account.png&quot;,&quot;isLive&quot;:false,&quot;isGuest&quot;:false,&quot;link&quot;:&quot;mujahid.rizvi@confiz.com&quot;,&quot;authUrl&quot;:&quot;&quot;,&quot;isSigned&quot;:true,&quot;sessionID&quot;:&quot;ad29fde2-e4b2-47a6-a283-1f3b2f85f242&quot;,&quot;domainHint&quot;:&quot;&quot;,&quot;isWindows&quot;:false},{&quot;name&quot;:&quot;&quot;,&quot;login&quot;:&quot;superizvi@gmail.com&quot;,&quot;imageAAD&quot;:&quot;work_account.png&quot;,&quot;imageMSA&quot;:&quot;personal_account.png&quot;,&quot;isLive&quot;:true,&quot;isGuest&quot;:true,&quot;link&quot;:&quot;superizvi@gmail.com&quot;,&quot;isSigned&quot;:true,&quot;sessionID&quot;:&quot;3d3d690d-5a0e-43e1-bf26-b5271fe2ed06&quot;,&quot;domainHint&quot;:&quot;msa&quot;,&quot;isWindows&quot;:false}],&quot;otherUser&quot;:{&quot;name&quot;:&quot;Use another account&quot;,&quot;login&quot;:&quot;&quot;,&quot;imageAAD&quot;:&quot;use_another_account.png&quot;,&quot;imageMSA&quot;:&quot;use_another_account.png&quot;,&quot;isLive&quot;:false,&quot;link&quot;:&quot;other&quot;,&quot;authUrl&quot;:&quot;&quot;,&quot;sessionID&quot;:&quot;&quot;,&quot;domainHint&quot;:&quot;other&quot;},&quot;splitterTilesUsers&quot;:[{&quot;id&quot;:&quot;aad&quot;,&quot;name&quot;:&quot;Work or school account&quot;,&quot;login&quot;:&quot;Created by your IT department&quot;,&quot;image&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/work_account_a4152da7a5f104b3a6e62ab1e5cfeafd.png&quot;},{&quot;id&quot;:&quot;msa&quot;,&quot;name&quot;:&quot;Personal account&quot;,&quot;login&quot;:&quot;Created by you&quot;,&quot;image&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/personal_account_c5cb21b331a46bb703e0014bc035c5dc.png&quot;}]},&quot;constants&quot;:{&quot;dbgMessages&quot;:[],&quot;MEMBER_NAME&quot;:&quot;mujahid.rizvi@confiz.com&quot;,&quot;FEDERATION_QUERY_PARAMETERS&quot;:&quot;?username=\u0026wa=wsignin1.0\u0026wtrealm=urn%3afederation%3aMicrosoftOnline\u0026wctx=&quot;,&quot;BASE_URL&quot;:&quot;/ba83715b-5f25-47fa-ba0a-37f196149d99/oauth2/logoutsession?&quot;,&quot;LATENCY_THRESHOLD&quot;:2000,&quot;IS_USE_OTHER_ACCOUNT_VISIBLE&quot;:false,&quot;MAX_USER_TILES&quot;:5,&quot;PARTNER_NAME&quot;:&quot;Sign in with your work or school account&quot;,&quot;METRICS_MODE&quot;:1,&quot;TokenizedStringMsgs&quot;:{&quot;GENERIC_ERROR&quot;:&quot;\u003cH1\u003eSorry, but we\u0027re having trouble signing you in\u003c/H1\u003e\u003cp\u003ePlease try again in a few minutes. If this doesn\u0027t work, you might want to contact your admin and report the following error: #~#ErrorCode#~#.\u003c/p\u003e&quot;,&quot;UPN_DISAMBIGUATE_MESSAGE&quot;:&quot;It looks like {0} is used with more than one account. Which account do you want to use?&quot;},&quot;REALM_RESOLVER_URL&quot;:&quot;/common/userrealm&quot;,&quot;FORCED_SIGN_IN&quot;:false,&quot;isCxhRequest&quot;:false,&quot;isAdalRequest&quot;:false,&quot;IS_NAME_COEXISTENCE_ACCOUNT&quot;:false,&quot;adalUxOverride&quot;:false,&quot;cancelRedirectUrl&quot;:&quot;&quot;,&quot;IS_MSA_FED_SUPPORTED&quot;:true,&quot;IS_MSA_PHONE_USERNAME_SUPPORTED&quot;:true,&quot;IS_MSA_REDIR_SUPPORTED&quot;:false,&quot;MSA_DOMAIN&quot;:&quot;live.com&quot;,&quot;PROMPT&quot;:&quot;&quot;,&quot;USERNAME_HINT_TEXT&quot;:&quot;Email or phone&quot;,&quot;IS_LOGOUT_REQUEST&quot;:true,&quot;SHOULD_HIDE_SIGNUP&quot;:false,&quot;USE_DARK_TILE_LOGO&quot;:false,&quot;HAS_ERROR&quot;:false,&quot;IS_MOBILE&quot;:false,&quot;mobileWidthThreshold&quot;:600,&quot;uxLogoutUrl&quot;:&quot;https://login.microsoftonline.com/ba83715b-5f25-47fa-ba0a-37f196149d99/uxlogout&quot;,&quot;forgetUrl&quot;:&quot;https://login.microsoftonline.com/forgetuser&quot;,&quot;IS_HOLOGRAPHIC&quot;:false,&quot;savedTiles&quot;:{&quot;otherJSON&quot;:{&quot;name&quot;:&quot;Use another account&quot;,&quot;login&quot;:&quot;&quot;,&quot;imageAAD&quot;:&quot;other_glyph.png&quot;,&quot;imageMSA&quot;:&quot;other_glyph.png&quot;,&quot;isLive&quot;:false,&quot;link&quot;:&quot;other&quot;,&quot;authUrl&quot;:&quot;&quot;,&quot;sessionID&quot;:&quot;&quot;,&quot;domainHint&quot;:&quot;other&quot;}},&quot;Use_Client_Check_Msa_Flag&quot;:true,&quot;isDebugMode&quot;:false,&quot;request&quot;:{&quot;uaid&quot;:&quot;654f1bb803c94839bf0c3faa11b236d0&quot;,&quot;issuerIdentifier&quot;:&quot;mso&quot;,&quot;isMsaSupported&quot;:true},&quot;Locale&quot;:&quot;en-US&quot;,&quot;responseMode&quot;:&quot;Query&quot;,&quot;IsB2CScenario&quot;:false,&quot;showTilesOnPageLoad&quot;:true,&quot;skipMeControlOnPageLoad&quot;:true,&quot;onPremPasswordValidationConfig&quot;:{&quot;isUserRealmPrecheckEnabled&quot;:true},&quot;desktopSsoConfig&quot;:{&quot;isEdgeAnaheimAllowed&quot;:true,&quot;iwaEndpointUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/sso&quot;,&quot;iwaSsoProbeUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/ssoprobe&quot;,&quot;iwaIFrameUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/iframe?isAdalRequest=False&quot;,&quot;iwaRequestTimeoutInMs&quot;:10000,&quot;startDesktopSsoOnPageLoad&quot;:false,&quot;progressAnimationTimeout&quot;:10000,&quot;isEdgeAllowed&quot;:false,&quot;isSafariAllowed&quot;:true,&quot;isIEAllowedForSsoProbe&quot;:true,&quot;edgeRedirectUri&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/sso/edgeredirect?origin=login.microsoftonline.com&quot;,&quot;isFlowTokenPassedInEdge&quot;:true},&quot;msaMeControlTimeout&quot;:5000,&quot;CDN_IMAGE_HASH_NAMES&quot;:{&quot;personal_account.png&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/personal_account_c5cb21b331a46bb703e0014bc035c5dc.png&quot;,&quot;use_another_account.png&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/use_another_account_250760f3892232420a65c927db19a135.png&quot;,&quot;work_account.png&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/work_account_a4152da7a5f104b3a6e62ab1e5cfeafd.png&quot;,&quot;other_glyph.png&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/other_glyph_crnhpsrfcm0c7lxqlwwihg2.png&quot;}},&quot;scid&quot;:1030,&quot;hpgact&quot;:1808,&quot;hpgid&quot;:8002,&quot;pgid&quot;:&quot;signout&quot;,&quot;apiCanary&quot;:&quot;PAQABAAEAAAAtyolDObpQQ5VtlI4uGjEPV07Y7BH9BXIb9fWmS2E3mM0YxzBeb_u9Qu6V60EIgOPNShJsningvZuFNLVrgfcg2XNsDxcrME1zTI8nTS2DJBHy5I29DkhO9gKWBJqs6NGkGnDVYw66V90FRmz4h1FBOTnNH-XdvY4QhPl_0YMtWIjVyoOGo6zVLCPGUN0898o1jq1lQ8_oiL2o7EIJO7pQn7WfR0La4MC4DlFcEFbyliAA&quot;,&quot;canary&quot;:&quot;zGfFKgHIa7JLQlCkdSF2zs2l3YPnd4yUbuRJV98Ynk4=5:1:CANARY:LbNpZvcH+2wD3LjD8foiyZ6PHoDrXJObZZw62NYZkPo=&quot;,&quot;sCanaryTokenName&quot;:&quot;canary&quot;,&quot;fSkipRenderingNewCanaryToken&quot;:false,&quot;fEnableNewCsrfProtection&quot;:true,&quot;correlationId&quot;:&quot;ccbe2963-3fc6-4946-ad83-66b7fc5c1c80&quot;,&quot;sessionId&quot;:&quot;cab9d7bb-7918-40bb-bece-8dadcdbb2700&quot;,&quot;locale&quot;:{&quot;mkt&quot;:&quot;en-US&quot;,&quot;lcid&quot;:1033},&quot;slMaxRetry&quot;:2,&quot;slReportFailure&quot;:true,&quot;strings&quot;:{&quot;desktopsso&quot;:{&quot;authenticatingmessage&quot;:&quot;Trying to sign you in&quot;},&quot;msa&quot;:{&quot;label&quot;:&quot;(Microsoft account)&quot;,&quot;account&quot;:{&quot;imgalttext&quot;:&quot;Microsoft account symbol&quot;,&quot;tilealttext&quot;:&quot;Microsoft account for {0}&quot;},&quot;redirect&quot;:&quot;We‘re taking you to the Microsoft account sign-in page.&quot;},&quot;aad&quot;:{&quot;account&quot;:{&quot;imgalttext&quot;:&quot;Work or school account symbol&quot;,&quot;tilealttext&quot;:&quot;Work or school account for {0}&quot;},&quot;redirect&quot;:&quot;We\u0027re taking you to your organization\u0027s sign-in page.&quot;},&quot;cloudfed&quot;:{&quot;redirect&quot;:&quot;We\u0027re taking you to your organization\u0027s sign-in page.&quot;},&quot;otheraccounttext&quot;:&quot;Use another account&quot;,&quot;clickformore&quot;:&quot;Click for more actions&quot;,&quot;connectedtowindows&quot;:&quot;Connected to Windows&quot;,&quot;signedin&quot;:&quot;Signed in&quot;,&quot;clicktosignin&quot;:&quot;&quot;,&quot;signingout&quot;:&quot;Signing out...&quot;,&quot;accountimagealttext&quot;:&quot;User account image&quot;,&quot;header&quot;:{&quot;text&quot;:{&quot;username&quot;:&quot;Sign in with your work account&quot;,&quot;password&quot;:&quot;Enter your password&quot;,&quot;privacy&quot;:&quot;Privacy statement&quot;}},&quot;disambiguation&quot;:{&quot;description&quot;:&quot;It looks like {0} is used with more than one account. Which account do you want to use?&quot;,&quot;timeout&quot;:&quot;We\u0027re having trouble locating your account. Which type of account do you want to use?&quot;},&quot;errors&quot;:{&quot;30136&quot;:&quot;Type the email address or phone number of the account you want to sign in with.&quot;,&quot;30064&quot;:{&quot;title&quot;:&quot;This doesn\u0027t look like a valid user ID&quot;,&quot;description&quot;:&quot;Try using your email address or phone number.&quot;},&quot;30008&quot;:&quot;Sign in to {0}&quot;,&quot;30067&quot;:&quot;\u003cH1\u003eWe don\u0027t recognize this user ID or password\u003c/H1\u003e\u003cp\u003eBe sure to type the password for your work or school account.\u003c/p\u003e&quot;,&quot;30068&quot;:{&quot;title&quot;:&quot;\u003cH1\u003e{0} isn\u0027t in our system\u003c/H1\u003e\u003cp\u003eMake sure you typed your email address correctly. It usually looks like someone@example.com or someone@example.onmicrosoft.com\u003c/p\u003e&quot;,&quot;description&quot;:&quot;Make sure you typed your email address correctly. It usually looks like someone@example.com or someone@example.onmicrosoft.com&quot;},&quot;30111&quot;:&quot;Please enter your password.&quot;,&quot;30127&quot;:&quot;To sign in, start by entering a user ID.&quot;,&quot;30140&quot;:&quot;We\u0027re having trouble locating your account. Which type of account do you want to use?&quot;,&quot;30145&quot;:&quot;Check the email address you entered. You may have mistyped it.&quot;,&quot;30146&quot;:{&quot;title&quot;:&quot;We couldn\u0027t find an account with that email address.&quot;,&quot;description&quot;:&quot;Enter a different email address or \u003ca id=\u0022user-not-found-link\u0022 href=\u0022#\u0022\u003eget a new Microsoft account\u003c/a\u003e.&quot;},&quot;30168&quot;:{&quot;title&quot;:&quot;We don\u0027t recognize this domain name&quot;,&quot;description&quot;:&quot;Make sure you typed your organization\u0027s domain name correctly. It usually looks like @example.com or @example.onmicrosoft.com.&quot;},&quot;30173&quot;:&quot;Which type of account do you want to sign in with?&quot;,&quot;30200&quot;:&quot;You may still be signed in to some applications. Close your browser to finish signing out.&quot;,&quot;catchall&quot;:&quot;We didn\u0027t receive a response. Please try again.&quot;}},&quot;enums&quot;:{&quot;ClientMetricsModes&quot;:{&quot;None&quot;:0,&quot;SubmitOnPost&quot;:1,&quot;SubmitOnRedirect&quot;:2,&quot;InstrumentPlt&quot;:4},&quot;NameSpaceType&quot;:{&quot;None&quot;:0,&quot;Managed&quot;:1,&quot;Federated&quot;:2}},&quot;urls&quot;:{&quot;instr&quot;:{&quot;pageload&quot;:&quot;https://login.microsoftonline.com/common/instrumentation/reportpageload&quot;,&quot;dssostatus&quot;:&quot;https://login.microsoftonline.com/common/instrumentation/dssostatus&quot;},&quot;disambighelpurl&quot;:&quot;https://go.microsoft.com/fwlink/p/?LinkID=733247&quot;,&quot;msa&quot;:{&quot;meurl&quot;:&quot;https://login.live.com/Me.srf?wa=wsignin1.0\u0026idpflag=direct\u0026wreply=&quot;,&quot;oauthauthorizeurl&quot;:&quot;https://login.live.com/oauth20_authorize.srf&quot;,&quot;signouturl&quot;:null,&quot;passwordreseturl&quot;:&quot;https://account.live.com/password/reset&quot;,&quot;manageaccounturl&quot;:&quot;https://account.microsoft.com&quot;,&quot;singleusecode&quot;:&quot;http://windows.microsoft.com/en-US/windows-live/sign-in-single-use-code&quot;,&quot;signupurl&quot;:null},&quot;style&quot;:{&quot;loginhover&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/login_hover.min_ljv4ndvrnkzxawet7dnxpw2.css&quot;},&quot;agreement&quot;:{&quot;tou&quot;:&quot;https://www.microsoft.com/en-US/servicesagreement/&quot;,&quot;privacy&quot;:&quot;https://privacy.microsoft.com/en-US/privacystatement&quot;},&quot;refreshurl&quot;:null,&quot;appredirecturl&quot;:null},&quot;browser&quot;:{&quot;ltr&quot;:1,&quot;Chrome&quot;:1,&quot;_Win&quot;:1,&quot;_M117&quot;:1,&quot;_D0&quot;:1,&quot;Full&quot;:1,&quot;Win81&quot;:1,&quot;RE_WebKit&quot;:1,&quot;b&quot;:{&quot;name&quot;:&quot;Chrome&quot;,&quot;major&quot;:117,&quot;minor&quot;:0},&quot;os&quot;:{&quot;name&quot;:&quot;Windows&quot;,&quot;version&quot;:&quot;10.0&quot;},&quot;V&quot;:&quot;117.0&quot;},&quot;watson&quot;:{&quot;url&quot;:&quot;/common/handlers/watson&quot;,&quot;bundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watson.min_q5ptmu8aniymd4ftuqdkda2.js&quot;,&quot;sbundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js&quot;,&quot;fbundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/frameworksupport.min_oadrnc13magb009k4d20lg2.js&quot;,&quot;resetErrorPeriod&quot;:5,&quot;maxCorsErrors&quot;:-1,&quot;maxInjectErrors&quot;:5,&quot;maxErrors&quot;:10,&quot;maxTotalErrors&quot;:3,&quot;expSrcs&quot;:[&quot;https://login.microsoftonline.com&quot;,&quot;https://aadcdn.msauth.net/&quot;,&quot;https://aadcdn.msftauth.net/&quot;,&quot;.login.microsoftonline.com&quot;],&quot;envErrorRedirect&quot;:true,&quot;envErrorUrl&quot;:&quot;/common/handlers/enverror&quot;},&quot;loader&quot;:{&quot;cdnRoots&quot;:[&quot;https://aadcdn.msauth.net/&quot;,&quot;https://aadcdn.msftauth.net/&quot;],&quot;logByThrowing&quot;:true},&quot;serverDetails&quot;:{&quot;slc&quot;:&quot;ProdSlices&quot;,&quot;dc&quot;:&quot;EUS&quot;,&quot;ri&quot;:&quot;BL6XXXX&quot;,&quot;ver&quot;:{&quot;v&quot;:[2,1,16314,5]},&quot;rt&quot;:&quot;2023-09-15T12:57:30&quot;,&quot;et&quot;:40},&quot;clientEvents&quot;:{&quot;enabled&quot;:true,&quot;telemetryEnabled&quot;:true,&quot;useOneDSEventApi&quot;:true,&quot;flush&quot;:60000,&quot;autoPost&quot;:true,&quot;autoPostDelay&quot;:1000,&quot;minEvents&quot;:1,&quot;maxEvents&quot;:1,&quot;pltDelay&quot;:500,&quot;appInsightsConfig&quot;:{&quot;instrumentationKey&quot;:&quot;69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293&quot;,&quot;webAnalyticsConfiguration&quot;:{&quot;autoCapture&quot;:{&quot;jsError&quot;:true}}},&quot;defaultEventName&quot;:&quot;IDUX_ESTSClientTelemetryEvent_WebWatson&quot;,&quot;serviceID&quot;:3,&quot;endpointUrl&quot;:&quot;&quot;},&quot;fApplyAsciiRegexOnInput&quot;:true,&quot;fBreakBrandingSigninString&quot;:true,&quot;urlNoCookies&quot;:&quot;https://login.microsoftonline.com/cookiesdisabled&quot;,&quot;fTrimChromeBssoUrl&quot;:true,&quot;inlineMode&quot;:5,&quot;fShowCopyDebugDetailsLink&quot;:true,&quot;fTenantBrandingCdnAddEventHandlers&quot;:true};
+//]]&gt;&lt;/script&gt; &#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+!function(){var e=window,r=e.$Debug=e.$Debug||{},t=e.$Config||{};if(!r.appendLog){var n=[],o=0;r.appendLog=function(e){var r=t.maxDebugLog||25,i=(new Date).toUTCString()+&quot;:&quot;+e;n.push(o+&quot;:&quot;+i),n.length&gt;r&amp;&amp;n.shift(),o++},r.getLogs=function(){return n}}}(),function(){function e(e,r){function t(i){var a=e[i];if(i&lt;n-1){return void(o.r[a]?t(i+1):o.when(a,function(){t(i+1)}))}r(a)}var n=e.length;t(0)}function r(e,r,i){function a(){var e=!!s.method,o=e?s.method:i[0],a=s.extraArgs||[],u=n.$WebWatson;try{
+var c=t(i,!e);if(a&amp;&amp;a.length&gt;0){for(var d=a.length,l=0;l&lt;d;l++){c.push(a[l])}}o.apply(r,c)}catch(e){return void(u&amp;&amp;u.submitFromException&amp;&amp;u.submitFromException(e))}}var s=o.r&amp;&amp;o.r[e];return r=r||this,s&amp;&amp;(s.skipTimeout?a():n.setTimeout(a,0)),s}function t(e,r){return Array.prototype.slice.call(e,r?1:0)}var n=window;n.$Do||(n.$Do={&quot;q&quot;:[],&quot;r&quot;:[],&quot;removeItems&quot;:[],&quot;lock&quot;:0,&quot;o&quot;:[]});var o=n.$Do;o.when=function(t,n){function i(e){r(e,a,s)||o.q.push({&quot;id&quot;:e,&quot;c&quot;:a,&quot;a&quot;:s})}var a=0,s=[],u=1;&quot;function&quot;==typeof n||(a=n,
+u=2);for(var c=u;c&lt;arguments.length;c++){s.push(arguments[c])}t instanceof Array?e(t,i):i(t)},o.register=function(e,t,n){if(!o.r[e]){o.o.push(e);var i={};if(t&amp;&amp;(i.method=t),n&amp;&amp;(i.skipTimeout=n),arguments&amp;&amp;arguments.length&gt;3){i.extraArgs=[];for(var a=3;a&lt;arguments.length;a++){i.extraArgs.push(arguments[a])}}o.r[e]=i,o.lock++;try{for(var s=0;s&lt;o.q.length;s++){var u=o.q[s];u.id==e&amp;&amp;r(e,u.c,u.a)&amp;&amp;o.removeItems.push(u)}}catch(e){throw e}finally{if(0===--o.lock){for(var c=0;c&lt;o.removeItems.length;c++){
+for(var d=o.removeItems[c],l=0;l&lt;o.q.length;l++){if(o.q[l]===d){o.q.splice(l,1);break}}}o.removeItems=[]}}}},o.unregister=function(e){o.r[e]&amp;&amp;delete o.r[e]}}(),function(e,r){function t(){if(!a){if(!r.body){return void setTimeout(t)}a=!0,e.$Do.register(&quot;doc.ready&quot;,0,!0)}}function n(){if(!s){if(!r.body){return void setTimeout(n)}t(),s=!0,e.$Do.register(&quot;doc.load&quot;,0,!0),i()}}function o(e){(r.addEventListener||&quot;load&quot;===e.type||&quot;complete&quot;===r.readyState)&amp;&amp;t()}function i(){
+r.addEventListener?(r.removeEventListener(&quot;DOMContentLoaded&quot;,o,!1),e.removeEventListener(&quot;load&quot;,n,!1)):r.attachEvent&amp;&amp;(r.detachEvent(&quot;onreadystatechange&quot;,o),e.detachEvent(&quot;onload&quot;,n))}var a=!1,s=!1;if(&quot;complete&quot;===r.readyState){return void setTimeout(n)}!function(){r.addEventListener?(r.addEventListener(&quot;DOMContentLoaded&quot;,o,!1),e.addEventListener(&quot;load&quot;,n,!1)):r.attachEvent&amp;&amp;(r.attachEvent(&quot;onreadystatechange&quot;,o),e.attachEvent(&quot;onload&quot;,n))}()}(window,document),function(){function e(){
+return f.$Config||f.ServerData||{}}function r(e,r){var t=f.$Debug;t&amp;&amp;t.appendLog&amp;&amp;(r&amp;&amp;(e+=&quot; &apos;&quot;+(r.src||r.href||&quot;&quot;)+&quot;&apos;&quot;,e+=&quot;, id:&quot;+(r.id||&quot;&quot;),e+=&quot;, async:&quot;+(r.async||&quot;&quot;),e+=&quot;, defer:&quot;+(r.defer||&quot;&quot;)),t.appendLog(e))}function t(){var e=f.$B;if(void 0===d){if(e){d=e.IE}else{var r=f.navigator.userAgent;d=-1!==r.indexOf(&quot;MSIE &quot;)||-1!==r.indexOf(&quot;Trident/&quot;)}}return d}function n(){var e=f.$B;if(void 0===l){if(e){l=e.RE_Edge}else{var r=f.navigator.userAgent;l=-1!==r.indexOf(&quot;Edge&quot;)}}return l}function o(e){
+var r=e.indexOf(&quot;?&quot;),t=r&gt;-1?r:e.length,n=e.lastIndexOf(&quot;.&quot;,t);return e.substring(n,n+h.length).toLowerCase()===h}function i(){var r=e();return(r.loader||{}).slReportFailure||r.slReportFailure||!1}function a(){return(e().loader||{}).redirectToErrorPageOnLoadFailure||!1}function s(){return(e().loader||{}).logByThrowing||!1}function u(e){if(!t()&amp;&amp;!n()){return!1}var r=e.src||e.href||&quot;&quot;;if(!r){return!0}if(o(r)){var i,a,s;try{i=e.sheet,a=i&amp;&amp;i.cssRules,s=!1}catch(e){s=!0}if(i&amp;&amp;!a&amp;&amp;s){return!0}
+if(i&amp;&amp;a&amp;&amp;0===a.length){return!0}}return!1}function c(){function t(e){g.getElementsByTagName(&quot;head&quot;)[0].appendChild(e)}function n(e,r,t,n){var u=null;return u=o(e)?i(e):&quot;script&quot;===n.toLowerCase()?a(e):s(e,n),r&amp;&amp;(u.id=r),&quot;function&quot;==typeof u.setAttribute&amp;&amp;(u.setAttribute(&quot;crossorigin&quot;,&quot;anonymous&quot;),t&amp;&amp;&quot;string&quot;==typeof t&amp;&amp;u.setAttribute(&quot;integrity&quot;,t)),u}function i(e){var r=g.createElement(&quot;link&quot;);return r.rel=&quot;stylesheet&quot;,r.type=&quot;text/css&quot;,r.href=e,r}function a(e){
+var r=g.createElement(&quot;script&quot;),t=g.querySelector(&quot;script[nonce]&quot;);if(r.type=&quot;text/javascript&quot;,r.src=e,r.defer=!1,r.async=!1,t){var n=t.nonce||t.getAttribute(&quot;nonce&quot;);r.setAttribute(&quot;nonce&quot;,n)}return r}function s(e,r){var t=g.createElement(r);return t.src=e,t}function d(e,r){if(e&amp;&amp;e.length&gt;0&amp;&amp;r){for(var t=0;t&lt;e.length;t++){if(-1!==r.indexOf(e[t])){return!0}}}return!1}function l(r){if(e().fTenantBrandingCdnAddEventHandlers){var t=d($,r)?$:b;if(!(t&amp;&amp;t.length&gt;1)){return r}for(var n=0;n&lt;t.length;n++){
+if(-1!==r.indexOf(t[n])){var o=t[n+1&lt;t.length?n+1:0],i=r.substring(t[n].length);return&quot;https://&quot;!==t[n].substring(0,&quot;https://&quot;.length)&amp;&amp;(o=&quot;https://&quot;+o,i=i.substring(&quot;https://&quot;.length)),o+i}}return r}if(!(b&amp;&amp;b.length&gt;1)){return r}for(var a=0;a&lt;b.length;a++){if(0===r.indexOf(b[a])){return b[a+1&lt;b.length?a+1:0]+r.substring(b[a].length)}}return r}function f(e,t,n,o){if(r(&quot;[$Loader]: &quot;+(w.failMessage||&quot;Failed&quot;),o),E[e].retry&lt;y){return E[e].retry++,v(e,t,n),void c._ReportFailure(E[e].retry,E[e].srcPath)}n&amp;&amp;n()}
+function h(e,t,n,o){if(u(o)){return f(e,t,n,o)}r(&quot;[$Loader]: &quot;+(w.successMessage||&quot;Loaded&quot;),o),v(e+1,t,n);var i=E[e].onSuccess;&quot;function&quot;==typeof i&amp;&amp;i(E[e].srcPath)}function v(e,o,i){if(e&lt;E.length){var a=E[e];if(!a||!a.srcPath){return void v(e+1,o,i)}a.retry&gt;0&amp;&amp;(a.srcPath=l(a.srcPath),a.origId||(a.origId=a.id),a.id=a.origId+&quot;_Retry_&quot;+a.retry);var s=n(a.srcPath,a.id,a.integrity,a.tagName);s.onload=function(){h(e,o,i,s)},s.onerror=function(){f(e,o,i,s)},s.onreadystatechange=function(){
+&quot;loaded&quot;===s.readyState?setTimeout(function(){h(e,o,i,s)},500):&quot;complete&quot;===s.readyState&amp;&amp;h(e,o,i,s)},t(s),r(&quot;[$Loader]: Loading &apos;&quot;+(a.srcPath||&quot;&quot;)+&quot;&apos;, id:&quot;+(a.id||&quot;&quot;))}else{o&amp;&amp;o()}}var p=e(),y=p.slMaxRetry||2,m=p.loader||{},b=m.cdnRoots||[],$=m.tenantBrandingCdnRoots||[],w=this,E=[];w.retryOnError=!0,w.successMessage=&quot;Loaded&quot;,w.failMessage=&quot;Error&quot;,w.Add=function(e,r,t,n,o,i){e&amp;&amp;E.push({&quot;srcPath&quot;:e,&quot;id&quot;:r,&quot;retry&quot;:n||0,&quot;integrity&quot;:t,&quot;tagName&quot;:o||&quot;script&quot;,&quot;onSuccess&quot;:i})},w.AddForReload=function(e,r){
+var t=e.src||e.href||&quot;&quot;;w.Add(t,&quot;AddForReload&quot;,e.integrity,1,e.tagName,r)},w.AddIf=function(e,r,t){e&amp;&amp;w.Add(r,t)},w.Load=function(e,r){v(0,e,r)}}var d,l,f=window,g=f.document,h=&quot;.css&quot;;c.On=function(e,r,t){if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}r?c.OnError(e,t):c.OnSuccess(e,t)},c.OnSuccess=function(e,t){if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}if(u(e)){return c.OnError(e,t)}var n=e.src||e.href||&quot;&quot;,o=i(),s=a();r(&quot;[$Loader]: Loaded&quot;,e);var d=new c
+;d.failMessage=&quot;Reload Failed&quot;,d.successMessage=&quot;Reload Success&quot;,d.Load(null,function(){if(o){throw&quot;Unexpected state. ResourceLoader.Load() failed despite initial load success. [&apos;&quot;+n+&quot;&apos;]&quot;}s&amp;&amp;(document.location.href=&quot;/error.aspx?err=504&quot;)})},c.OnError=function(e,t){var n=e.src||e.href||&quot;&quot;,o=i(),s=a();if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}r(&quot;[$Loader]: Failed&quot;,e);var u=new c;u.failMessage=&quot;Reload Failed&quot;,u.successMessage=&quot;Reload Success&quot;,u.AddForReload(e,t),
+u.Load(null,function(){if(o){throw&quot;Failed to load external resource [&apos;&quot;+n+&quot;&apos;]&quot;}s&amp;&amp;(document.location.href=&quot;/error.aspx?err=504&quot;)}),c._ReportFailure(0,n)},c._ReportFailure=function(e,r){if(s()&amp;&amp;!t()){throw&quot;[Retry &quot;+e+&quot;] Failed to load external resource [&apos;&quot;+r+&quot;&apos;], reloading from fallback CDN endpoint&quot;}},f.$Loader=c}(),function(){function e(){if(!$){var e=new v.$Loader;e.AddIf(!v.jQuery,y.sbundle,&quot;WebWatson_DemandSupport&quot;),y.sbundle=null,delete y.sbundle,e.AddIf(!v.$Api,y.fbundle,&quot;WebWatson_DemandFramework&quot;),
+y.fbundle=null,delete y.fbundle,e.Add(y.bundle,&quot;WebWatson_DemandLoaded&quot;),e.Load(r,t),$=!0}}function r(){if(v.$WebWatson){if(v.$WebWatson.isProxy){return void t()}m.when(&quot;$WebWatson.full&quot;,function(){for(;b.length&gt;0;){var e=b.shift();e&amp;&amp;v.$WebWatson[e.cmdName].apply(v.$WebWatson,e.args)}})}}function t(){if(!v.$WebWatson||v.$WebWatson.isProxy){if(!w&amp;&amp;JSON){try{var e=new XMLHttpRequest;e.open(&quot;POST&quot;,y.url),e.setRequestHeader(&quot;Accept&quot;,&quot;application/json&quot;),
+e.setRequestHeader(&quot;Content-Type&quot;,&quot;application/json; charset=UTF-8&quot;),e.setRequestHeader(&quot;canary&quot;,p.apiCanary),e.setRequestHeader(&quot;client-request-id&quot;,p.correlationId),e.setRequestHeader(&quot;hpgid&quot;,p.hpgid||0),e.setRequestHeader(&quot;hpgact&quot;,p.hpgact||0);for(var r=-1,t=0;t&lt;b.length;t++){if(&quot;submit&quot;===b[t].cmdName){r=t;break}}var o=b[r]?b[r].args||[]:[],i={&quot;sr&quot;:y.sr,&quot;ec&quot;:&quot;Failed to load external resource [Core Watson files]&quot;,&quot;wec&quot;:55,&quot;idx&quot;:1,&quot;pn&quot;:p.pgid||&quot;&quot;,&quot;sc&quot;:p.scid||0,&quot;hpg&quot;:p.hpgid||0,
+&quot;msg&quot;:&quot;Failed to load external resource [Core Watson files]&quot;,&quot;url&quot;:o[1]||&quot;&quot;,&quot;ln&quot;:0,&quot;ad&quot;:0,&quot;an&quot;:!1,&quot;cs&quot;:&quot;&quot;,&quot;sd&quot;:p.serverDetails,&quot;ls&quot;:null,&quot;diag&quot;:h(y)};e.send(JSON.stringify(i))}catch(e){}w=!0}y.loadErrorUrl&amp;&amp;window.location.assign(y.loadErrorUrl)}n()}function n(){b=[],v.$WebWatson=null}function o(r){return function(){var t=arguments;b.push({&quot;cmdName&quot;:r,&quot;args&quot;:t}),e()}}function i(){var e=[&quot;foundException&quot;,&quot;resetException&quot;,&quot;submit&quot;],r=this;r.isProxy=!0;for(var t=e.length,n=0;n&lt;t;n++){var i=e[n];i&amp;&amp;(r[i]=o(i))}
+}function a(e,r,t,n,o,i,a){var s=v.event;return i||(i=l(o||s,a?a+2:2)),v.$Debug&amp;&amp;v.$Debug.appendLog&amp;&amp;v.$Debug.appendLog(&quot;[WebWatson]:&quot;+(e||&quot;&quot;)+&quot; in &quot;+(r||&quot;&quot;)+&quot; @ &quot;+(t||&quot;??&quot;)),L.submit(e,r,t,n,o||s,i,a)}function s(e,r){return{&quot;signature&quot;:e,&quot;args&quot;:r,&quot;toString&quot;:function(){return this.signature}}}function u(e){for(var r=[],t=e.split(&quot;\n&quot;),n=0;n&lt;t.length;n++){r.push(s(t[n],[]))}return r}function c(e){for(var r=[],t=e.split(&quot;\n&quot;),n=0;n&lt;t.length;n++){var o=s(t[n],[]);t[n+1]&amp;&amp;(o.signature+=&quot;@&quot;+t[n+1],n++),r.push(o)
+}return r}function d(e){if(!e){return null}try{if(e.stack){return u(e.stack)}if(e.error){if(e.error.stack){return u(e.error.stack)}}else if(window.opera&amp;&amp;e.message){return c(e.message)}}catch(e){}return null}function l(e,r){var t=[];try{for(var n=arguments.callee;r&gt;0;){n=n?n.caller:n,r--}for(var o=0;n&amp;&amp;o&lt;E;){var i=&quot;InvalidMethod()&quot;;try{i=n.toString()}catch(e){}var a=[],u=n.args||n.arguments;if(u){for(var c=0;c&lt;u.length;c++){a[c]=u[c]}}t.push(s(i,a)),n=n.caller,o++}}catch(e){t.push(s(e.toString(),[]))}
+var l=d(e);return l&amp;&amp;(t.push(s(&quot;--- Error Event Stack -----------------&quot;,[])),t=t.concat(l)),t}function f(e){if(e){try{var r=/function (.{1,})\(/,t=r.exec(e.constructor.toString());return t&amp;&amp;t.length&gt;1?t[1]:&quot;&quot;}catch(e){}}return&quot;&quot;}function g(e){if(e){try{if(&quot;string&quot;!=typeof e&amp;&amp;JSON&amp;&amp;JSON.stringify){var r=f(e),t=JSON.stringify(e);return t&amp;&amp;&quot;{}&quot;!==t||(e.error&amp;&amp;(e=e.error,r=f(e)),(t=JSON.stringify(e))&amp;&amp;&quot;{}&quot;!==t||(t=e.toString())),r+&quot;:&quot;+t}}catch(e){}}return&quot;&quot;+(e||&quot;&quot;)}function h(e){var r=[];try{
+if(jQuery?(r.push(&quot;jQuery v:&quot;+jQuery().jquery),jQuery.easing?r.push(&quot;jQuery.easing:&quot;+JSON.stringify(jQuery.easing)):r.push(&quot;jQuery.easing is not defined&quot;)):r.push(&quot;jQuery is not defined&quot;),e&amp;&amp;e.expectedVersion&amp;&amp;r.push(&quot;Expected jQuery v:&quot;+e.expectedVersion),m){var t,n=&quot;&quot;;for(t=0;t&lt;m.o.length;t++){n+=m.o[t]+&quot;;&quot;}for(r.push(&quot;$Do.o[&quot;+n+&quot;]&quot;),n=&quot;&quot;,t=0;t&lt;m.q.length;t++){n+=m.q[t].id+&quot;;&quot;}r.push(&quot;$Do.q[&quot;+n+&quot;]&quot;)}if(v.$Debug&amp;&amp;v.$Debug.getLogs){var o=v.$Debug.getLogs();o&amp;&amp;o.length&gt;0&amp;&amp;(r=r.concat(o))}if(b){
+for(var i=0;i&lt;b.length;i++){var a=b[i];if(a&amp;&amp;&quot;submit&quot;===a.cmdName){try{if(JSON&amp;&amp;JSON.stringify){var s=JSON.stringify(a);s&amp;&amp;r.push(s)}}catch(e){r.push(g(e))}}}}}catch(e){r.push(g(e))}return r}var v=window,p=v.$Config||{},y=p.watson,m=v.$Do;if(!v.$WebWatson&amp;&amp;y){var b=[],$=!1,w=!1,E=10,L=v.$WebWatson=new i;L.CB={},L._orgErrorHandler=v.onerror,v.onerror=a,L.errorHooked=!0,m.when(&quot;jQuery.version&quot;,function(e){y.expectedVersion=e}),m.register(&quot;$WebWatson&quot;)}}(),function(){function e(e,r){
+for(var t=r.split(&quot;.&quot;),n=t.length,o=0;o&lt;n&amp;&amp;null!==e&amp;&amp;void 0!==e;){e=e[t[o++]]}return e}function r(r){var t=null;return null===u&amp;&amp;(u=e(i,&quot;Constants&quot;)),null!==u&amp;&amp;r&amp;&amp;(t=e(u,r)),null===t||void 0===t?&quot;&quot;:t.toString()}function t(t){var n=null;return null===a&amp;&amp;(a=e(i,&quot;$Config.strings&quot;)),null!==a&amp;&amp;t&amp;&amp;(n=e(a,t.toLowerCase())),null!==n&amp;&amp;void 0!==n||(n=r(t)),null===n||void 0===n?&quot;&quot;:n.toString()}function n(e,r){var n=null;return e&amp;&amp;r&amp;&amp;r[e]&amp;&amp;(n=t(&quot;errors.&quot;+r[e])),n||(n=t(&quot;errors.&quot;+e)),n||(n=t(&quot;errors.&quot;+c)),n||(n=t(c)),n}
+function o(t){var n=null;return null===s&amp;&amp;(s=e(i,&quot;$Config.urls&quot;)),null!==s&amp;&amp;t&amp;&amp;(n=e(s,t.toLowerCase())),null!==n&amp;&amp;void 0!==n||(n=r(t)),null===n||void 0===n?&quot;&quot;:n.toString()}var i=window,a=null,s=null,u=null,c=&quot;GENERIC_ERROR&quot;;i.GetString=t,i.GetErrorString=n,i.GetUrl=o}(),function(){var e=window,r=e.$Config||{};e.$B=r.browser||{}}();
+//]]&gt;&lt;/script&gt; &#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+!function(t,e){!function(){var n=e.getElementsByTagName(&quot;head&quot;)[0];n&amp;&amp;n.addEventListener&amp;&amp;(n.addEventListener(&quot;error&quot;,function(e){null!==e.target&amp;&amp;&quot;cdn&quot;===e.target.getAttribute(&quot;data-loader&quot;)&amp;&amp;t.$Loader.OnError(e.target)},!0),n.addEventListener(&quot;load&quot;,function(e){null!==e.target&amp;&amp;&quot;cdn&quot;===e.target.getAttribute(&quot;data-loader&quot;)&amp;&amp;t.$Loader.OnSuccess(e.target)},!0))}()}(window,document);
+//]]&gt;&lt;/script&gt;&#xd;
+            &lt;link data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; href=&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_prc91eyu9sqvbxj8tusclg2.css&quot; rel=&quot;stylesheet&quot; /&gt;&#xd;
+&#xd;
+            &#xd;
+&#xd;
+&lt;script data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/jquery.3.5.min_dc940oomzau4rsu8qesnvg2.js&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/aad.login.min_kx1da7l2dz6nhe9kugk19a2.js&quot;&gt;&lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+        &#xd;
+&#xd;
+    &lt;title&gt;Sign out&lt;/title&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+    &#xd;
+        &#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    &#xd;
+    function SetImageStatus(imageIndex, status)&#xd;
+    {&#xd;
+        &#xd;
+        if (imageStatusArray[imageIndex] === 0)&#xd;
+        {&#xd;
+            &#xd;
+            imageStatusArray[imageIndex] = status;&#xd;
+        }&#xd;
+&#xd;
+        TryCompleteSignout();&#xd;
+    }&#xd;
+&#xd;
+    function ImageTimeout()&#xd;
+    {&#xd;
+        imageStatusTimeout = true;&#xd;
+        TryCompleteSignout();&#xd;
+    }&#xd;
+&#xd;
+    function IframeTimeout()&#xd;
+    {&#xd;
+        iframeStatusTimeout = true;&#xd;
+        TryCompleteSignout();&#xd;
+    }&#xd;
+&#xd;
+    function SignoutFormTimeout()&#xd;
+    {&#xd;
+        signoutFormStatusTimeout = true;&#xd;
+        TryCompleteSignout();&#xd;
+    }&#xd;
+&#xd;
+    function MsaTimeout()&#xd;
+    {&#xd;
+        msaSignoutStatus = MsaSignoutStatus.Timeout;&#xd;
+        TryCompleteSignout();&#xd;
+    }&#xd;
+&#xd;
+    &#xd;
+    function TryCompleteSignout()&#xd;
+    {&#xd;
+        var signoutComplete = true;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+        if (signoutComplete)&#xd;
+        {&#xd;
+            CompleteSignout();&#xd;
+        }&#xd;
+    }&#xd;
+&#xd;
+    function CompleteSignout()&#xd;
+    {&#xd;
+        var statusSuccess = true;&#xd;
+&#xd;
+        &#xd;
+&#xd;
+            CompleteSignoutRender(statusSuccess);&#xd;
+    }&#xd;
+&#xd;
+    function CompleteSignoutRender(signoutSuccessful)&#xd;
+    {&#xd;
+        signoutSuccessful = signoutSuccessful &amp;&amp; true;&#xd;
+&#xd;
+        &#xd;
+            &#xd;
+            &#xd;
+            if (!signoutSuccessful)&#xd;
+            {&#xd;
+                    &#xd;
+                    WriteSignoutFailedCookie();&#xd;
+                    InitiatorRedirect();&#xd;
+                    &#xd;
+            }&#xd;
+            else&#xd;
+            {&#xd;
+                RenderSignoutSuccess();&#xd;
+&#xd;
+                &#xd;
+                setTimeout(&apos;InitiatorRedirect()&apos;, 1000);&#xd;
+            }&#xd;
+            &#xd;
+    }&#xd;
+&#xd;
+    function RenderSignoutSuccess()&#xd;
+    {&#xd;
+            User.UpdateLogo(&apos;&apos;, &quot;You signed out of your account&quot;, true);&#xd;
+&#xd;
+        var signoutStatusMessage = $(&apos;#SignOutStatusMessage&apos;);&#xd;
+        signoutStatusMessage.text(&quot;It\u0027s a good idea to close all browser windows.&quot;);&#xd;
+        signoutStatusMessage.show();&#xd;
+    }&#xd;
+&#xd;
+    function RenderSignoutFailure()&#xd;
+    {&#xd;
+        &#xd;
+        User.UpdateLogo(&apos;&apos;, &apos;Hmm... we\u0027re having trouble signing you out.&apos;, true);&#xd;
+        var signoutStatusMessage = $(&apos;#SignOutStatusMessage&apos;);&#xd;
+        signoutStatusMessage.text(&quot;You may still be signed in to some applications. Close your browser to finish signing out.&quot;);&#xd;
+        signoutStatusMessage.show();&#xd;
+&#xd;
+        &#xd;
+            &#xd;
+            var initiatorRedirectOption = $(&apos;#InitiatorRedirectOption&apos;);&#xd;
+            initiatorRedirectOption.show();&#xd;
+            &#xd;
+    }&#xd;
+&#xd;
+    function WriteSignoutFailedCookie()&#xd;
+    {&#xd;
+        &#xd;
+        document.cookie = &quot;SOS&quot; + &quot;=1; path=/&quot;;&#xd;
+    }&#xd;
+&#xd;
+    function InitiatorRedirect()&#xd;
+    {&#xd;
+            window.location = &quot;https://sso-e899eff1.sso.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3a%2f%2flogin.microsoftonline.com%2flogin.srf%3fwa%3dwsignoutcleanup1.0%26wreply%3dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3d501148&quot;;&#xd;
+    }&#xd;
+&lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    &#xd;
+    var imageStatusArray = new Array(0);&#xd;
+    var imageStatusTimeout = false;&#xd;
+&#xd;
+    &#xd;
+    for (var i = 0; i &lt; imageStatusArray.length; i++)&#xd;
+    {&#xd;
+        imageStatusArray[i] = 0;&#xd;
+    }&#xd;
+&#xd;
+    &#xd;
+    var updatedUsers = [];&#xd;
+&#xd;
+&#xd;
+    var MsaSignoutStatus =&#xd;
+    {&#xd;
+        NotComplete: 0,&#xd;
+        Success: 1,&#xd;
+        Failure: 2,&#xd;
+        Timeout: 3,&#xd;
+        UnknownResponse: 4&#xd;
+    };&#xd;
+&#xd;
+    var msaSignoutStatus = MsaSignoutStatus.NotComplete;&#xd;
+    var msaSignoutTimerId = null;&#xd;
+&#xd;
+    var iframeStatusTimeout = false;&#xd;
+&lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+    &lt;div&gt;&#xd;
+        &lt;div class=&quot;background&quot; role=&quot;presentation&quot;&gt;&#xd;
+                &lt;div class=&quot;backgroundImage&quot; style=&quot;background-image: url(&amp;quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/illustration?ts=637430406025977707&amp;quot;);&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;div class=&quot;background-overlay&quot;&gt;&lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;outer&quot;&gt;&#xd;
+            &lt;div class=&quot;middle&quot;&gt;&#xd;
+                &lt;div class=&quot;inner &quot; &gt;&#xd;
+                        &lt;img class=&quot;banner-logo&quot; role=&quot;presentation&quot; src=&quot;https://aadcdn.msauthimages.net/dbd5a2dd-rntnzbt1nerc4ke1ms9on8b8dcm38tjkmkvlc-0r29c/logintenantbranding/0/bannerlogo?ts=637430406039370973&quot; /&gt;&#xd;
+&#xd;
+                    &lt;div role=&quot;alert&quot; aria-live=&quot;assertive&quot;&gt;&#xd;
+                        &lt;div id=&quot;login_workload_logo_text&quot; class=&quot;row text-title&quot; role=&quot;heading&quot;&gt;Hang on a moment while we sign you out.&lt;/div&gt;&#xd;
+                        &lt;div class=&quot;row text-body text-block-body&quot;&gt;&#xd;
+                            &lt;div id=&quot;SignOutStatusMessage&quot; style=&quot;display: none&quot;&gt;&lt;/div&gt;&#xd;
+                        &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                    &lt;div id=&quot;InitiatorRedirectOption&quot; class=&quot;row text-body text-block-body&quot; style=&quot;display: none&quot;&gt;&#xd;
+                            &lt;a id=&quot;initiator_redirect_link&quot; href=&quot;https://sso-e899eff1.sso.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;amp;wreply=https%3a%2f%2flogin.microsoftonline.com%2flogin.srf%3fwa%3dwsignoutcleanup1.0%26wreply%3dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3d501148&quot;&gt;&#xd;
+                                Or, head back to sso-e899eff1.sso.duosecurity.com.&#xd;
+                            &lt;/a&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&#xd;
+&#xd;
+&lt;div&gt;&#xd;
+    &#xd;
+&#xd;
+    &#xd;
+&#xd;
+    &#xd;
+&#xd;
+&#xd;
+&lt;/div&gt;&#xd;
+        &#xd;
+        &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            $Do.when(&quot;doc.ready&quot;, function () {&#xd;
+&#xd;
+        CompleteSignout();&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+            });&#xd;
+        &lt;/script&gt;&#xd;
+    &#xd;
+&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MicrosoftApplicationsTelemetryDeviceId=5615ddd8-e5dc-470f-8760-a8f640baf273; brcap=0; MSFPC=GUID=c2b190a8d762495ca091b00260692143&amp;HASH=c2b1&amp;LV=202308&amp;V=4&amp;LU=1692363882546; wlidperf=FR=L&amp;ST=1694687376311; x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; AADSSO=NA|NoExtension; ESTSAUTHLIGHT=+604e7e53-798a-4bcf-9f47-779fde804591+ad29fde2-e4b2-47a6-a283-1f3b2f85f242+3d3d690d-5a0e-43e1-bf26-b5271fe2ed06; ai_session=eQ0g3xNr0corfNtT6WCqUr|1694782046629|1694782370388; esctx=PAQABAAEAAAAtyolDObpQQ5VtlI4uGjEPttvnGJ-42iT5Dp-jQxW7zNW6L3kZO64nSJLJhIE7INoRzcUQKcHljMxfEAoddpNOoBpyJhhBl6UNuCRHmlYzEBc27a9y4F3I1_VCCEONcsI4buL5Ptgu7EFJ4o0iWY8rIJ_K-psNIEZFHluZdiTXcN9jQm2YM7B78Sw1e0U9iA5TWxbLeTNmE70gluVLwDDZtqcamL5qEH6jBxX0Ck0mQf-Tczc0RZpqZf9JVlfyVlKfnMMKPwBwcvAfS4u_kU0HjJYhoHLxXR5qTwPH7p7fvHKgh-0-6DGHiJ2cD3tXs4GUBfs2gixcTaksGGnRq7rLiL8YjQu9hmCXDV3CuYFByGJgttjBeC3F9p8Vd4ptFP6rwzkDPMSNinNOWHToXSNHkEOlZRdJ02epyIz3MP9W9MBWFf9zO7_NvDs4dnOpEHvuZY8TDrj6DphFsAFcKXfW7UZG0Lk0S4FdBBrQaWC9s54uR9nf6-0zBWlrWqewuCUgAA; ESTSAUTHPERSISTENT=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P8EZb-gqbElMEW0lP-IOKFc76N3sNUDM9YoF1VMoivGvgWdyV2B8oqJVmivUDyWxT1h4kBcRYmSngOksW_OBTZgdf069PmC_c0L3gVEmBBEgrg0fMs1oWywIV-eLaCkSSl3-q_Vki7T2tuTOkQuIfsdreufi50jNQPwmmW9Jzt5EAwpCQQuyUIW38ElgocfskiwY072_gLcb1AftK4wnkJfpRCLt6KUr-8b2icTCLjsAMGgtGwyZajAm0WMwutJl2jljC_5w039Hj5OILw0OyS9kWu5_hy8IWCz9kk_4BKE6VzHEoSorxSRWBzRL2y0XRDB2_3weO5NSt6qZBteueZVRf90ql9XJDoBxKN5NX9J9nIxLiCNeNq8Kfbg-atkfaxF-94FLmfmAQn9QqIYlvbyJ3qvaTpQEoCWsgvhTFx7DIdg-j2IM6WSyS9Nw2-1F0F17Md6RACXOuYuBVSS-8FpsrZjoyjIDxgUAmcUAVSCFnZuoeuq9_257IATbkYvmmNZ5gvkyWOxf17i4XzvZia38PfBGKhSML43_Krh1REZCCmJK5ouyVEDBq66hF1cAR3FS1jt3MlipAxTMXXXBmi5DlyO9Wy4iLEnDfOT6Bfu4ZfDy7rs8bFRvCZgp4GkprF_ciE7-WMWoA9m22HrB_ET38142GHO4Cvyoe1K7mK-NuUtfdy4QUSJeTKg93ACMuZl8S54OX9ZYGb4meESeLEfzucVJsAWEt8LHdDk1XvQQKOb8SePbrSFwtz9P3T4m8NxCAHa73s-dhhwT5fSnqo17pWZWdC0W3a6cFNV7vc4KbZhGhRbiEgcHX7Dfc5xRzVkqB26KiGNt1eylgqx1u8FI9sl5I2z3qjGLRZA7Hj0wxI7P3aDmjb-3e8raUxFQuNTHdwtFnVTEGOJFNOCdiXx8psG5OYjvRCIRQnyVZwBMXjT_vtlj4WjMzqvByvtgIsaYeu0VgVZ0EUC9H77vymKSWPioFJQMm941Iq9HK-qc0Ub9ieB317WexC7EcmnDsgE93enRaKviu98Nii3MYlx2eenxEPsdRXoI_EpSRhcwyi7JA0kZTm6l_z-03UMrrZbRXmcZskFT9L_cxPjZW0hSdTaaktzz-GmV-ikh8c_c_8PdwGuo5YFjmlb_LIuds_ZVbsYxYNg9ggHl1xELJ9QFMjRc8AOzfRgpwXyD67JhDaMEOaxpJJJMYJYwy8-G3CsZgo7G0V3rNR1DHq-hTGUsfrxSB18Slzr-XfAPhpAO0d8yeOyPX_KvhfTqIIZsYmpuTJIes95J3H0njz1Fr5HaIaL-z910bTCdlRX2qtznTGFh3dX45Zt-Wsy0jRuYVLzGgDFa7SmKE6uX2ulPcVV_PSmyWUkw_TRyWhbU76vQEUPtGu_ufgZAYAi_UHdg3phvxw4Nb0tUCowoXxIJPoIK2UBPTV6xhRX6ejwvW5wcWyyIaxn1H8RECI-b3LNZ_UtTNrkY17ZlGhH18L7DKtuzRl2yRTrNAbvro6ArO0wV6mAZSm7XIxFcw6gz9poeKcU6W-WlDXtWHYDM0FWX09mmamNFlbiuNYqpR-XIAOthVThewwkZ1dBWnOtqI8NaL8fT6EMkLEaBaTfAZZxn6Q6mkh1IE-5xud68B12WxhNFjzDcbitEl-2pU73DqJNg8UgN34xgigxojzwIVzu-nWes8REJtXqxK1y-EGoR8-6pVKyFaO-4t3XJ-9DgEfjpjT7OkBrDk14aTdl9jmMugvoZv-rCVRvYDM5bnmnWLExThBSjDwOd2KmUkHjph1hg4bvg-TRr7DJAXL-Oh-qITs_UaJp7ptS3w_6; ESTSAUTH=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P9fhgTcpXFg8kdxvbHAq0eZM4UqA-H8kKXH3KfoT7nIlTVKJpNAL61_YaWFQnd8fOe3ZsfYZVS1V7u-V-oUC8euwhtg9l-zUFy7H8Z1pcJmmPqADOeHL5ay3mY__fo2WEG23CXNUUudEixyPsj9rSxuF5HaK_nqv29TXfYoFzx7OE_H3S2lq4Dj9QWch9DOqbPC8O7OhNgB3QFxClvb5-1GNJ-jUON9QhNVWkNYw_mZsq7hjl3U6c7YQhsHQn6nUGl1N-DdF3CCTcqd0vYYq0uzwtK8N_Q8db7MOc5vKHfFlTRRjpt82Z7mSPAVv6G2SP4LSnAJGimXZZQgtGLcKfVpyEMvvHDs-Yzg9IJs5VUQI-wJsDZ8j2wF1uvDIKak3GU6othWuVhuGX5Od32s6amgPtoqwnjK0zjNbmKT0aZXsDrnyDrZUQf6eq8tMWW7JlrCo6LLHojrOP9Ve8y_jx5mucefz166T-IWsVx6yTtq1qN5Qmbp1JdIJAmlJBmGnYlhlKor5pXGwmLGb7SY0XGFavodXxthuWoxPhzG4IVflx1ZYm27W5ff2J0ftGdx_J2anUiwgBs1kO9_vMnKeNxq4jZaiKVWzx6HfKHgJg9-5aPDpxmYJRHTT9_-qF424vRgYMus13XTf4RB_ie7RW0YkTVB6ibNO9ZbzyGQD5nUllz1bZluiKXdcqxeCoxsnrgdETBRDzzvks8nUfBtZfq04McCbBUMdyNfMG7XVRJ1LOS1nyxNvjbor7_5StciyCoAirJHjLDn3zbTcMJa0ibEUrY8D0VMIL0s5Wh2n4T8Ux4IAegBB35gZSoWGI7W3jxKNCcxRgQk61LanJqg5FOkwDioBn6D3wfkI38; buid=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AQABAAEAAAAtyolDObpQQ5VtlI4uGjEPa5N4GX6rUewQLGVz6YRkH1_iMnHN5ACXG94l22_7RGVg8tTrOsLrBFoGPDR094XCGXZyQu3vzqW09PAMwhHwoyArg5-dVFTR1w0z_Hs_n9zyILTOxBUbbCKSVAZdG7UVyhL2FUgeeiP9i3mI0j3CVi-opDEqlHGgVqv1GspFjNUgAA; CCState=Q29zQkNoaHRkV3BoYUdsa0xuSnBlblpwUUdOdmJtWnBlaTVqYjIwU0FRRWlDUWtBdU1Da0dxTGJTQ29KQ1VGOVlOaHVyTnRJTWlvS0Vnb1E2UHhUei9iZTYwcU5NTEZZNTdIUGd4SUpDU3FEbi96dHB0dElHZ2tKUWYwK01KT2syMGc0QUVnQVVoSUtFS0dhakpCMVlWNVB1aklzQlBFR0t2QmFFZ29RQVVONWVBenVERW1vbnNxMzk5Q1pNaElTQ2hDWE5MWW14SnI4UnB3dkxNd093Mnd6R2drSlFmMCtNSk9rMjBneWZnSUFBUUFCQUFBQUxjcUpRem02VUVPVmJaU09MaG94RHdJQTdQOEZBUFQvdFhOZEg0VmNWZVJERlovdk52L3lSVG5ZMkF5YXd5SXFSQlMzK2E1RENVMEFJV3JmN2RuUmJ5bU1ZcUVONU9wNkxxK2ovOVNQblN4NXczTk1iTy9jYTVDWExTNU8zOTVWeVQ3eEphRmJsWnU2SFVxUG9pWTh2S2ZESHhweVN3PT0=; SignInStateCookie=CAgABAAIAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P_tPto7HjZVVB8Lkhr3jXsiZCv18drJF_5UuWIQmzORcujzX7ky1anvryFXqJLya9yzQI1k-tnFDp5tFTtEY2wmSTxq6EAEBBKxrcvAO1fWWIUAl0_1f8HsBJFkq1HE7VoaHY72mUsIiWpuHTsLyUGtmCOd06Se-GWD5mAJ1Bigy_WEhRqO9CMRNRbrNxsw0O_yA-MZgKUv_XbO-UaitQ2eIq0fnexrS1fWG1MNrLpG1ZTmcCJ_U8H5X_1Os6dwNTw9zTLeI39rJFfBnpUIA1mFdCpWzZuP5BtlRb1Alp7jWh2fQuWAdzyNzvKwQd-OVMO30_tJNKAbW1i4qGRHXvRZhymZowLfBw; fpc=Aqa9vNWaOg9Mn5KEco9gkFevG5vRBAAAAHtKltwOAAAAxXFFtQEAAACKSZbcDgAAAJp6f3sBAAAAKEuW3A4AAAA</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">sessionId=604e7e53-798a-4bcf-9f47-779fde804591&amp;canary=zGfFKgHIa7JLQlCkdSF2zs2l3YPnd4yUbuRJV98Ynk4%3D6%3A1%3ACANARY%3ALbNpZvcH%2B2wD3LjD8foiyZ6PHoDrXJObZZw62NYZkPo%3D&amp;hpgrequestid=82fd591d-da50-48c7-bc39-9beef72b2f00&amp;state=&amp;msaSession=0&amp;ctx=&amp;postLogoutRedirectUriValid=0&amp;post_logout_redirect_uri=https%3A%2F%2Facm-fo-stg01.sandbox.operations.dynamics.com%2F%3Fcmp%3DDAT%26mi%3DDefaultDashboard&amp;i19=</queryString>
+  <java.net.URL>https://login.microsoftonline.com/ba83715b-5f25-47fa-ba0a-37f196149d99/oauth2/logoutsession</java.net.URL>
+</httpSample>
+<httpSample t="938" it="0" lt="0" ct="702" ts="1694782662562" s="true" lb="/video_d/1.0.0.5/dnl_settings.json-114" rc="204" rm="No Content" tn="" dt="" de="" by="363" sby="476" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 15 Sep 2023 12:57:35 GMT
+Content-Length: 0
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Headers: x-requested-with
+Access-Control-Expose-Headers: X-Additional-Info
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: null
+Access-Control-Request-Method: GET
+Accept: */*
+Host: videodown.site
+Access-Control-Request-Headers: x-requested-with
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://videodown.site/video_d/1.0.0.5/dnl_settings.json</java.net.URL>
+</httpSample>
+<httpSample t="1477" it="0" lt="1477" ct="1116" ts="1694782666103" s="true" lb="/ws/sp/DIQWHZCZ805724SEV7O7/logout-116" rc="302" rm="Found" tn="" dt="text" de="UTF-8" by="1407" sby="976" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Fri, 15 Sep 2023 12:57:39 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: close
+Server: Duo/1.0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: 0
+Pragma: no-cache
+Location: https://carmart-sso.login.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3A%2F%2Flogin.microsoftonline.com%2Flogin.srf%3Fwa%3Dwsignoutcleanup1.0%26wreply%3Dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3D501148
+Set-Cookie: sid-init-5cb19b8f4ae64288946f436ea4e8ed24=&quot;Y2FlNzEwMzVmNDU1NDUzODk4YThhYmQzNzkyY2U2NTk=|1694782659|2b0d1e0e86a5d683364b6f104c585f2b440125b3&quot;; HttpOnly; Path=/; SameSite=None; Secure
+Set-Cookie: sid=&quot;&quot;; expires=Thu, 15 Sep 2022 12:57:39 GMT; Path=/
+Set-Cookie: _xsrf=&quot;&quot;; expires=Thu, 15 Sep 2022 12:57:39 GMT; Path=/
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: default-src &apos;none&apos;; style-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; script-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; font-src &apos;self&apos;; frame-src &apos;self&apos;  ; frame-ancestors &apos;none&apos;; img-src &apos;self&apos;   https://uw2.pwl.login.duosecurity.com; connect-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://login.microsoftonline.com/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: sso-e899eff1.sso.duosecurity.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://carmart-sso.login.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3A%2F%2Flogin.microsoftonline.com%2Flogin.srf%3Fwa%3Dwsignoutcleanup1.0%26wreply%3Dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3D501148</redirectLocation>
+  <java.net.URL>https://sso-e899eff1.sso.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3A%2F%2Flogin.microsoftonline.com%2Flogin.srf%3Fwa%3Dwsignoutcleanup1.0%26wreply%3Dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3D501148</java.net.URL>
+</httpSample>
+<httpSample t="885" it="0" lt="884" ct="671" ts="1694782663711" s="true" lb="/video_d/1.0.0.5/dnl_settings.json-115" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="452" sby="563" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 15 Sep 2023 12:57:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 63
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Additional-Info
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+ETag: W/&quot;3f-UBFKnP6sVj3rZTraiDRoSqW4Iow&quot;
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: null
+Accept: application/json
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: videodown.site
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;headers&quot;:[{&quot;key&quot;:&quot;Access-Control-Allow-Origin&quot;,&quot;value&quot;:&quot;*&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://videodown.site/video_d/1.0.0.5/dnl_settings.json</java.net.URL>
+</httpSample>
+<httpSample t="1863" it="0" lt="1863" ct="1165" ts="1694782670175" s="true" lb="/ws/sp/DIQWHZCZ805724SEV7O7/logout-117" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1462" sby="1388" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 15 Sep 2023 12:57:43 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Server: Duo/1.0
+Etag: W/&quot;64f2750cdfa52f5d7f27dfb9e14758908d6052f9&quot;
+Set-Cookie: sid=&quot;&quot;; expires=Thu, 15 Sep 2022 12:57:43 GMT; Path=/
+Set-Cookie: sid-init-c01d329eeb49461ebd1ca8a8bf3ed2c1=&quot;&quot;; expires=Thu, 15 Sep 2022 12:57:43 GMT; Path=/
+Set-Cookie: _xsrf=&quot;&quot;; expires=Thu, 15 Sep 2022 12:57:43 GMT; Path=/
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: default-src &apos;none&apos;; style-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; script-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; font-src &apos;self&apos;; frame-src &apos;self&apos;  ; frame-ancestors &apos;none&apos;; img-src &apos;self&apos;   https://uw2.pwl.login.duosecurity.com; connect-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://login.microsoftonline.com/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: carmart-sso.login.duosecurity.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Logged out&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;&amp;#x2f;static&amp;#x2f;css&amp;#x2f;page&amp;#x2f;single-logout.css&amp;#x3f;v&amp;#x3d;64206&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;&amp;#x2f;static&amp;#x2f;images&amp;#x2f;favicon_duo.ico&amp;#x3f;v&amp;#x3d;e3716&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div
+id=&quot;logout-parent&quot;
+data-custom-background-url=&quot;&quot;
+data-custom-background-color=&quot;&quot;
+data-custom-accent-color=&quot;&quot;
+data-custom-logo-url=&quot;&amp;#x2f;logo&quot;
+data-secured-by-duo=&quot;True&quot;
+&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;&amp;#x2f;static&amp;#x2f;js&amp;#x2f;page&amp;#x2f;single-logout.js&amp;#x3f;v&amp;#x3d;3df7d&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">remembered-username=mujahid.rizvi2%40car-mart.com; _xsrf=&quot;Nzc3MjJkYjk3MjRkNDIxMjhiMDA2MWMwYjUzMWQzYzA=|1694782042|676108a5e05d24bb22bbfe9baaeef82331569f43&quot;; sid=&quot;MTgyYzRhZGJlNDRmNGFjMTlmNDhjNmRlMDIzOGM5MmY=|1694782051|b15a577e76a2e9f01cb3bd5f8c418d8c97b30e7c&quot;; sid-init-c01d329eeb49461ebd1ca8a8bf3ed2c1=&quot;MTgyYzRhZGJlNDRmNGFjMTlmNDhjNmRlMDIzOGM5MmY=|1694782052|47d58f2f2cde454dc59272cf1c7190efe94f498c&quot;</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://carmart-sso.login.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3A%2F%2Flogin.microsoftonline.com%2Flogin.srf%3Fwa%3Dwsignoutcleanup1.0%26wreply%3Dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3D501148</java.net.URL>
+</httpSample>
+<httpSample t="1286" it="0" lt="0" ct="924" ts="1694782674057" s="true" lb="/logo-120" rc="304" rm="Not Modified" tn="" dt="" de="" by="652" sby="1003" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 15 Sep 2023 12:57:47 GMT
+Connection: close
+Server: Duo/1.0
+Etag: &quot;6583fe3cc6093817a49bca0f7da7b4f0879b4ba1&quot;
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: default-src &apos;none&apos;; style-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; script-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com; font-src &apos;self&apos;; frame-src &apos;self&apos;  ; frame-ancestors &apos;none&apos;; img-src &apos;self&apos;   https://uw2.pwl.login.duosecurity.com; connect-src &apos;self&apos; https://uw2.pwl.login.duosecurity.com
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Referer: https://carmart-sso.login.duosecurity.com/ws/sp/DIQWHZCZ805724SEV7O7/logout?wa=wsignout1.0&amp;wreply=https%3A%2F%2Flogin.microsoftonline.com%2Flogin.srf%3Fwa%3Dwsignoutcleanup1.0%26wreply%3Dhttps%253a%252f%252flogin.microsoftonline.com%252fba83715b-5f25-47fa-ba0a-37f196149d99%252foauth2%252flogoutredirect%26id%3D501148
+If-None-Match: &quot;6583fe3cc6093817a49bca0f7da7b4f0879b4ba1&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: carmart-sso.login.duosecurity.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: image
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">remembered-username=mujahid.rizvi2%40car-mart.com</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://carmart-sso.login.duosecurity.com/logo</java.net.URL>
+</httpSample>
+<httpSample t="903" it="0" lt="0" ct="685" ts="1694782674297" s="true" lb="/video_d/1.0.0.5/dnl_settings.json-121" rc="204" rm="No Content" tn="" dt="" de="" by="363" sby="476" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 15 Sep 2023 12:57:47 GMT
+Content-Length: 0
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Headers: x-requested-with
+Access-Control-Expose-Headers: X-Additional-Info
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: null
+Access-Control-Request-Method: GET
+Accept: */*
+Host: videodown.site
+Access-Control-Request-Headers: x-requested-with
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://videodown.site/video_d/1.0.0.5/dnl_settings.json</java.net.URL>
+</httpSample>
+<httpSample t="963" it="0" lt="962" ct="732" ts="1694782675260" s="true" lb="/video_d/1.0.0.5/dnl_settings.json-122" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="452" sby="563" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 15 Sep 2023 12:57:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 63
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Additional-Info
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+ETag: W/&quot;3f-UBFKnP6sVj3rZTraiDRoSqW4Iow&quot;
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: null
+Accept: application/json
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: videodown.site
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;headers&quot;:[{&quot;key&quot;:&quot;Access-Control-Allow-Origin&quot;,&quot;value&quot;:&quot;*&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://videodown.site/video_d/1.0.0.5/dnl_settings.json</java.net.URL>
+</httpSample>
+
+
+</testResults>

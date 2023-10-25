@@ -1,0 +1,14 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1694786353052.jmx",
+    "recordingTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\recording-1694786353059.jtl",
+    "replayTraceFilepath" : null
+  }, {
+    "stepMessage" : "Successful Replay without errors",
+    "testPlanFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Recording\\snapshot-1694786355034.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\Replay\\replay-1694786355082.jtl"
+  } ],
+  "filepath" : "C:\\Users\\mujahid.rizvi\\Downloads\\apache-jmeter-5.6.2\\bin\\History\\history-1694782001816.json"
+}

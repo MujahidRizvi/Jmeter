@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1556" it="0" lt="0" ct="1194" ts="1694784889721" s="false" lb="/-303" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1354" it="0" lt="0" ct="998" ts="1694784892311" s="false" lb="/-304" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1272" it="0" lt="0" ct="942" ts="1694784893670" s="false" lb="/-306" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1324" it="0" lt="0" ct="982" ts="1694784895003" s="false" lb="/-308" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1340" it="0" lt="0" ct="1016" ts="1694784898016" s="false" lb="/-309" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1344" it="0" lt="0" ct="971" ts="1694784901029" s="false" lb="/-310" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1280" it="0" lt="0" ct="945" ts="1694784902379" s="false" lb="/-311" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1297" it="0" lt="0" ct="957" ts="1694784903760" s="false" lb="/-312" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1338" it="0" lt="0" ct="1007" ts="1694784907848" s="false" lb="/-313" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1350" it="0" lt="0" ct="1014" ts="1694784914213" s="false" lb="/-314" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1265" it="0" lt="0" ct="938" ts="1694784915569" s="false" lb="/-315" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1316" it="0" lt="0" ct="975" ts="1694784916935" s="false" lb="/-316" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="1311" it="0" lt="0" ct="953" ts="1694784918987" s="false" lb="/-317" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1544" it="0" lt="0" ct="1171" ts="1694784921324" s="false" lb="/-318" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1271" it="0" lt="0" ct="933" ts="1694784922874" s="false" lb="/-319" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1268" it="0" lt="0" ct="940" ts="1694784924226" s="false" lb="/-320" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1286" it="0" lt="0" ct="963" ts="1694784930609" s="false" lb="/-325" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/</java.net.URL>
+</httpSample>
+<httpSample t="1316" it="0" lt="0" ct="968" ts="1694784950943" s="false" lb="/-335" rc="Non HTTP response code: java.io.EOFException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1484" sby="0" sc="1" ec="1" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: acm-fo-uat01.sandbox.operations.dynamics.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">java.io.EOFException&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:269)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:259)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:80)&#xd;
+	at java.base/java.util.zip.GZIPInputStream.&lt;init&gt;(GZIPInputStream.java:92)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.LaxGZIPInputStream.&lt;init&gt;(LaxGZIPInputStream.java:42)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.lambda$static$0(HTTPHC4Impl.java:205)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.initWrapper(LazyDecompressingInputStream.java:51)&#xd;
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:63)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1950)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:475)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:678)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+	at com.blazemeter.jmeter.correlation.core.proxy.CorrelationProxy.run(CorrelationProxy.java:56)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MSCC=NR; ms-dyn-affinity=AOS1; ms-dyn-csrftoken=pKkuOpggEacIe67nR9xETQ%3D%3D.n1sFe%2FWFdEGDQ7hdCFv2dq1dfJBTXNe6L6bus8v0NlAKxpQ%2FYp0eYuvW7BmMfi7RGDE2lhkX9HTR29uSsY%2Fg8klYT11Xcr1M42Abe9Wr3BG2w%2Bzytm9EuNTUFdWKdXGZ1yO7Gkcbp7CPNmY8%2FAWqf%2FxQumpGEYiCz0HJxgbdD65%2FdaKrF6pfDJ7cdoDVqFR2QjxSFvJGQ4xNfevqyIusw54FFipbY4Hv5aCTF6kEGyjxIBIx9hwZXnu0k5QoquvWV%2BbKNzdD4LeKWc2EAnsI2AQtwacOXCSbRBvV1lf5a9T1%2Fngmx8BTa3Y5%2FXHZj8gvHgOM7DBkmos2BjAgNx9W5A%3D%3D; OpenIdConnect.nonce.DEOFNNOtVX1iHz7Bng0yusUnWKZFrcJ2XvQZ%2FXx3%2FpU%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUItbldxYXNtOTF4Wkw2YXdpZ2FoNUcxc2pWZmFLUU02clNsQXQwbzRqWHp3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRWNxREZmRjhFTmtuMDhoUG9ocko1MDJub3BKdTBMbFYyWUdlTHp6b0ZnSUFBQUFEMkxzZVVrOF9GUkNESm8zZFBlTGI4aGRWN2RZbFV6WWUxR2I4Smw0eVBLU3JFZllPTG9rM0RZcDA2emhQV0JhTk4zNV9lRFQ2ZVp6d2JVa2pPR3pVRjRMd0IwUk95TTk0RDQtMmdIczJHY3lsWEcxSlpqYUhNbDJ2QUl4MkhPWHFzTF9ySXlBY2s3aU1neDU5UkIxQjRfUHVzNVBLcFVXc0VZaGd6bUQzcERFQUFBQUNoQTlsdVZ4S19GTTJsOWRYWjc4a2NSeWZRMENHai1USFBIamNCaXNNamdDR0ZpaTBRVllndmV2TFhscF9sUnRhOXBFMWI2SUdlTjhhT1Z2bXFwVEZB; OpenIdConnect.nonce.9A2bvxBI7%2BwmaaD4stlGK4kjz3YOBPydpupzzCoGeUk%3D=QVFBQUFOQ01uZDhCRmRFUmpIb0F3RV9DbC1zQkFBQUE4RGpWYXVsVWRVeWNNaFJLX3Y4dWdnQUFBQUFDQUFBQUFBQVFaZ0FBQUFFQUFDQUFBQUNmYmpvZ2lpbDZxeEUyTDZ6Y3RaTWQzczNNMGtDMTRqYmRrQ1Z5M25qZ3Z3QUFBQUFPZ0FBQUFBSUFBQ0FBQUFDRUtWVFl4dlhEM2cwTVBVcUpfc2Q2QWd3SVNlTHdIN1VDR1Zoa0d1ZzBmNEFBQUFEM3Y2U2FzSlFUdHo2Q1F5cE9oZ2lKSF8yS25qYThRS2pzT0ZicjRnczh2UUZwdjNvQjNkNlJSc3RwSEtGQnBoNG1ZQnJTaEpVblNrRk5kRW5PSV9zUUNoalBSLW9NMzVBdVJkUEFXU1VoaTRObXhZYWtmc2tpZ29OQ2Z1MjloNGo4bXlMUjFlTkpSUFRiZzNJd1paVUtKUndWX3dkZWx6c01DZ0o5cjE1ZVFVQUFBQUFxcjh6YnBQSlR0Ynh4VzdOWFBOeWd5ZDVfSkRWOUQxZm5mUVNhWW5RSG1lNmpHWEJyWS1VTW8wSlRST1dmTlBFMEozU29RTW94WGRUYjUyREFfRFZJ</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=DefaultDashboard</java.net.URL>
+</httpSample>
+<httpSample t="800" it="0" lt="798" ct="427" ts="1694784937673" s="true" lb="/common/login-327" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="9490" sby="5154" sc="1" ec="0" ng="0" na="0" hn="Confiz-7437">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Link: &lt;https://aadcdn.msauth.net&gt;; rel=preconnect; crossorigin
+Link: &lt;https://aadcdn.msauth.net&gt;; rel=dns-prefetch
+Link: &lt;https://aadcdn.msftauth.net&gt;; rel=dns-prefetch
+X-DNS-Prefetch-Control: on
+P3P: CP=&quot;DSP CUR OTPi IND OTRi ONL FIN&quot;
+x-ms-request-id: cab9d7bb-7918-40bb-bece-8dad70ac2900
+x-ms-ests-server: 2.1.16314.5 - EUS ProdSlices
+report-to: {&quot;group&quot;:&quot;network-errors&quot;,&quot;max_age&quot;:86400,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+pnq&quot;}]}
+nel: {&quot;report_to&quot;:&quot;network-errors&quot;,&quot;max_age&quot;:86400,&quot;success_fraction&quot;:0.001,&quot;failure_fraction&quot;:1.0}
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 0
+Set-Cookie: fpc=Aqa9vNWaOg9Mn5KEco9gkFfFcUW1AQAAAP9PltwOAAAArxub0QIAAADNU5bcDgAAAA; expires=Sun, 15-Oct-2023 13:35:30 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+Date: Fri, 15 Sep 2023 13:35:30 GMT
+Connection: close
+Content-Length: 8233
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: login.microsoftonline.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&#xd;
+&#xd;
+&lt;!-- Copyright (C) Microsoft Corporation. All rights reserved. --&gt;&#xd;
+&lt;!DOCTYPE html&gt;&#xd;
+&lt;html dir=&quot;ltr&quot; class=&quot;&quot; lang=&quot;en&quot;&gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;title&gt;Sign in to your account&lt;/title&gt;&#xd;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#xd;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#xd;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes&quot;&gt;&#xd;
+    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&#xd;
+    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;-1&quot;&gt;&#xd;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://aadcdn.msauth.net&quot; crossorigin&gt;&#xd;
+&lt;meta http-equiv=&quot;x-dns-prefetch-control&quot; content=&quot;on&quot;&gt;&#xd;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;//aadcdn.msauth.net&quot;&gt;&#xd;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;//aadcdn.msftauth.net&quot;&gt;&#xd;
+&#xd;
+    &lt;meta name=&quot;PageID&quot; content=&quot;ConvergedError&quot; /&gt;&#xd;
+    &lt;meta name=&quot;SiteID&quot; content=&quot;&quot; /&gt;&#xd;
+    &lt;meta name=&quot;ReqLC&quot; content=&quot;1033&quot; /&gt;&#xd;
+    &lt;meta name=&quot;LocLC&quot; content=&quot;en-US&quot; /&gt;&#xd;
+&#xd;
+&#xd;
+        &lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot; /&gt;&#xd;
+&#xd;
+    &lt;noscript&gt;&#xd;
+        &lt;meta http-equiv=&quot;Refresh&quot; content=&quot;0; URL=&quot; /&gt;&#xd;
+    &lt;/noscript&gt;&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+&lt;meta name=&quot;robots&quot; content=&quot;none&quot; /&gt;&#xd;
+&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+$Config={&quot;iErrorDesc&quot;:0,&quot;iErrorTitle&quot;:0,&quot;strMainMessage&quot;:&quot;We received a bad request.&quot;,&quot;strAdditionalMessage&quot;:&quot;&quot;,&quot;strServiceExceptionMessage&quot;:&quot;AADSTS900561: The endpoint only accepts POST requests. Received a GET request.&quot;,&quot;strTraceId&quot;:&quot;cab9d7bb-7918-40bb-bece-8dad70ac2900&quot;,&quot;iErrorCode&quot;:900561,&quot;iHttpErrorCode&quot;:400,&quot;iViewId&quot;:1,&quot;urlCancel&quot;:&quot;&quot;,&quot;strTimestamp&quot;:&quot;2023-09-15T13:35:30Z&quot;,&quot;fShowIssuerHintErrorStrings&quot;:true,&quot;urlLearnMoreRiskyApp&quot;:&quot;https://go.microsoft.com/fwlink/?linkid=2133457&quot;,&quot;oResumePostParams&quot;:{},&quot;iMaxStackForKnockoutAsyncComponents&quot;:10000,&quot;fShowButtons&quot;:true,&quot;urlCdn&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/&quot;,&quot;urlDefaultFavicon&quot;:&quot;https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico&quot;,&quot;urlFooterTOU&quot;:&quot;https://www.microsoft.com/en-US/servicesagreement/&quot;,&quot;urlFooterPrivacy&quot;:&quot;https://privacy.microsoft.com/en-US/privacystatement&quot;,&quot;iPawnIcon&quot;:0,&quot;sPOST_Username&quot;:&quot;&quot;,&quot;sFTName&quot;:&quot;flowToken&quot;,&quot;dynamicTenantBranding&quot;:null,&quot;staticTenantBranding&quot;:null,&quot;oAppCobranding&quot;:{},&quot;iBackgroundImage&quot;:2,&quot;fApplicationInsightsEnabled&quot;:false,&quot;iApplicationInsightsEnabledPercentage&quot;:0,&quot;urlSetDebugMode&quot;:&quot;https://login.microsoftonline.com/common/debugmode&quot;,&quot;fEnableCssAnimation&quot;:true,&quot;fAllowGrayOutLightBox&quot;:true,&quot;fIsRemoteNGCSupported&quot;:true,&quot;desktopSsoConfig&quot;:{&quot;isEdgeAnaheimAllowed&quot;:true,&quot;iwaEndpointUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/sso?client-request-id=b0919ca3-c475-4e23-b276-e07dc187127b&quot;,&quot;iwaSsoProbeUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/ssoprobe?client-request-id=b0919ca3-c475-4e23-b276-e07dc187127b&quot;,&quot;iwaIFrameUrlFormat&quot;:&quot;https://autologon.microsoftazuread-sso.com/{0}/winauth/iframe?client-request-id=b0919ca3-c475-4e23-b276-e07dc187127b\u0026isAdalRequest=False&quot;,&quot;iwaRequestTimeoutInMs&quot;:10000,&quot;startDesktopSsoOnPageLoad&quot;:false,&quot;progressAnimationTimeout&quot;:10000,&quot;isEdgeAllowed&quot;:false,&quot;minDssoEdgeVersion&quot;:&quot;17&quot;,&quot;isSafariAllowed&quot;:true,&quot;redirectUri&quot;:&quot;&quot;,&quot;isIEAllowedForSsoProbe&quot;:true,&quot;edgeRedirectUri&quot;:&quot;https://autologon.microsoftazuread-sso.com/common/winauth/sso/edgeredirect?client-request-id=b0919ca3-c475-4e23-b276-e07dc187127b\u0026origin=login.microsoftonline.com\u0026is_redirected=1&quot;,&quot;isFlowTokenPassedInEdge&quot;:true},&quot;iSessionPullType&quot;:2,&quot;fUseSameSite&quot;:true,&quot;uiflavor&quot;:1001,&quot;fOfflineAccountVisible&quot;:false,&quot;fEnableUserStateFix&quot;:true,&quot;fShowAccessPassPeek&quot;:true,&quot;fUpdateSessionPollingLogic&quot;:true,&quot;fEnableShowPickerCredObservable&quot;:true,&quot;fFetchSessionsSkipDsso&quot;:true,&quot;fUseNonMicrosoftDefaultBrandingForCiam&quot;:true,&quot;fMergeComplexBrandingProperties&quot;:true,&quot;fUseAltText&quot;:true,&quot;fRemoveCustomCss&quot;:true,&quot;fAddRtlCustomCssSupport&quot;:true,&quot;fFixLightboxHeaderMargin&quot;:true,&quot;fFixUICrashForApiRequestHandler&quot;:true,&quot;fDeprecateBrandingProperties&quot;:true,&quot;scid&quot;:1000,&quot;hpgact&quot;:2000,&quot;hpgid&quot;:1117,&quot;pgid&quot;:&quot;ConvergedError&quot;,&quot;apiCanary&quot;:&quot;PAQABAAEAAAAtyolDObpQQ5VtlI4uGjEPFI5dJbt2VgqcYy-KWTV-mC1no7RE6qqkH3uuMpm6ZGqxBxMtF70PFwwtUohcvcCw4N7JbNXYWqic-ZGFDF_vF6Gt0FgPj5KMkgBx-brqBCdM6_C2TspfaeQbyGA-SiQtLOZ7svLR8RxNB-VltZEOgWavczs2Yhb7m_FIS66sTaaWVD3SrsdEKpO1Nqu5gKVWla66O6D852eHzwTVN47QRCAA&quot;,&quot;canary&quot;:&quot;Pecu344haiS3OEm3xYu2TKCWaAU18Oo2Y4vt/l5iXA4=8:1:CANARY:EqfbKYjkJvrZTH/lQiuzOK7CYWoq3sGXaIkSZ2/k5lw=&quot;,&quot;sCanaryTokenName&quot;:&quot;canary&quot;,&quot;fSkipRenderingNewCanaryToken&quot;:false,&quot;fEnableNewCsrfProtection&quot;:true,&quot;correlationId&quot;:&quot;b0919ca3-c475-4e23-b276-e07dc187127b&quot;,&quot;sessionId&quot;:&quot;cab9d7bb-7918-40bb-bece-8dad70ac2900&quot;,&quot;locale&quot;:{&quot;mkt&quot;:&quot;en-US&quot;,&quot;lcid&quot;:1033},&quot;slMaxRetry&quot;:2,&quot;slReportFailure&quot;:true,&quot;strings&quot;:{&quot;desktopsso&quot;:{&quot;authenticatingmessage&quot;:&quot;Trying to sign you in&quot;}},&quot;enums&quot;:{&quot;ClientMetricsModes&quot;:{&quot;None&quot;:0,&quot;SubmitOnPost&quot;:1,&quot;SubmitOnRedirect&quot;:2,&quot;InstrumentPlt&quot;:4}},&quot;urls&quot;:{&quot;instr&quot;:{&quot;pageload&quot;:&quot;https://login.microsoftonline.com/common/instrumentation/reportpageload&quot;,&quot;dssostatus&quot;:&quot;https://login.microsoftonline.com/common/instrumentation/dssostatus&quot;}},&quot;browser&quot;:{&quot;ltr&quot;:1,&quot;Chrome&quot;:1,&quot;_Win&quot;:1,&quot;_M117&quot;:1,&quot;_D0&quot;:1,&quot;Full&quot;:1,&quot;Win81&quot;:1,&quot;RE_WebKit&quot;:1,&quot;b&quot;:{&quot;name&quot;:&quot;Chrome&quot;,&quot;major&quot;:117,&quot;minor&quot;:0},&quot;os&quot;:{&quot;name&quot;:&quot;Windows&quot;,&quot;version&quot;:&quot;10.0&quot;},&quot;V&quot;:&quot;117.0&quot;},&quot;watson&quot;:{&quot;url&quot;:&quot;/common/handlers/watson&quot;,&quot;bundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watson.min_q5ptmu8aniymd4ftuqdkda2.js&quot;,&quot;sbundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js&quot;,&quot;fbundle&quot;:&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/frameworksupport.min_oadrnc13magb009k4d20lg2.js&quot;,&quot;resetErrorPeriod&quot;:5,&quot;maxCorsErrors&quot;:-1,&quot;maxInjectErrors&quot;:5,&quot;maxErrors&quot;:10,&quot;maxTotalErrors&quot;:3,&quot;expSrcs&quot;:[&quot;https://login.microsoftonline.com&quot;,&quot;https://aadcdn.msauth.net/&quot;,&quot;https://aadcdn.msftauth.net/&quot;,&quot;.login.microsoftonline.com&quot;],&quot;envErrorRedirect&quot;:true,&quot;envErrorUrl&quot;:&quot;/common/handlers/enverror&quot;},&quot;loader&quot;:{&quot;cdnRoots&quot;:[&quot;https://aadcdn.msauth.net/&quot;,&quot;https://aadcdn.msftauth.net/&quot;],&quot;logByThrowing&quot;:true},&quot;serverDetails&quot;:{&quot;slc&quot;:&quot;ProdSlices&quot;,&quot;dc&quot;:&quot;EUS&quot;,&quot;ri&quot;:&quot;BL6XXXX&quot;,&quot;ver&quot;:{&quot;v&quot;:[2,1,16314,5]},&quot;rt&quot;:&quot;2023-09-15T13:35:30&quot;,&quot;et&quot;:0},&quot;clientEvents&quot;:{&quot;enabled&quot;:true,&quot;telemetryEnabled&quot;:true,&quot;useOneDSEventApi&quot;:true,&quot;flush&quot;:60000,&quot;autoPost&quot;:true,&quot;autoPostDelay&quot;:1000,&quot;minEvents&quot;:1,&quot;maxEvents&quot;:1,&quot;pltDelay&quot;:500,&quot;appInsightsConfig&quot;:{&quot;instrumentationKey&quot;:&quot;69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293&quot;,&quot;webAnalyticsConfiguration&quot;:{&quot;autoCapture&quot;:{&quot;jsError&quot;:true}}},&quot;defaultEventName&quot;:&quot;IDUX_ESTSClientTelemetryEvent_WebWatson&quot;,&quot;serviceID&quot;:3,&quot;endpointUrl&quot;:&quot;&quot;},&quot;fApplyAsciiRegexOnInput&quot;:true,&quot;fBreakBrandingSigninString&quot;:true,&quot;fTrimChromeBssoUrl&quot;:true,&quot;inlineMode&quot;:5,&quot;fShowCopyDebugDetailsLink&quot;:true,&quot;fTenantBrandingCdnAddEventHandlers&quot;:true};
+//]]&gt;&lt;/script&gt; &#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+!function(){var e=window,r=e.$Debug=e.$Debug||{},t=e.$Config||{};if(!r.appendLog){var n=[],o=0;r.appendLog=function(e){var r=t.maxDebugLog||25,i=(new Date).toUTCString()+&quot;:&quot;+e;n.push(o+&quot;:&quot;+i),n.length&gt;r&amp;&amp;n.shift(),o++},r.getLogs=function(){return n}}}(),function(){function e(e,r){function t(i){var a=e[i];if(i&lt;n-1){return void(o.r[a]?t(i+1):o.when(a,function(){t(i+1)}))}r(a)}var n=e.length;t(0)}function r(e,r,i){function a(){var e=!!s.method,o=e?s.method:i[0],a=s.extraArgs||[],u=n.$WebWatson;try{
+var c=t(i,!e);if(a&amp;&amp;a.length&gt;0){for(var d=a.length,l=0;l&lt;d;l++){c.push(a[l])}}o.apply(r,c)}catch(e){return void(u&amp;&amp;u.submitFromException&amp;&amp;u.submitFromException(e))}}var s=o.r&amp;&amp;o.r[e];return r=r||this,s&amp;&amp;(s.skipTimeout?a():n.setTimeout(a,0)),s}function t(e,r){return Array.prototype.slice.call(e,r?1:0)}var n=window;n.$Do||(n.$Do={&quot;q&quot;:[],&quot;r&quot;:[],&quot;removeItems&quot;:[],&quot;lock&quot;:0,&quot;o&quot;:[]});var o=n.$Do;o.when=function(t,n){function i(e){r(e,a,s)||o.q.push({&quot;id&quot;:e,&quot;c&quot;:a,&quot;a&quot;:s})}var a=0,s=[],u=1;&quot;function&quot;==typeof n||(a=n,
+u=2);for(var c=u;c&lt;arguments.length;c++){s.push(arguments[c])}t instanceof Array?e(t,i):i(t)},o.register=function(e,t,n){if(!o.r[e]){o.o.push(e);var i={};if(t&amp;&amp;(i.method=t),n&amp;&amp;(i.skipTimeout=n),arguments&amp;&amp;arguments.length&gt;3){i.extraArgs=[];for(var a=3;a&lt;arguments.length;a++){i.extraArgs.push(arguments[a])}}o.r[e]=i,o.lock++;try{for(var s=0;s&lt;o.q.length;s++){var u=o.q[s];u.id==e&amp;&amp;r(e,u.c,u.a)&amp;&amp;o.removeItems.push(u)}}catch(e){throw e}finally{if(0===--o.lock){for(var c=0;c&lt;o.removeItems.length;c++){
+for(var d=o.removeItems[c],l=0;l&lt;o.q.length;l++){if(o.q[l]===d){o.q.splice(l,1);break}}}o.removeItems=[]}}}},o.unregister=function(e){o.r[e]&amp;&amp;delete o.r[e]}}(),function(e,r){function t(){if(!a){if(!r.body){return void setTimeout(t)}a=!0,e.$Do.register(&quot;doc.ready&quot;,0,!0)}}function n(){if(!s){if(!r.body){return void setTimeout(n)}t(),s=!0,e.$Do.register(&quot;doc.load&quot;,0,!0),i()}}function o(e){(r.addEventListener||&quot;load&quot;===e.type||&quot;complete&quot;===r.readyState)&amp;&amp;t()}function i(){
+r.addEventListener?(r.removeEventListener(&quot;DOMContentLoaded&quot;,o,!1),e.removeEventListener(&quot;load&quot;,n,!1)):r.attachEvent&amp;&amp;(r.detachEvent(&quot;onreadystatechange&quot;,o),e.detachEvent(&quot;onload&quot;,n))}var a=!1,s=!1;if(&quot;complete&quot;===r.readyState){return void setTimeout(n)}!function(){r.addEventListener?(r.addEventListener(&quot;DOMContentLoaded&quot;,o,!1),e.addEventListener(&quot;load&quot;,n,!1)):r.attachEvent&amp;&amp;(r.attachEvent(&quot;onreadystatechange&quot;,o),e.attachEvent(&quot;onload&quot;,n))}()}(window,document),function(){function e(){
+return f.$Config||f.ServerData||{}}function r(e,r){var t=f.$Debug;t&amp;&amp;t.appendLog&amp;&amp;(r&amp;&amp;(e+=&quot; &apos;&quot;+(r.src||r.href||&quot;&quot;)+&quot;&apos;&quot;,e+=&quot;, id:&quot;+(r.id||&quot;&quot;),e+=&quot;, async:&quot;+(r.async||&quot;&quot;),e+=&quot;, defer:&quot;+(r.defer||&quot;&quot;)),t.appendLog(e))}function t(){var e=f.$B;if(void 0===d){if(e){d=e.IE}else{var r=f.navigator.userAgent;d=-1!==r.indexOf(&quot;MSIE &quot;)||-1!==r.indexOf(&quot;Trident/&quot;)}}return d}function n(){var e=f.$B;if(void 0===l){if(e){l=e.RE_Edge}else{var r=f.navigator.userAgent;l=-1!==r.indexOf(&quot;Edge&quot;)}}return l}function o(e){
+var r=e.indexOf(&quot;?&quot;),t=r&gt;-1?r:e.length,n=e.lastIndexOf(&quot;.&quot;,t);return e.substring(n,n+h.length).toLowerCase()===h}function i(){var r=e();return(r.loader||{}).slReportFailure||r.slReportFailure||!1}function a(){return(e().loader||{}).redirectToErrorPageOnLoadFailure||!1}function s(){return(e().loader||{}).logByThrowing||!1}function u(e){if(!t()&amp;&amp;!n()){return!1}var r=e.src||e.href||&quot;&quot;;if(!r){return!0}if(o(r)){var i,a,s;try{i=e.sheet,a=i&amp;&amp;i.cssRules,s=!1}catch(e){s=!0}if(i&amp;&amp;!a&amp;&amp;s){return!0}
+if(i&amp;&amp;a&amp;&amp;0===a.length){return!0}}return!1}function c(){function t(e){g.getElementsByTagName(&quot;head&quot;)[0].appendChild(e)}function n(e,r,t,n){var u=null;return u=o(e)?i(e):&quot;script&quot;===n.toLowerCase()?a(e):s(e,n),r&amp;&amp;(u.id=r),&quot;function&quot;==typeof u.setAttribute&amp;&amp;(u.setAttribute(&quot;crossorigin&quot;,&quot;anonymous&quot;),t&amp;&amp;&quot;string&quot;==typeof t&amp;&amp;u.setAttribute(&quot;integrity&quot;,t)),u}function i(e){var r=g.createElement(&quot;link&quot;);return r.rel=&quot;stylesheet&quot;,r.type=&quot;text/css&quot;,r.href=e,r}function a(e){
+var r=g.createElement(&quot;script&quot;),t=g.querySelector(&quot;script[nonce]&quot;);if(r.type=&quot;text/javascript&quot;,r.src=e,r.defer=!1,r.async=!1,t){var n=t.nonce||t.getAttribute(&quot;nonce&quot;);r.setAttribute(&quot;nonce&quot;,n)}return r}function s(e,r){var t=g.createElement(r);return t.src=e,t}function d(e,r){if(e&amp;&amp;e.length&gt;0&amp;&amp;r){for(var t=0;t&lt;e.length;t++){if(-1!==r.indexOf(e[t])){return!0}}}return!1}function l(r){if(e().fTenantBrandingCdnAddEventHandlers){var t=d($,r)?$:b;if(!(t&amp;&amp;t.length&gt;1)){return r}for(var n=0;n&lt;t.length;n++){
+if(-1!==r.indexOf(t[n])){var o=t[n+1&lt;t.length?n+1:0],i=r.substring(t[n].length);return&quot;https://&quot;!==t[n].substring(0,&quot;https://&quot;.length)&amp;&amp;(o=&quot;https://&quot;+o,i=i.substring(&quot;https://&quot;.length)),o+i}}return r}if(!(b&amp;&amp;b.length&gt;1)){return r}for(var a=0;a&lt;b.length;a++){if(0===r.indexOf(b[a])){return b[a+1&lt;b.length?a+1:0]+r.substring(b[a].length)}}return r}function f(e,t,n,o){if(r(&quot;[$Loader]: &quot;+(w.failMessage||&quot;Failed&quot;),o),E[e].retry&lt;y){return E[e].retry++,v(e,t,n),void c._ReportFailure(E[e].retry,E[e].srcPath)}n&amp;&amp;n()}
+function h(e,t,n,o){if(u(o)){return f(e,t,n,o)}r(&quot;[$Loader]: &quot;+(w.successMessage||&quot;Loaded&quot;),o),v(e+1,t,n);var i=E[e].onSuccess;&quot;function&quot;==typeof i&amp;&amp;i(E[e].srcPath)}function v(e,o,i){if(e&lt;E.length){var a=E[e];if(!a||!a.srcPath){return void v(e+1,o,i)}a.retry&gt;0&amp;&amp;(a.srcPath=l(a.srcPath),a.origId||(a.origId=a.id),a.id=a.origId+&quot;_Retry_&quot;+a.retry);var s=n(a.srcPath,a.id,a.integrity,a.tagName);s.onload=function(){h(e,o,i,s)},s.onerror=function(){f(e,o,i,s)},s.onreadystatechange=function(){
+&quot;loaded&quot;===s.readyState?setTimeout(function(){h(e,o,i,s)},500):&quot;complete&quot;===s.readyState&amp;&amp;h(e,o,i,s)},t(s),r(&quot;[$Loader]: Loading &apos;&quot;+(a.srcPath||&quot;&quot;)+&quot;&apos;, id:&quot;+(a.id||&quot;&quot;))}else{o&amp;&amp;o()}}var p=e(),y=p.slMaxRetry||2,m=p.loader||{},b=m.cdnRoots||[],$=m.tenantBrandingCdnRoots||[],w=this,E=[];w.retryOnError=!0,w.successMessage=&quot;Loaded&quot;,w.failMessage=&quot;Error&quot;,w.Add=function(e,r,t,n,o,i){e&amp;&amp;E.push({&quot;srcPath&quot;:e,&quot;id&quot;:r,&quot;retry&quot;:n||0,&quot;integrity&quot;:t,&quot;tagName&quot;:o||&quot;script&quot;,&quot;onSuccess&quot;:i})},w.AddForReload=function(e,r){
+var t=e.src||e.href||&quot;&quot;;w.Add(t,&quot;AddForReload&quot;,e.integrity,1,e.tagName,r)},w.AddIf=function(e,r,t){e&amp;&amp;w.Add(r,t)},w.Load=function(e,r){v(0,e,r)}}var d,l,f=window,g=f.document,h=&quot;.css&quot;;c.On=function(e,r,t){if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}r?c.OnError(e,t):c.OnSuccess(e,t)},c.OnSuccess=function(e,t){if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}if(u(e)){return c.OnError(e,t)}var n=e.src||e.href||&quot;&quot;,o=i(),s=a();r(&quot;[$Loader]: Loaded&quot;,e);var d=new c
+;d.failMessage=&quot;Reload Failed&quot;,d.successMessage=&quot;Reload Success&quot;,d.Load(null,function(){if(o){throw&quot;Unexpected state. ResourceLoader.Load() failed despite initial load success. [&apos;&quot;+n+&quot;&apos;]&quot;}s&amp;&amp;(document.location.href=&quot;/error.aspx?err=504&quot;)})},c.OnError=function(e,t){var n=e.src||e.href||&quot;&quot;,o=i(),s=a();if(!e){throw&quot;The target element must be provided and cannot be null.&quot;}r(&quot;[$Loader]: Failed&quot;,e);var u=new c;u.failMessage=&quot;Reload Failed&quot;,u.successMessage=&quot;Reload Success&quot;,u.AddForReload(e,t),
+u.Load(null,function(){if(o){throw&quot;Failed to load external resource [&apos;&quot;+n+&quot;&apos;]&quot;}s&amp;&amp;(document.location.href=&quot;/error.aspx?err=504&quot;)}),c._ReportFailure(0,n)},c._ReportFailure=function(e,r){if(s()&amp;&amp;!t()){throw&quot;[Retry &quot;+e+&quot;] Failed to load external resource [&apos;&quot;+r+&quot;&apos;], reloading from fallback CDN endpoint&quot;}},f.$Loader=c}(),function(){function e(){if(!$){var e=new v.$Loader;e.AddIf(!v.jQuery,y.sbundle,&quot;WebWatson_DemandSupport&quot;),y.sbundle=null,delete y.sbundle,e.AddIf(!v.$Api,y.fbundle,&quot;WebWatson_DemandFramework&quot;),
+y.fbundle=null,delete y.fbundle,e.Add(y.bundle,&quot;WebWatson_DemandLoaded&quot;),e.Load(r,t),$=!0}}function r(){if(v.$WebWatson){if(v.$WebWatson.isProxy){return void t()}m.when(&quot;$WebWatson.full&quot;,function(){for(;b.length&gt;0;){var e=b.shift();e&amp;&amp;v.$WebWatson[e.cmdName].apply(v.$WebWatson,e.args)}})}}function t(){if(!v.$WebWatson||v.$WebWatson.isProxy){if(!w&amp;&amp;JSON){try{var e=new XMLHttpRequest;e.open(&quot;POST&quot;,y.url),e.setRequestHeader(&quot;Accept&quot;,&quot;application/json&quot;),
+e.setRequestHeader(&quot;Content-Type&quot;,&quot;application/json; charset=UTF-8&quot;),e.setRequestHeader(&quot;canary&quot;,p.apiCanary),e.setRequestHeader(&quot;client-request-id&quot;,p.correlationId),e.setRequestHeader(&quot;hpgid&quot;,p.hpgid||0),e.setRequestHeader(&quot;hpgact&quot;,p.hpgact||0);for(var r=-1,t=0;t&lt;b.length;t++){if(&quot;submit&quot;===b[t].cmdName){r=t;break}}var o=b[r]?b[r].args||[]:[],i={&quot;sr&quot;:y.sr,&quot;ec&quot;:&quot;Failed to load external resource [Core Watson files]&quot;,&quot;wec&quot;:55,&quot;idx&quot;:1,&quot;pn&quot;:p.pgid||&quot;&quot;,&quot;sc&quot;:p.scid||0,&quot;hpg&quot;:p.hpgid||0,
+&quot;msg&quot;:&quot;Failed to load external resource [Core Watson files]&quot;,&quot;url&quot;:o[1]||&quot;&quot;,&quot;ln&quot;:0,&quot;ad&quot;:0,&quot;an&quot;:!1,&quot;cs&quot;:&quot;&quot;,&quot;sd&quot;:p.serverDetails,&quot;ls&quot;:null,&quot;diag&quot;:h(y)};e.send(JSON.stringify(i))}catch(e){}w=!0}y.loadErrorUrl&amp;&amp;window.location.assign(y.loadErrorUrl)}n()}function n(){b=[],v.$WebWatson=null}function o(r){return function(){var t=arguments;b.push({&quot;cmdName&quot;:r,&quot;args&quot;:t}),e()}}function i(){var e=[&quot;foundException&quot;,&quot;resetException&quot;,&quot;submit&quot;],r=this;r.isProxy=!0;for(var t=e.length,n=0;n&lt;t;n++){var i=e[n];i&amp;&amp;(r[i]=o(i))}
+}function a(e,r,t,n,o,i,a){var s=v.event;return i||(i=l(o||s,a?a+2:2)),v.$Debug&amp;&amp;v.$Debug.appendLog&amp;&amp;v.$Debug.appendLog(&quot;[WebWatson]:&quot;+(e||&quot;&quot;)+&quot; in &quot;+(r||&quot;&quot;)+&quot; @ &quot;+(t||&quot;??&quot;)),L.submit(e,r,t,n,o||s,i,a)}function s(e,r){return{&quot;signature&quot;:e,&quot;args&quot;:r,&quot;toString&quot;:function(){return this.signature}}}function u(e){for(var r=[],t=e.split(&quot;\n&quot;),n=0;n&lt;t.length;n++){r.push(s(t[n],[]))}return r}function c(e){for(var r=[],t=e.split(&quot;\n&quot;),n=0;n&lt;t.length;n++){var o=s(t[n],[]);t[n+1]&amp;&amp;(o.signature+=&quot;@&quot;+t[n+1],n++),r.push(o)
+}return r}function d(e){if(!e){return null}try{if(e.stack){return u(e.stack)}if(e.error){if(e.error.stack){return u(e.error.stack)}}else if(window.opera&amp;&amp;e.message){return c(e.message)}}catch(e){}return null}function l(e,r){var t=[];try{for(var n=arguments.callee;r&gt;0;){n=n?n.caller:n,r--}for(var o=0;n&amp;&amp;o&lt;E;){var i=&quot;InvalidMethod()&quot;;try{i=n.toString()}catch(e){}var a=[],u=n.args||n.arguments;if(u){for(var c=0;c&lt;u.length;c++){a[c]=u[c]}}t.push(s(i,a)),n=n.caller,o++}}catch(e){t.push(s(e.toString(),[]))}
+var l=d(e);return l&amp;&amp;(t.push(s(&quot;--- Error Event Stack -----------------&quot;,[])),t=t.concat(l)),t}function f(e){if(e){try{var r=/function (.{1,})\(/,t=r.exec(e.constructor.toString());return t&amp;&amp;t.length&gt;1?t[1]:&quot;&quot;}catch(e){}}return&quot;&quot;}function g(e){if(e){try{if(&quot;string&quot;!=typeof e&amp;&amp;JSON&amp;&amp;JSON.stringify){var r=f(e),t=JSON.stringify(e);return t&amp;&amp;&quot;{}&quot;!==t||(e.error&amp;&amp;(e=e.error,r=f(e)),(t=JSON.stringify(e))&amp;&amp;&quot;{}&quot;!==t||(t=e.toString())),r+&quot;:&quot;+t}}catch(e){}}return&quot;&quot;+(e||&quot;&quot;)}function h(e){var r=[];try{
+if(jQuery?(r.push(&quot;jQuery v:&quot;+jQuery().jquery),jQuery.easing?r.push(&quot;jQuery.easing:&quot;+JSON.stringify(jQuery.easing)):r.push(&quot;jQuery.easing is not defined&quot;)):r.push(&quot;jQuery is not defined&quot;),e&amp;&amp;e.expectedVersion&amp;&amp;r.push(&quot;Expected jQuery v:&quot;+e.expectedVersion),m){var t,n=&quot;&quot;;for(t=0;t&lt;m.o.length;t++){n+=m.o[t]+&quot;;&quot;}for(r.push(&quot;$Do.o[&quot;+n+&quot;]&quot;),n=&quot;&quot;,t=0;t&lt;m.q.length;t++){n+=m.q[t].id+&quot;;&quot;}r.push(&quot;$Do.q[&quot;+n+&quot;]&quot;)}if(v.$Debug&amp;&amp;v.$Debug.getLogs){var o=v.$Debug.getLogs();o&amp;&amp;o.length&gt;0&amp;&amp;(r=r.concat(o))}if(b){
+for(var i=0;i&lt;b.length;i++){var a=b[i];if(a&amp;&amp;&quot;submit&quot;===a.cmdName){try{if(JSON&amp;&amp;JSON.stringify){var s=JSON.stringify(a);s&amp;&amp;r.push(s)}}catch(e){r.push(g(e))}}}}}catch(e){r.push(g(e))}return r}var v=window,p=v.$Config||{},y=p.watson,m=v.$Do;if(!v.$WebWatson&amp;&amp;y){var b=[],$=!1,w=!1,E=10,L=v.$WebWatson=new i;L.CB={},L._orgErrorHandler=v.onerror,v.onerror=a,L.errorHooked=!0,m.when(&quot;jQuery.version&quot;,function(e){y.expectedVersion=e}),m.register(&quot;$WebWatson&quot;)}}(),function(){function e(e,r){
+for(var t=r.split(&quot;.&quot;),n=t.length,o=0;o&lt;n&amp;&amp;null!==e&amp;&amp;void 0!==e;){e=e[t[o++]]}return e}function r(r){var t=null;return null===u&amp;&amp;(u=e(i,&quot;Constants&quot;)),null!==u&amp;&amp;r&amp;&amp;(t=e(u,r)),null===t||void 0===t?&quot;&quot;:t.toString()}function t(t){var n=null;return null===a&amp;&amp;(a=e(i,&quot;$Config.strings&quot;)),null!==a&amp;&amp;t&amp;&amp;(n=e(a,t.toLowerCase())),null!==n&amp;&amp;void 0!==n||(n=r(t)),null===n||void 0===n?&quot;&quot;:n.toString()}function n(e,r){var n=null;return e&amp;&amp;r&amp;&amp;r[e]&amp;&amp;(n=t(&quot;errors.&quot;+r[e])),n||(n=t(&quot;errors.&quot;+e)),n||(n=t(&quot;errors.&quot;+c)),n||(n=t(c)),n}
+function o(t){var n=null;return null===s&amp;&amp;(s=e(i,&quot;$Config.urls&quot;)),null!==s&amp;&amp;t&amp;&amp;(n=e(s,t.toLowerCase())),null!==n&amp;&amp;void 0!==n||(n=r(t)),null===n||void 0===n?&quot;&quot;:n.toString()}var i=window,a=null,s=null,u=null,c=&quot;GENERIC_ERROR&quot;;i.GetString=t,i.GetErrorString=n,i.GetUrl=o}(),function(){var e=window,r=e.$Config||{};e.$B=r.browser||{}}();
+//]]&gt;&lt;/script&gt; &#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+!function(t,e){!function(){var n=e.getElementsByTagName(&quot;head&quot;)[0];n&amp;&amp;n.addEventListener&amp;&amp;(n.addEventListener(&quot;error&quot;,function(e){null!==e.target&amp;&amp;&quot;cdn&quot;===e.target.getAttribute(&quot;data-loader&quot;)&amp;&amp;t.$Loader.OnError(e.target)},!0),n.addEventListener(&quot;load&quot;,function(e){null!==e.target&amp;&amp;&quot;cdn&quot;===e.target.getAttribute(&quot;data-loader&quot;)&amp;&amp;t.$Loader.OnSuccess(e.target)},!0))}()}(window,document);
+//]]&gt;&lt;/script&gt;&#xd;
+&#xd;
+        &lt;link rel=&quot;prefetch&quot; href=&quot;&quot; /&gt;&#xd;
+            &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico&quot; /&gt;&#xd;
+&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        ServerData = $Config;&#xd;
+    &lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+    &#xd;
+    &lt;link data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; href=&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_prc91eyu9sqvbxj8tusclg2.css&quot; rel=&quot;stylesheet&quot; /&gt;&#xd;
+&#xd;
+    &lt;script data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedError_Core_0qwnmaXOxldSQC3eKRh8fQ2.js&quot; integrity=&apos;sha384-Ezmbqq1DnwmOr5NX5grVQfkn5gFKZQX6HmkRsWLtIvqTsfcn/E14GxvKDfC+Uj/t&apos;&gt;&lt;/script&gt;&#xd;
+&#xd;
+    &lt;script data-loader=&quot;cdn&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.error.strings-en.min_bwflhkdbcrryfe0mfjdyia2.js&quot;&gt;&lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+&lt;/head&gt;&#xd;
+&#xd;
+&lt;body data-bind=&quot;defineGlobals: ServerData, bodyCssClass&quot; class=&quot;cb remove-segoe-ui-symbol&quot; style=&quot;display: none&quot;&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+!function(){var e=window,o=e.document,i=e.$Config||{};if(e.self===e.top){o&amp;&amp;o.body&amp;&amp;(o.body.style.display=&quot;block&quot;)}else if(!i.allowFrame){var s=e.self.location.href,l=s.indexOf(&quot;#&quot;),n=-1!==l,t=s.indexOf(&quot;?&quot;),f=n?l:s.length,d=-1===t||n&amp;&amp;t&gt;l?&quot;?&quot;:&quot;&amp;&quot;;s=s.substr(0,f)+d+&quot;iframe-request-id=&quot;+i.sessionId+s.substr(f),e.top.location=s}}();
+//]]&gt;&lt;/script&gt;&#xd;
+    &#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">MicrosoftApplicationsTelemetryDeviceId=5615ddd8-e5dc-470f-8760-a8f640baf273; brcap=0; MSFPC=GUID=c2b190a8d762495ca091b00260692143&amp;HASH=c2b1&amp;LV=202308&amp;V=4&amp;LU=1692363882546; ESTSSSOTILES=1; AADSSOTILES=1; x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; AADSSO=NA|NoExtension; wlidperf=FR=L&amp;ST=1694783355382; CCState=Q29zQkNoaHRkV3BoYUdsa0xuSnBlblpwUUdOdmJtWnBlaTVqYjIwU0FRRWlDUWtBdU1Da0dxTGJTQ29KQ1VGOVlOaHVyTnRJTWlvS0Vnb1E2UHhUei9iZTYwcU5NTEZZNTdIUGd4SUpDU3FEbi96dHB0dElHZ2tKUWYwK01KT2syMGc0QUVnQVVoSUtFS0dhakpCMVlWNVB1aklzQlBFR0t2QmFFZ29RQVVONWVBenVERW1vbnNxMzk5Q1pNaElTQ2hDWE5MWW14SnI4UnB3dkxNd093Mnd6R2drSlFmMCtNSk9rMjBneWZnSUFBUUFCQUFBQUxjcUpRem02VUVPVmJaU09MaG94RHdJQTdQOEZBUFQvUzkrM3RHa3JQeXc4QlpWa1FIVUNLc3ZIRS92VzJYMUZpbHBoOUhaU0dpYTYrZTJrRDcxVHhDRFVPYkljQjhqYlBLZXEzdmU5SEY1OU9mUmQ5MlhHUUY0dnlFMEFFU3RKMWFOcU5BNmlVOTZmSjRjTmdONTB2eWtKb3I2WHdBPT0=; SignInStateCookie=CAgABAAIAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P-1_dYojf57JfdW06q8uRmWpvlHdFr9F6VwTadKs6Qox39yMLI7l93brESW736ZJm3qCM0qPY-S25hxG-NM-wWKtp6wBDVNPSjkQ7Nc9JL-Grj7gDDJngy2Cl3UmmJG2AFERoGSnsbWgjuEd496b_2zjDvEhyH2vT4golK4fQPsR5LfkkBs26EQhxml93xQjql2zG2dLrglIJZoTYlPm-qS_lNe4JbttoLwmUMqSFMkrnA; ESTSAUTHLIGHT=+ad29fde2-e4b2-47a6-a283-1f3b2f85f242+3d3d690d-5a0e-43e1-bf26-b5271fe2ed06; ESTSLOGOUTREDIRECT=MDtodHRwczovL2FjbS1mby11YXQwMS5zYW5kYm94Lm9wZXJhdGlvbnMuZHluYW1pY3MuY29tLz9jbXA9Y2FyJm1pPURlZmF1bHREYXNoYm9hcmQ7RmFsc2U=; ESTSAUTHPERSISTENT=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P_S81PXbvIb28mtKUcySQbJ6tLnsrew15Zqv6w4a-6mHuXMCMjDzy4smdKlsgRRL3toSt32YdUMnzWCnRB4CRiF5Ki0a_tr9IJ1c3TMq-AraR9vFXG-e5ClkvEZFiwyrp1HjztDJke40y2dJI9ty-q2EZe_jn-tJ66fUC8IFpDjnG8tK81thY3-sBqDGWRQOUAJFTdMx-z2JnX7kDXMUKMe2gJpqztF2XxGSpiVbH81udscEFRzlwEw2Qg0Fejn1LKk_0KN-iNfYTwOR65RWJlXw14kqNYcbHCk77nwsF-fWtRCrhAHcMRJJaTAxm_BLuwYagSXOzZsLAhvL4rT6bmXs5MDcSlDDaurVVhPeLCqK7TDvhCZQY74y6N4yNvJr28RDdEwkd0i05qHsfmkVtIbTnnQtzs-qgkD-nwV-VdtW4dphbVY8VxUywbRWs4yHuFFP0Iz-3xfgXhVuU33K_LXuRUG1xhZsEj3mPCRu9Yi-gb-91v3g61YrPyEgQm0VXhckT7Zi04n1nPUX5gCOVXlpalZMy0Tyq5F9GSYoJ34eNpLhY9ZDOyrobJh1yWhGwMzu3IkkfXoZabhJ3Xfm8uwH_bkh-Vw1xDBM8ubTbaPbsbnwDJEJnA71WlUpVwQ22teW8sSOnfPbhAAbuwZgeOb8JQAoiJO58dZqy1D8oD2e1iIl1ONx8VFLi7vOsaZkF7Iu-S5JzoKIP7OUpYjwU3VSWPHXAZt_2DLUufbLDiSM1Y3l5eHDnDLiEakv7lpyTkJYqpcxJYVO2HiJFL4fNkEMt1VL31blGfH71IXEg2Jgx-Q09Ms3WWYWTJvt41YijtTpOwpsh-4cpxQ3GxWHaNZdEVxGX-hvQFvbkSEphuT1Dn40Oj4wK39J6vz3wuGULXCEooTbDnXUMU20cUlrnHauknjTWgggLeViWMWLNFOWFHwaWtqd08rWFXMz-itD0iTDm17R3fvAnvIJEnbvwwSB3Um1DGP2iP0xSjvpvOnOIvEwv8S5w1tnVp9ed6IqZQnGjNgjvGI0dwid0P6QWpykm8NwdBtnjeH22bcmpPMEd5JqneowkcErFGckFu7gm6A-3KXt70FgOjyBD2-GkqbkagrXRhztzZOAT9UoACKwTJWZxsqX2dPG7S190SVN0NrdZKAarPKbPXvAsZn03fwbAj7-lCRICKweNLicG4xQYm_Pev4L31ZazMbNeSYGBuLV9rjkkg4DgiEdOBTN898-1cALd-oX5kVXuO5nK-IyXebXS1mlq6S6XQFwZBJ4IP3zdVTsdDlxril0peg8tIKNbXMNFOO48g7isFbxwmEjWANSE928pSa_jzVdwVUiHgRnGpYggaQDmfxDKIrMYLZz3UTseDEWiEJMWUVRzlnhiK4d5anDEzQ8_esJ04R4k6CsuRY1Bw5LLBYWHpSj_KzfVQbc1vmzGbqYWXX0I4X9CPXnDNOefCIYxqOs9VmgYOKSrpWcS0gskp0CJ-u5Dpd-xJe2KY46ZZSneqCuplcTi1-dLZLedxh0AHN1IpeFvxpPv5tSfD5n_D2o2jySNA6qjpiWF1H0EE6Gy3ZEzUigKHm-q9eN4QHHn_CYn236P-8DC8QXr73RDVPWnNlT2UvYF97agAztvM6itGQ-luirIYli7rZ1sfRFget71eSZkrf26BvBvXMtQDZD6JRtP1a5Q-jnMb_YsHHc_ZNcWgDxNzHY7HZMpgSzngPLBoGuohwaCQAdLXD43Dq5vIc6mexexhJ96Asl3DyQn1pSPMPMAYKbAnG8QJHSucNadDlYK89-qtYV9PWNGp5ms2Lpkv0jHAHRDzE3uXDX8DkSrrBIB24vuz_; ESTSAUTH=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AgABAAQAAAAtyolDObpQQ5VtlI4uGjEPAgDs_wUA9P9gf-U2-OsPedTVRG6hxcqkpipClU_9UPT-gx_QXuLlQtzUYhzonyIagj2JYjxCYhJO8O8n5UU3VQ; buid=0.ATgAW3GDuiVf-ke6CjfxlhSdmRUAAAAAAAAAwAAAAAAAAAA4ALY.AQABAAEAAAAtyolDObpQQ5VtlI4uGjEPKM0XwIcpw856LztWJwSwuESMQEBcBJ4BLoxKDW0pKtyOGDDRdDFtbYvUGWLpmSKMqfNTWPCw6C3VT5k4fmpB-y_6s3KNh-NotSAEk039AxjyCabzqbMH0KDU8MK8UDlacbRiXPZV7QHGpDLcveS5osGcK1ghtHtiZQlmhDDqQIYgAA; esctx=PAQABAAEAAAAtyolDObpQQ5VtlI4uGjEPFv_TAyzlMCzudZ3jjHmLQVruPya4Yw_B-Ry1gUXaygs--8aUxaNhEUDhoKJVFPJ4DX-4MHQjwmbByhQLoKpZbM1cgzfrNDNM4EfhDQHuQU71tiEmHTJRFTyb5FZHmuDPiNW8l7wJyK62nGwXw1U1Q5IJ1yODm2CH9N-nkj5yajmGp6t8kafP4keX3Od3my4Ha0rv1mxBoeU0ewocWixwza8uEmJXc-5foPANpDT4ZTD_iFWAfns9P04XLtygzzsige_1SYA0pqfDIx1Ehc7KGW8CMRLIBf1vo7-ijK6hM_CXT7GlBCN0m6J0cIPVauFN5CrOWm2f_hJizULegcaciojIfda8mQT_Hr04bFoT0SQh54qNkRh4elrOmS9D2W4aS1jp92xqyExzqUKn55S6WX4tjmkaKnxBtYn8aPil89NurUq0lw2vdkH_TmdFQtZFwgFrGkYunVtDvELaRHPAV_wg5fJhCP_bBfzKFHwdix8PFZRpKZyNPW3v0TJeP4fXWOsoivxCeVrnmp_l3XTGj3ZA3BeoEZKdVVjvt-Azu6YgAA; fpc=Aqa9vNWaOg9Mn5KEco9gkFfFcUW1AQAAAP9PltwOAAAArxub0QIAAADNU5bcDgAAAA</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://login.microsoftonline.com/common/login</java.net.URL>
+</httpSample>
+
+</testResults>

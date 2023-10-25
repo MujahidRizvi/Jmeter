@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add-Zip/Services/ReliableCommunicationManager.svc/ProcessMessages?cmp=car&amp;lng=en-us&amp;-141" enabled="true">
+      <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+      <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="" elementType="HTTPArgument">
+            <boolProp name="HTTPArgument.always_encode">false</boolProp>
+            <stringProp name="Argument.value">{&quot;ChannelId&quot;:0,&quot;CompanyId&quot;:&quot;car&quot;,&quot;Language&quot;:&quot;en-us&quot;,&quot;LastAcknowledgedSequenceNumber&quot;:45,&quot;Messages&quot;:[{&quot;Interactions&quot;:[{&quot;$type&quot;:&quot;CommandInteraction&quot;,&quot;CallbackId&quot;:&quot;68&quot;,&quot;CommandName&quot;:&quot;LoadDataByTrackingId&quot;,&quot;FailureCallbackId&quot;:&quot;69&quot;,&quot;NamedParameters&quot;:{},&quot;NoAsyncIncrement&quot;:false,&quot;PositionalParameters&quot;:[&quot;1030&quot;,25,1],&quot;PriorityPosition&quot;:false,&quot;ResetThrottleTime&quot;:false,&quot;RootId&quot;:&quot;${rootid9}&quot;,&quot;TargetId&quot;:&quot;${tid29}&quot;,&quot;Throttle&quot;:false,&quot;ThrottleId&quot;:&quot;0&quot;,&quot;ThrottleTimestamp&quot;:0,&quot;ThrottleValue&quot;:0,&quot;Telemetry&quot;:false}],&quot;SequenceNumber&quot;:52}]}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="HTTPSampler.domain">acm-fo-uat01.sandbox.operations.dynamics.com</stringProp>
+      <stringProp name="HTTPSampler.port">443</stringProp>
+      <stringProp name="HTTPSampler.protocol">https</stringProp>
+      <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+      <stringProp name="HTTPSampler.path">/Services/ReliableCommunicationManager.svc/ProcessMessages?cmp=car&amp;lng=en-us&amp;</stringProp>
+      <stringProp name="HTTPSampler.method">POST</stringProp>
+      <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+      <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+      <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+      <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+      <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+      <boolProp name="HTTPSampler.image_parser">false</boolProp>
+      <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+      <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+      <boolProp name="HTTPSampler.md5">false</boolProp>
+      <intProp name="HTTPSampler.ipSourceType">0</intProp>
+      <stringProp name="HTTPSampler.implementation">Java</stringProp>
+    </HTTPSamplerProxy>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="Sec-Fetch-Mode" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+            <stringProp name="Header.value">cors</stringProp>
+          </elementProp>
+          <elementProp name="Referer" elementType="Header">
+            <stringProp name="Header.name">Referer</stringProp>
+            <stringProp name="Header.value">https://acm-fo-uat01.sandbox.operations.dynamics.com/?cmp=car&amp;mi=CfzVendorRequest</stringProp>
+          </elementProp>
+          <elementProp name="Sec-Fetch-Site" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+            <stringProp name="Header.value">same-origin</stringProp>
+          </elementProp>
+          <elementProp name="ms-dyn-aid" elementType="Header">
+            <stringProp name="Header.name">ms-dyn-aid</stringProp>
+            <stringProp name="Header.value">b2c11fbf-ec35-4989-864b-5760d998a732</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Language" elementType="Header">
+            <stringProp name="Header.name">Accept-Language</stringProp>
+            <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+          </elementProp>
+          <elementProp name="Origin" elementType="Header">
+            <stringProp name="Header.name">Origin</stringProp>
+            <stringProp name="Header.value">https://acm-fo-uat01.sandbox.operations.dynamics.com</stringProp>
+          </elementProp>
+          <elementProp name="ms-dyn-bsid" elementType="Header">
+            <stringProp name="Header.name">ms-dyn-bsid</stringProp>
+            <stringProp name="Header.value">5d0adf7f-ad21-43c5-9c83-bf8cd4544aa9</stringProp>
+          </elementProp>
+          <elementProp name="Accept" elementType="Header">
+            <stringProp name="Header.name">Accept</stringProp>
+            <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua</stringProp>
+            <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-mobile" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+            <stringProp name="Header.value">?0</stringProp>
+          </elementProp>
+          <elementProp name="ms-dyn-sid" elementType="Header">
+            <stringProp name="Header.name">ms-dyn-sid</stringProp>
+            <stringProp name="Header.value">${dynsid}</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-platform" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+            <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+          </elementProp>
+          <elementProp name="X-Requested-With" elementType="Header">
+            <stringProp name="Header.name">X-Requested-With</stringProp>
+            <stringProp name="Header.value">XMLHttpRequest</stringProp>
+          </elementProp>
+          <elementProp name="Content-Type" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json; charset=UTF-8</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Encoding" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate, br</stringProp>
+          </elementProp>
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="ms-dyn-csrftoken" elementType="Header">
+            <stringProp name="Header.name">ms-dyn-csrftoken</stringProp>
+            <stringProp name="Header.value">${csrf}</stringProp>
+          </elementProp>
+          <elementProp name="Sec-Fetch-Dest" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+            <stringProp name="Header.value">empty</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
